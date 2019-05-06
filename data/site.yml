@@ -1,0 +1,15 @@
+name: 'ACP Admin'
+description: "Outil d'administration d'ACP (Agriculture Contractuelle de Proximité)"
+host: 'https://acp-admin.ch'
+keywords: 'ACP, agriculture, contractuelle, proximité, administration, suisse'
+thumbnail: 'logo.svg'
+favicon: '_favicon.svg'
+base_color: '#FBC547'
+repository: 'https://github.com/acp-admin/acp-admin.github.io'
+license: 'MIT'
+author:
+  name: 'Thibaud Guillaume-Gentil'
+  email: 'thibaud@thibaud.gg'
+  website: 'https://thibaud.gg'
+  github: 'thibaudgg'
+  twitter: 'thibaudgg'
