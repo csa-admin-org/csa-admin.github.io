@@ -1,3 +1,5 @@
+require 'slim'
+
 Dir['./*/*.rb'].each { |file| load file }
 include FaviconsHelper
 

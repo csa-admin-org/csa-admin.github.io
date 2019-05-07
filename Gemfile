@@ -12,6 +12,8 @@ gem 'middleman-minify-html'
 gem 'middleman-robots'
 gem 'middleman-search_engine_sitemap'
 
+gem 'slim'
+
 # Development
 gem 'middleman-pry'
 gem 'pry-byebug'

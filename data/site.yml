@@ -3,8 +3,8 @@ description: "Outil d'administration d'ACP (Agriculture Contractuelle de Proximi
 host: 'https://acp-admin.ch'
 keywords: 'ACP, agriculture, contractuelle, proximité, administration, suisse'
 thumbnail: 'logo.svg'
-favicon: '_favicon.svg'
-base_color: '#FBC547'
+favicon: '_favicon_template.svg'
+base_color: '#21952F'
 repository: 'https://github.com/acp-admin/acp-admin.github.io'
 license: 'MIT'
 author:
