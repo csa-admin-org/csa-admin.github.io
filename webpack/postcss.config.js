@@ -19,11 +19,11 @@ const PROD_PLUGINS = [
   require('postcss-purgecss')({
     content: [
       __dirname + '/../source/**/*.html',
-      __dirname + '/../source/**/*.erb'
+      __dirname + '/../source/**/*.slim'
     ],
     extractors: [{
       extractor: TailwindExtractor,
-      extensions: ['html', 'js', 'erb', 'html.erb']
+      extensions: ['html', 'js', 'slim', 'html.slim']
     }]
   }),
   require('cssnano')()
