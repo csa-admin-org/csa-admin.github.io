@@ -83,7 +83,7 @@ let colors = {
   'green-darkest': '#0f2f21',
   'green-darker': '#1a4731',
   'green-dark': '#1f9d55',
-  'green': '#38c172',
+  'green': '#21952f',
   'green-light': '#51d88a',
   'green-lighter': '#a2f5bf',
   'green-lightest': '#e3fcec',
@@ -493,6 +493,7 @@ module.exports = {
     '12': '3rem',
     '16': '4rem',
     '24': '6rem',
+    '28': '7rem',
     '32': '8rem',
     '48': '12rem',
     '64': '16rem',
@@ -542,6 +543,7 @@ module.exports = {
     '12': '3rem',
     '16': '4rem',
     '24': '6rem',
+    '28': '7rem',
     '32': '8rem',
     '48': '12rem',
     '64': '16rem',
@@ -955,7 +957,7 @@ module.exports = {
 
   plugins: [
     require('tailwindcss/plugins/container')({
-      // center: true,
+      center: true,
       // padding: '1rem',
     }),
   ],

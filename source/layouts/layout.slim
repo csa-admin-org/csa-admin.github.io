@@ -1,5 +1,5 @@
 doctype html
-html
+html class='bg-white antialiased h-full'
   head
     title ACP Admin
     meta charset="utf-8"
@@ -7,9 +7,15 @@ html
     meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
 
     == auto_display_favicon_tags
-
     == stylesheet_link_tag "site"
     / = javascript_include_tag "site"
 
-  body
-    = yield
+  body class='font-sans font-normal text-grey-darkest leading-normal flex flex-col h-full'
+    div class='flex-1 mx-auto max-w-md'
+      = yield
+
+
+    footer class='w-full px-4 pt-20 pb-8 pin-b'
+      p class='text-sm text-center'
+        = "ACP Admin est developpée et maintenue par "
+        = mail_to 'info@acp-admin.ch', 'Thibaud Guillaume-Gentil', class: 'whitespace-no-wrap'
