@@ -57,9 +57,9 @@
   * @import "utilities/skew-transforms";
   */
 a {
-  @apply text-grey-darkest; }
+  @apply text-grey-darkest whitespace-no-wrap; }
   a:hover {
     @apply text-green; }
 
 p {
-  @apply text-justify leading-tight text-base; }
+  @apply text-justify leading-tight text-base my-6; }
