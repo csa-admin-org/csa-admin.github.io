@@ -1,40 +1,38 @@
-div class="mx-auto w-32 mt-24"
-  = inline_svg 'logo.svg', class: 'fill-current w-32 h-32 mr-auto'
+p
+  = 'Initialement dévelopée pour les besoins de '
+  = link_to data.acps.ragedevert.name, data.acps.ragedevert.url
+  = ', cette application web '
+  = link_to 'open-source', 'https://github.com/acp-admin/acp-admin/'
+  = " a évolué pour gérer tout type d'"
+  span title='Agriculture Contractuelle de Proximité' = 'ACP'
+  = '.'
 
-div class='mx-auto mt-4 px-4'
-  h1 class='text-green text-center mb-16'
-    = 'ACP Admin'
+p
+  = "Que cela soit la gestion de vos membres, les abonnements et leurs compléments, les livraisons, vos lieux de dépôt, la participation des membres, le contenu des paniers ou encore l'envoi d'emails groupés, "
+  span.whitespace-no-wrap = 'ACP Admin'
+  = " s'occupe efficacement de la plupart des aspects de votre "
+  span title='Agriculture Contractuelle de Proximité' = 'ACP'
+  = '.'
 
-  p class='my-6'
-    = 'Initialement dévelopée pour les besoins de '
-    = link_to data.acps.ragedevert.name, data.acps.ragedevert.url
-    = ', cette application web '
-    = link_to 'open-source', 'https://github.com/acp-admin/acp-admin/'
-    = " a évolué pour gérer tout type d'"
-    span title='Agriculture Contractuelle de Proximité' = 'ACP'
-    = '.'
+p
+  = "La facturation automatisée (génération et envoi de factures BVR via email, ainsi que le relèvement journalier des versements sur votre compte bancaire) fait gagner un temps précieux."
 
-  p class='my-6'
-    = "Que cela soit la gestion de vos membres, les abonnements et leurs compléments, les livraisons, vos lieux de dépôt, la participation des membres, le contenu des paniers ou encore l'envoi d'emails groupés, "
-    span.whitespace-no-wrap = 'ACP Admin'
-    = " s'occupe efficacement de la plupart des aspects de votre "
-    span title='Agriculture Contractuelle de Proximité' = 'ACP'
-    = '.'
+p
+  = "L'application est évolutive et facilement adaptable à vos besoins, n'hésitez pas à me "
+  = mail_to 'info@acp-admin.ch', 'contacter'
+  = ' pour une démo et en apprendre plus afin de rejoindre ces '
+  span title='Agriculture Contractuelle de Proximité' = 'ACP'
+  = '.'
 
-  p class='my-6'
-    = "La facturation automatisée (génération et envoi de factures BVR via email, ainsi que le relèvement journalier des versements sur votre compte bancaire) fait gagner un temps précieux."
+div class='flex flex-wrap justify-around lg:justify-between'
+  - data.acps.each do |_, acp|
+    = link_to acp.url, class: 'no-underline text-grey-darkest hover:text-green'
+      div class='w-32 my-4 mx-auto text-center'
+        = image_tag acp.logo_url, class: 'w-28 h-28 block mx-auto'
+        span class='mt-3 block text-xs font-semibold '
+          = acp.name
 
-  p class='mt-12 mb-2'
-    = "L'application est évolutive et facilement adaptable à vos besoins, n'hésitez pas à me contacter ("
-    = mail_to 'info@acp-admin.ch', 'info@acp-admin.ch'
-    = ') pour une démo et en apprendre plus afin de rejoindre ces '
-    span title='Agriculture Contractuelle de Proximité' = 'ACP'
-    = '.'
-
-  div class='flex flex-wrap justify-around lg:justify-between'
-    - data.acps.each do |_, acp|
-      = link_to acp.url, class: 'no-underline text-grey-darkest hover:text-green'
-        div class='w-32 my-4 mx-auto text-center'
-          = image_tag acp.logo_url, class: 'w-28 h-28 block mx-auto'
-          span class='mt-3 block text-xs font-semibold '
-            = acp.name
+div class="my-24 text-center mx-auto"
+  = link_to 'mailto:info@acp-admin.ch', class: 'bg-grey-lightest text-grey-darker font-bold py-2 px-4 rounded inline-flex items-center no-underline' do
+    = inline_svg 'envelope.svg', class: 'fill-current w-6 h-6'
+    span class='ml-2' = 'info@acp-admin.ch'
