@@ -1,4 +1,4 @@
-![ACP Admin logo](https://acp-admin.ch/images/logo-ac7d72c5.png)
+[![ACP Admin logo](https://acp-admin.ch/images/logo-ac7d72c5.png)](https://acp-admin.ch)
 
 acp-admin.github.io
 ===================
