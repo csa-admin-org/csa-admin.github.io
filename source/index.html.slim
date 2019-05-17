@@ -3,7 +3,7 @@ p
   = link_to data.acps.ragedevert.name, data.acps.ragedevert.url
   = ', cette application web '
   = link_to 'open-source', 'https://github.com/acp-admin/acp-admin/'
-  = " a évolué pour gérer tout type d'"
+  = " a évolué afin de pouvoir gérer tout type d'"
   span title='Agriculture Contractuelle de Proximité' = 'ACP'
   = '.'
 
@@ -15,14 +15,14 @@ p
   = '.'
 
 p
-  = "La facturation automatisée (génération et envoi de factures BVR via email, ainsi que le relèvement journalier des versements sur votre compte bancaire) fait gagner un temps précieux."
+  = "La facturation automatisée (génération et envoi de factures BVR via email et relèvement journalier des versements sur votre compte bancaire) est une des nombreuses fonction qui vous fait gagner un temps précieux."
 
 p
   = "L'application est évolutive et facilement adaptable à vos besoins, n'hésitez pas à me "
   = mail_to 'info@acp-admin.ch', 'contacter'
-  = ' pour une démo et en apprendre plus afin de rejoindre ces '
+  = ' pour une démo et rejoindre les '
   span title='Agriculture Contractuelle de Proximité' = 'ACP'
-  = '.'
+  = ' déjà convaincues!'
 
 div class='flex flex-wrap justify-around lg:justify-between'
   - data.acps.each do |_, acp|
@@ -33,6 +33,6 @@ div class='flex flex-wrap justify-around lg:justify-between'
           = acp.name
 
 div class="my-24 text-center mx-auto"
-  = link_to 'mailto:info@acp-admin.ch', class: 'bg-grey-lightest text-grey-darker font-bold py-2 px-4 rounded inline-flex items-center no-underline' do
+  = link_to 'mailto:info@acp-admin.ch', class: 'bg-grey-lightest hover:bg-grey-lighter text-grey-darker font-bold py-2 px-4 rounded inline-flex items-center no-underline' do
     = inline_svg 'envelope.svg', class: 'fill-current w-6 h-6'
     span class='ml-2' = 'info@acp-admin.ch'
