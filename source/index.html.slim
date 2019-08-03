@@ -3,9 +3,7 @@ p
   = link_to data.acps.ragedevert.name, data.acps.ragedevert.url
   = ', cette application web '
   = link_to 'open-source', 'https://github.com/acp-admin/acp-admin/'
-  = " a évolué afin de pouvoir gérer tout type d'"
-  span title='Agriculture Contractuelle de Proximité' = 'ACP'
-  = '.'
+  = " a évolué afin de pouvoir gérer tout type d'ACP (Agriculture Contractuelle de Proximité)."
 
 p
   = "Que cela soit la gestion de vos membres, les abonnements et leurs compléments, les livraisons, vos lieux de dépôt, la participation des membres, le contenu des paniers ou encore l'envoi d'emails groupés, "
@@ -24,10 +22,10 @@ p
   span title='Agriculture Contractuelle de Proximité' = 'ACP'
   = ' déjà convaincues!'
 
-div class='flex flex-wrap justify-around lg:justify-between'
+div class='flex flex-wrap justify-around'
   - data.acps.each do |_, acp|
     = link_to acp.url, class: 'no-underline text-grey-darkest hover:text-green'
-      div class='w-32 my-4 mx-auto text-center'
+      div class='w-32 sm:w-40 my-4 mx-auto text-center'
         = image_tag acp.logo_url, class: 'w-28 h-28 block mx-auto'
         span class='mt-3 block text-xs font-semibold '
           = acp.name
