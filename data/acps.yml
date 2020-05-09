@@ -13,12 +13,16 @@ tapatate:
 clefdeschamps:
   logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/clefdeschamps/logo.jpg
   name: La Clef des Champs
-  url: http://www.clef-des-champs.ch
+  url: https://www.clef-des-champs.ch
 croquterre:
   logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/croquterre/logo.jpg
   name: croQu'terre
-  url: http://croquterre.ch
+  url: https://croquterre.ch
 alabellecourgette:
   logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/alabellecourgette/logo.jpg
   name: À la Belle Courgette
   url: https://www.alabellecourgette.ch
+lesjardinsdouchy:
+  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lesjardinsdouchy/logo.jpg
+  name: Les Jardins d'Ouchy
+  url: https://www.lesjardinsdouchy.ch
