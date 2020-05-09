@@ -22,7 +22,7 @@ p
   span title='Agriculture Contractuelle de Proximité' = 'ACP'
   = ' déjà convaincues!'
 
-div class='flex flex-wrap justify-around'
+div class='mt-12 flex flex-wrap justify-around'
   - data.acps.each do |_, acp|
     = link_to acp.url, class: 'no-underline text-grey-darkest hover:text-green'
       div class='w-32 sm:w-40 my-4 mx-auto text-center'
