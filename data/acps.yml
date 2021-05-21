@@ -1,5 +1,5 @@
 ragedevert:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/ragedevert/logo.jpg
+  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/ragedevert/logo.png
   name: Rage de Vert
   url: https://www.ragedevert.ch
 lumieredeschamps:
@@ -26,3 +26,7 @@ lesjardinsdouchy:
   logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lesjardinsdouchy/logo.jpg
   name: Les Jardins d'Ouchy
   url: https://www.lesjardinsdouchy.ch
+lafermedugoupil:
+  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lafermedugoupil/logo.png
+  name: La Ferme du Goupil
+  url: https://lafermedugoupil.ch
