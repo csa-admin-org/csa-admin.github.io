@@ -26,7 +26,15 @@ lesjardinsdouchy:
   logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lesjardinsdouchy/logo.jpg
   name: Les Jardins d'Ouchy
   url: https://www.lesjardinsdouchy.ch
+lamule:
+  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lamule/logo.png
+  name: Les paniers de la mule
+  url: https://lamule.ch
 lafermedugoupil:
   logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lafermedugoupil/logo.png
   name: La Ferme du Goupil
   url: https://lafermedugoupil.ch
+lafermedessavanes:
+  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lafermedessavanes/logo.png
+  name: La Ferme des Savanes
+  url: http://lafermedessavanes.ch
