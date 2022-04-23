@@ -3,28 +3,19 @@ require 'slim'
 Dir['./*/*.rb'].each { |file| load file }
 include FaviconsHelper
 
-activate :autoprefixer do |prefix|
-  prefix.browsers = 'last 2 versions'
-end
-
-config[:js_dir] = 'javascripts'
-config[:css_dir] = 'stylesheets'
-config[:images_dir] = 'images'
-
-# Per-page layout changes
-page '/*.xml', layout: false
-page '/*.json', layout: false
-page '/*.txt', layout: false
-
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 set :url_root, @app.data.site.host
 
+activate :tailwind do |config|
+  config.destination_path = 'source/stylesheets/site.css'
+  config.css_path = 'source/stylesheets/tailwind.css'
+  config.config_path = 'tailwind.config.js'
+end
 activate :livereload
 
 configure :development do
   set      :debug_assets, true
-  activate :pry
 end
 
 configure :build do
@@ -42,11 +33,6 @@ configure :build do
     sitemap: File.join(@app.data.site.host, 'sitemap.xml')
 end
 activate :inline_svg
-activate :external_pipeline,
-  name: :webpack,
-  command: build? ? 'yarn run build' : 'yarn run start',
-  source: '.tmp/dist',
-  latency: 1
 
 set :favicons, [
   {
