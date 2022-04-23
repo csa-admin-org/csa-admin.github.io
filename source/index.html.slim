@@ -1,41 +1,39 @@
-p
-  = 'Initialement développée pour les besoins de '
-  = link_to data.acps.ragedevert.name, data.acps.ragedevert.url
-  = ', cette application web '
-  = link_to 'open-source', 'https://github.com/acp-admin/acp-admin/'
-  = " a évoluée afin de pouvoir gérer tout type d'ACP (Agriculture Contractuelle de Proximité)."
+div class='mb-16'
+  p
+    = 'ACP Admin est '
+    = link_to 'une application web open-source', 'https://github.com/acp-admin/acp-admin/'
+    = " permettant de simplifier la gestion d'une ACP (Agriculture Contractuelle de Proximité)."
 
-p
-  = "Que cela soit la gestion de vos membres, les abonnements et leurs compléments, les livraisons, vos lieux de dépôt, la participation des membres, le contenu des paniers, votre épicerie en ligne ou encore l'envoi d'emails groupés, "
-  span.whitespace-no-wrap = 'ACP Admin'
-  = " s'occupe efficacement de la plupart des aspects de votre "
-  span title='Agriculture Contractuelle de Proximité' = 'ACP'
-  = ". L'application est traduite en français, allemand et italien."
+  p
+    = "Que cela soit la gestion de vos membres, les abonnements et leurs compléments, les livraisons, vos lieux de dépôt, la participation des membres, le calcul du contenu et valeur des paniers, votre épicerie en ligne, ou encore l'envoi d'emails groupés, "
+    span.whitespace-nowrap = 'ACP Admin'
+    = " gérera efficacement votre "
+    span title='Agriculture Contractuelle de Proximité' = 'ACP'
+    = ". L'application est traduite en français, allemand et italien."
 
-p
-  = "La facturation automatisée (génération et envoi de QR-facture via email et relèvement journalier des versements sur votre compte bancaire) est une des nombreuses fonction qui vous fait gagner un temps précieux."
+  p
+    = "La facturation automatisée (génération et envoi de QR-facture via email et relèvement journalier des versements sur votre compte bancaire) est une des nombreuses fonctions qui vous fera gagner un temps précieux."
 
-p
-  = "L'application est évolutive et facilement adaptable à vos besoins, n'hésitez pas à me "
-  = mail_to 'info@acp-admin.ch', 'contacter'
-  = ' pour une démo et rejoindre les '
-  span title='Agriculture Contractuelle de Proximité' = 'ACP'
-  = ' ci-dessous déjà convaincues!'
+  p
+    = "L'application est évolutive, modulable, et facilement adaptable à vos besoins, n'hésitez pas à "
+    = mail_to 'info@acp-admin.ch', 'me contacter pour une démo'
+    = ' et rejoindre les '
+    span title='Agriculture Contractuelle de Proximité' = 'ACP'
+    = " ci-dessous!"
 
-div class='mt-12 flex flex-wrap justify-around'
+div class='flex flex-wrap justify-around'
   - data.acps.each do |_, acp|
-    = link_to acp.url, class: 'no-underline text-grey-darkest hover:text-green'
-      div class='w-32 sm:w-40 my-4 mx-auto text-center'
-        = image_tag acp.logo_url, class: 'w-28 h-28 block mx-auto'
-        span class='mt-3 block text-xs font-semibold '
+    = link_to acp.url, class: 'no-underline text-gray-800'
+      div class='w-32 sm:w-48 my-6'
+        = image_tag acp.logo_url, class: 'w-28 h-28 mx-auto'
+        span class='mt-3 block text-center text-xs font-medium'
           = acp.name
 
-div class="mt-24 text-center w-56 mx-auto"
-  = link_to 'mailto:info@acp-admin.ch', class: 'w-56 min-w-full bg-grey-lightest hover:bg-grey-lighter border border-gray-500 text-grey-darker font-bold py-2 px-4 rounded inline-flex items-center no-underline' do
+div class="my-16 w-56 mx-auto"
+  = link_to 'mailto:info@acp-admin.ch', class: 'btn-primary w-56' do
     = inline_svg 'envelope.svg', class: 'w-6 h-6'
     span class='ml-3' = 'info@acp-admin.ch'
 
-div class="mt-6 mb-24 text-center w-56 mx-auto"
-  = link_to 'tel:0041764495938', class: 'w-56 min-w-full bg-grey-lightest hover:bg-grey-lighter border border-gray-500 text-grey-darker font-bold py-2 px-4 rounded inline-flex items-center no-underline' do
+  = link_to 'tel:0041764495938', class: 'btn-primary w-56' do
     = inline_svg 'phone.svg', class: 'w-6 h-6'
     span class='ml-3' = '+41 76 449 59 38'

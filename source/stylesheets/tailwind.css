@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply underline;
+  }
+
+  a:hover {
+    @apply text-green;
+  }
+
+  p {
+    @apply text-gray-700 text-justify leading-snug mt-5;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply m-3 w-full bg-gray-50 hover:bg-gray-100 border border-gray-200 text-gray-600 font-bold py-2 px-4 rounded inline-flex items-center no-underline;
+  }
+}
