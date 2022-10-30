@@ -7,6 +7,11 @@ favicon: '_favicon_template.svg'
 base_color: '#21952F'
 repository: 'https://github.com/acp-admin/acp-admin.github.io'
 license: 'MIT'
+contact:
+  email: 'info@acp-admin.ch'
+  email_link: 'mailto:info@acp-admin.ch'
+  phone: '076 449 59 38'
+  phone_link: 'tel:0041764495938'
 author:
   name: 'Thibaud Guillaume-Gentil'
   email: 'thibaud@thibaud.gg'
