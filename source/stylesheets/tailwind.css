@@ -4,11 +4,11 @@
 
 @layer base {
   a {
-    @apply underline;
+    @apply underline underline-offset-2 font-semibold decoration-2;
   }
 
   a:hover {
-    @apply text-green;
+    @apply text-logo-green;
   }
 
   p {

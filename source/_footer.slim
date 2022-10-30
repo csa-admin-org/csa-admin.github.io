@@ -1,0 +1,20 @@
+footer class='w-full pt-32 pb-4'
+  div class=' flex items-center justify-center'
+    = inline_svg 'logo.svg', class: 'fill-current w-8 h-8'
+    strong class='text-logo-green ml-2 font-bold text-lg tracking-tight'
+      = data.site.name
+
+  div class='mt-4 md:mt-8 flex flex-col md:flex-row items-center md:justify-center'
+    = link_to data.site.contact.email_link, class: 'md:mr-8 flex items-center no-underline' do
+      = inline_svg 'envelope.svg', class: 'w-5 h-5 mr-2 mt-0.5'
+      strong class='font-semibold'
+        = data.site.contact.email
+    = link_to data.site.contact.phone_link, class: 'mt-2 md:mt-0 flex items-center no-underline' do
+      = inline_svg 'phone.svg', class: 'w-5 h-5 mr-2'
+      strong class='font-semibold'
+        = data.site.contact.phone
+
+  p class='mt-4 md:mt-8 text-center text-sm text-gray-500'
+    = 'ACP Admin est developpée avec passion par '
+    = link_to data.site.author.name, data.site.author.website, class: 'whitespace-nowrap no-underline text-gray-500 font-normal'
+    = '.'

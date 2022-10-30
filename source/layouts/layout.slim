@@ -1,5 +1,5 @@
 doctype html
-html class='bg-white antialiased h-full' lang='fr'
+html class='bg-white antialiased scroll-smooth' lang='fr'
   head
     title = data.site.name
     meta charset='utf-8'
@@ -10,17 +10,7 @@ html class='bg-white antialiased h-full' lang='fr'
     == auto_display_favicon_tags
     == stylesheet_link_tag 'site'
 
-  body class='font-sans font-normal'
-    header class='my-16 md:my-24'
-        div class='mx-auto w-32 h-32'
-          = inline_svg 'logo.svg', class: 'fill-current w-32 h-32'
-        h1 class='text-green text-center text-3xl font-semibold my-3'
-          = data.site.name
-
-    main class='mx-auto max-w-2xl px-4'
-      = yield
-
-    footer class='w-full px-4 pt-24 pb-4'
-      p class='text-center text-sm text-gray-400'
-        = 'ACP Admin est developpée par '
-        = link_to data.site.author.name, data.site.author.website, class: 'whitespace-nowrap'
+  body class='font-sans mx-4 md:mx-12'
+    = partial 'header'
+    main = yield
+    = partial 'footer'
