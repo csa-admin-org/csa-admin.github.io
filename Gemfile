@@ -12,8 +12,7 @@ gem 'middleman-robots'
 gem 'middleman-tailwind', github: 'johanhalse/middleman-tailwind'
 gem 'middleman-search_engine_sitemap'
 
-# Temporary fix for https://github.com/middleman/middleman/issues/2569
-gem 'haml', '~> 5.0'
-
-gem 'slim'
+# Version 5 not yet supported
+# https://github.com/middleman/middleman/issues/2619
+gem 'slim', '~> 4.0'
 
