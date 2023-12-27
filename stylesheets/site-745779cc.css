@@ -431,6 +431,10 @@ p {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
+strong {
+  font-weight: 600;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -653,12 +657,12 @@ p {
   margin-left: 1rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
 .mt-16 {
   margin-top: 4rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .mt-24 {
@@ -938,10 +942,6 @@ p {
 .no-underline {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
-}
-
-.decoration-2 {
-  text-decoration-thickness: 2px;
 }
 
 .underline-offset-2 {
