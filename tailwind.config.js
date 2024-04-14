@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'logo-green': '#21952f'
+        'logo-green': '#158923'
       }
     }
   }
