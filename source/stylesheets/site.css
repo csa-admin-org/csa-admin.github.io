@@ -420,7 +420,7 @@ a {
 
 a:hover {
   --tw-text-opacity: 1;
-  color: rgb(33 149 47 / var(--tw-text-opacity));
+  color: rgb(21 137 35 / var(--tw-text-opacity));
 }
 
 p {
@@ -785,7 +785,7 @@ strong {
 
 .bg-logo-green {
   --tw-bg-opacity: 1;
-  background-color: rgb(33 149 47 / var(--tw-bg-opacity));
+  background-color: rgb(21 137 35 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -798,8 +798,8 @@ strong {
 }
 
 .from-logo-green {
-  --tw-gradient-from: #21952f;
-  --tw-gradient-to: rgb(33 149 47 / 0);
+  --tw-gradient-from: #158923;
+  --tw-gradient-to: rgb(21 137 35 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -926,7 +926,7 @@ strong {
 
 .text-logo-green {
   --tw-text-opacity: 1;
-  color: rgb(33 149 47 / var(--tw-text-opacity));
+  color: rgb(21 137 35 / var(--tw-text-opacity));
 }
 
 .text-gray-500 {
