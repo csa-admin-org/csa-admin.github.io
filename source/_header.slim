@@ -1,6 +1,6 @@
 header class='my-6 md:my-12 flex flex-wrap md:flex-nowrap justify-between'
   div class='flex items-center grow w-full md:w-fit justify-center md:justify-start'
-    = inline_svg 'logo.svg', class: 'fill-current w-10 h-10'
+    = inline_svg 'logo.svg', class: 'fill-current w-10 h-10', alt: "Logo d'ACP Admin"
     strong class='text-logo-green ml-2 font-bold text-3xl md:text-2xl tracking-tight'
       = data.site.name
 
@@ -10,11 +10,11 @@ header class='my-6 md:my-12 flex flex-wrap md:flex-nowrap justify-between'
     = link_to 'A propos', '#a-propos', class: 'text-gray-800 underline-offset-2 font-medium ml-4'
 
   div class='flex flex-col items-center md:items-end w-full md:w-fit mt-4 md:mt-0 md:ml-12 justify-center md:justify-end'
-    = link_to data.site.contact.email_link, class: 'flex items-center no-underline text-gray-800' do
-      = inline_svg 'envelope.svg', class: 'w-5 h-5 md:order-2 mr-2 md:mr-0 md:ml-3 mt-0.5'
+    = link_to data.site.contact.email_link, class: 'flex items-center no-underline text-gray-800', title: 'Email' do
+      = inline_svg 'envelope.svg', class: 'w-5 h-5 md:order-2 mr-2 md:mr-0 md:ml-3 mt-0.5', alt: 'Email'
       strong class='font-semibold md:order-1'
         = data.site.contact.email
-    = link_to data.site.contact.phone_link, class: 'mt-0.5 flex items-center no-underline text-gray-800' do
-      = inline_svg 'phone.svg', class: 'w-5 h-5 md:order-2 mr-2 md:mr-0 md:ml-3'
+    = link_to data.site.contact.phone_link, class: 'mt-0.5 flex items-center no-underline text-gray-800', title: 'Téléphone' do
+      = inline_svg 'phone.svg', class: 'w-5 h-5 md:order-2 mr-2 md:mr-0 md:ml-3', alt: 'Téléphone'
       strong class='font-semibold md:order-1'
         = data.site.contact.phone

@@ -78,8 +78,8 @@ p class='mt-2 mx-auto md:w-7/12 text-center md:leading-normal text-xl font-norma
 
 div class='mt-8 mx-auto md:w-5/6 flex flex-wrap justify-evenly'
   - data.acps.each do |_, acp|
-    = link_to acp.url, class: 'w-32 h-32 my-4 md:mx-8 flex items-center no-underline'
-      = image_tag acp.logo_url, class: 'w-28 h-28 mx-auto'
+    = link_to acp.url, class: 'w-32 h-32 my-4 md:mx-8 flex items-center no-underline', title: acp.name
+      = image_tag acp.logo_url, class: 'w-28 h-28 mx-auto', alt: "#{acp.name} (logo)", title: acp.name
 
 
 h4 id='contact' class='mt-16 pt-8 mx-auto md:w-5/6 text-center text-xl md:text-3xl font-bold'
