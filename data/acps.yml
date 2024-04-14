@@ -82,3 +82,7 @@ panierlocali:
   logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/locali/logo.png
   name: Les Paniers Locali
   url: https://panier-locali.ch
+lejardindemax:
+  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lejardindemax/logo.png
+  name: Le Jardin de Max
+  url: https://lejardindemax.ch
