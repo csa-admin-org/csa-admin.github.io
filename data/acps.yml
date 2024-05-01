@@ -82,6 +82,18 @@ panierlocali:
   logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/locali/logo.png
   name: Les Paniers Locali
   url: https://panier-locali.ch
+wurzelkollektiv:
+  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/wurzelkollektiv/logo.png
+  name: Wurzel Kollektiv
+  url: https://wurzelkollektiv.de
+fermedesverpilleres:
+  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/fermedesverpilleres/logo.jpg
+  name: Ferme des Verpillères
+  url: https://ferme-des-verpilleres.ch
+hofnarr:
+  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/hofnarr/logo.jpg
+  name: Hof Narr
+  url: https://www.hof-narr.ch
 lejardindemax:
   logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lejardindemax/logo.png
   name: Le Jardin de Max
