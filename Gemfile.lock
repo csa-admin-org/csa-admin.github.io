@@ -150,7 +150,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  middleman (~> 4.3)
+  middleman (~> 4.5)
   middleman-favicon-maker
   middleman-gh-pages
   middleman-inline_svg
@@ -162,7 +162,7 @@ DEPENDENCIES
   slim (~> 4.0)
 
 RUBY VERSION
-   ruby 3.1.2p20
+   ruby 3.2.4p170
 
 BUNDLED WITH
-   2.3.11
+   2.5.10

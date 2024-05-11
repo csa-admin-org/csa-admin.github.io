@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '3.1.2'
+ruby file: '.ruby-version'
 
-gem 'middleman', '~> 4.3'
+gem 'middleman', '~> 4.5'
 gem 'middleman-favicon-maker'
 gem 'middleman-gh-pages'
 gem 'middleman-inline_svg'
