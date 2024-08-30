@@ -1,6 +1,6 @@
-[![ACP Admin logo](https://acp-admin.ch/images/logo-ac7d72c5.png)](https://acp-admin.ch)
+[![CSA Admin logo](https://csa-admin.org/images/logo-ac7d72c5.png)](https://csa-admin.org)
 
-acp-admin.github.io
+csa-admin.github.io
 ===================
 
-https://acp-admin.ch website build with the awesome [middleman](http://middlemanapp.com).
+https://csa-admin.org website build with the awesome [middleman](http://middlemanapp.com).

@@ -1,15 +1,42 @@
 doctype html
 html class='bg-white antialiased scroll-smooth' lang='fr'
   head
-    title = data.site.title
+    title = t('site.title')
     meta charset='utf-8'
-    meta http-equiv='x-ua-compatible' content='ie=edge'
-    meta http-equiv='content-language' content='fr'
+    meta http-equiv='X-UA-Compatible' content='IE=edge'
+    meta http-equiv='content-language' content = I18n.locale
     meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'
-    meta name='Description' content = data.site.description
+    meta name='Description' content = t('site.description')
+    meta name='author' content = data.site.author.name
 
     == auto_display_favicon_tags
     == stylesheet_link_tag 'site'
+
+    javascript:
+      // Redirect to the correct language landing page
+      javascript:
+        document.addEventListener('DOMContentLoaded', function() {
+          var languageRedirected = localStorage.getItem('languageRedirected')
+          if (languageRedirected) {
+            return
+          }
+
+          localStorage.setItem('languageRedirected', true)
+          var browserLanguage = navigator.language ? navigator.language.slice(0, 2) : null
+
+          if (!browserLanguage || window.location.pathname !== '/') {
+            return
+          }
+
+          switch (browserLanguage) {
+            case 'fr':
+              window.location.pathname = '/acp'
+              break
+            case 'de':
+              window.location.pathname = '/solawi'
+              break
+          }
+        })
 
   body class='font-sans mx-4 md:mx-12'
     = partial 'header'
