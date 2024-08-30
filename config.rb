@@ -13,6 +13,9 @@ activate :tailwind do |config|
   config.config_path = 'tailwind.config.js'
 end
 activate :livereload
+activate :i18n,
+  mount_at_root: :en,
+  lang_map: { fr: :acp, de: :solawi }
 
 configure :development do
   set      :debug_assets, true

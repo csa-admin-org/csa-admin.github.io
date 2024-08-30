@@ -1,0 +1,64 @@
+fr:
+  about:
+    application: application web open source
+    other_orgs: de nombreuses autres organisations
+    text: Initialement créée pour simplifier la gestion de %{ragedevert} à Neuchâtel (CH), CSA Admin n'a cessé de s'améliorer et de s'agrandir au fil des années pour répondre aux besoins divers et variés %{other_orgs} en Suisse. CSA Admin est une %{application}. Elle se veut simple, efficace et intuitive. Elle est développée avec passion par %{author}, qui s'engage depuis plus de 10 ans à simplifier la vie des ACP pour les aider à prospérer.
+    title: À propos de CSA&nbsp;Admin
+  call_to_action: Demander une démo
+  contact:
+    text: Vous souhaitez en savoir plus sur CSA Admin? Vous avez des questions? N'hésitez pas à me contacter pour plus d'informations et/ou pour planifier une démo. Vous pouvez me joindre par e-mail à l'adresse %{mail}, ou par téléphone au %{phone}. Je me ferai un plaisir de répondre à toutes vos questions.
+    title: Intéressé·e? Demandez&nbsp;une&nbsp;démo!
+  email: E-mail
+  features:
+    activity:
+      description: Vos membres participent au travail dans les champs ou à la préparation des paniers? Tout est fourni pour vous aider à <strong>gérer vos activités</strong>, les inscriptions et les validations de chaque participation.
+      title: Participation des membres
+    basket_content:
+      description: Répartissez efficacement vos récoltes entre tous vos abonné·e·s, en fonction de la taille/prix des paniers. Suivez l'évolution de la valeur de vos paniers et des légumes au cours de l'année.
+      title: Contenu et valeur des paniers
+    billing:
+      description: Génération et envoi des <strong>factures QR</strong> avec numéro de référence par e-mail, <strong>relevé quotidien des paiements</strong> sur votre compte bancaire (EBICS), envoi des rappels, tout est sur pilote automatique!
+      title: Facturation automatisée
+    communication:
+      description: Chaque e-mail envoyé à vos membres peut être facilement modifié. Choisissez le contenu et le style qui vous conviennent. Un système sophistiqué de <strong>newsletter</strong> est également intégré.
+      title: Communication personnalisée
+    deliveries:
+      description: Planifiez facilement vos livraisons. Des besoins spéciaux, deux livraisons par semaine? Une semaine sur deux? C'est possible! Les <strong>absences</strong> sont également automatiquement déduites.
+      title: Calendrier des livraisons
+    memberships:
+      description: Formulaire d'inscription, liste d'attente, membres de soutien, <strong>paniers à l'essai</strong>, compléments, … tout est prévu pour gérer efficacement vos membres et leurs abonnements.
+      title: Membres et abonnements
+    opensource:
+      description: Entièrement traduite en français, allemand, italien et anglais, CSA Admin est aussi développée en %{opensource_link} sous la %{mit_link}, vous pouvez donc participer et proposer des améliorations.
+      mit_license: licence MIT
+      opensource: open source
+      title: Multilingue et open source
+    renewal:
+      description: C'est la fin de l'année? En un clic, envoyez rapidement une demande de renouvellement à tous vos abonné·e·s. Un formulaire de <strong>renouvellement/résiliation</strong> les attend sur leur compte de membre.
+      title: Renouvellement simplifié
+    shop:
+      description: Proposez à vos abonné·e·s des <strong>produits supplémentaires</strong> pour agrémenter leur panier à chaque livraison. Un shop en ligne est à leur disposition sur leur compte de membre. Gestion de stock incluse!
+      title: Épicerie en ligne
+    subtitle: CSA Admin vous offre un large éventail de fonctionnalités développées spécifiquement pour les besoins de <span class='whitespace-nowrap'>l'<strong class='text-logo-green'>A</strong>griculture <strong class='text-logo-green'>C</strong>ontractuelle de <strong class='text-logo-green'>P</strong>roximité</span>.
+    subtitle2: Chaque ACP est unique, certains modules sont donc optionnels, à votre convenance. D'autres besoins? Il suffit de demander!
+    title: Tout ce qu'il vous faut …
+    title2: … et bien plus encore!
+  footer:
+    developed_by: CSA Admin est développée avec passion par %{author_link}.
+  header:
+    about: À propos
+    demo: Démo
+    features: Fonctionnalités
+  logo_alt: Logo de CSA Admin
+  org_name: ACP
+  org_name_definition: Agriculture Contractuelle de Proximité
+  organizations:
+    subtitle: Que vous soyez une association, une coopérative, une entreprise ou un particulier, CSA&nbsp;Admin s'adapte à vos besoins.
+    title: Ils·Elles utilisent CSA&nbsp;Admin
+  phone: Téléphone
+  site:
+    description: Application web open source pour gérer efficacement votre ACP (Agriculture Contractuelle de Proximité). Simplifiez vos opérations, demandez une démo!
+    title: CSA Admin - Simplifiez la gestion de votre ACP
+  subtitle: Depuis 2014, %{orgs_link} utilisent CSA Admin pour faciliter leurs tâches quotidiennes et gérer la distribution annuelle de plus de <strong>100'000 paniers</strong>. Rejoignez-les !
+  subtitle_orgs_link: de nombreuses&nbsp;organisations
+  title: Simplifiez la gestion de votre&nbsp;%{org_name}.

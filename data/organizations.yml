@@ -1,100 +1,75 @@
 ragedevert:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/ragedevert/logo.png
   name: Rage de Vert
   url: https://www.ragedevert.ch
 lumieredeschamps:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lumieredeschamps/logo.jpg
   name: Lumière des Champs
   url: http://lumiere-des-champs.ch
 tapatate:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/tapatate/logo.jpg
   name: TaPatate!
   url: https://www.tapatate.ch
 clefdeschamps:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/clefdeschamps/logo.jpg
   name: La Clef des Champs
   url: https://www.clef-des-champs.ch
 croquterre:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/croquterre/logo.jpg
   name: croQu'terre
   url: https://croquterre.ch
 alabellecourgette:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/alabellecourgette/logo.jpg
   name: À la Belle Courgette
   url: https://www.alabellecourgette.ch
 lesjardinsdouchy:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lesjardinsdouchy/logo.jpg
   name: Les Jardins d'Ouchy
   url: https://www.lesjardinsdouchy.ch
 lamule:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lamule/logo.png
   name: Les paniers de la mule
   url: https://lamule.ch
 lafermedugoupil:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lafermedugoupil/logo.png
   name: La Ferme du Goupil
   url: https://lafermedugoupil.ch
 lafermedessavanes:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lafermedessavanes/logo.png
   name: La Ferme des Savanes
   url: http://lafermedessavanes.ch
 seminterra:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/seminterra/logo.png
   name: Seminterra
   url: https://seminterra.ch
 p2r:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/p2r/logo.jpg
   name: Le panier bio à 2 roues (P2R)
   url: https://p2r.ch
 grundnahrig:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/grundnahrig/logo.png
   name: Grundnahrig
   url: https://www.grundnahrig.ch
 jardindesturricules:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/jardindesturricules/logo.png
   name: Le Jardin des Turricules
   url: https://jardindesturricules.ch
 lepetitsecheron:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lepetitsecheron/logo.png
   name: Le Petit Sécheron
   url: https://lepetitsecheron.ch
 paniersdesavigny:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/paniersdesavigny/logo.png
   name: Le Petit Marché de Savigny
   url: https://paniersdesavigny.ch
 cocagne:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/cocagne/logo.png
   name: Les Jardins de Cocagne
   url: https://cocagne.ch
 potagersdegaia:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/potagersdegaia/logo.png
   name: Les Potagers de Gaïa
   url: https://potagersdegaia.ch
 latouviere:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/latouviere/logo.png
   name: La Touvière
   url: https://www.touviere.ch
 alpgrava:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/alpgrava/logo.png
   name: Alp Grava
   url: https://alpgrava.ch
-panierlocali:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/locali/logo.png
+locali:
   name: Les Paniers Locali
   url: https://panier-locali.ch
 wurzelkollektiv:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/wurzelkollektiv/logo.png
   name: Wurzel Kollektiv
   url: https://wurzelkollektiv.de
 fermedesverpilleres:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/fermedesverpilleres/logo.jpg
   name: Ferme des Verpillères
   url: https://ferme-des-verpilleres.ch
 hofnarr:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/hofnarr/logo.jpg
   name: Hof Narr
   url: https://www.hof-narr.ch
 lejardindemax:
-  logo_url: https://d2ibcm5tv7rtdh.cloudfront.net/lejardindemax/logo.png
   name: Le Jardin de Max
   url: https://lejardindemax.ch
