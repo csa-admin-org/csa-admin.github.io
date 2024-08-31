@@ -447,8 +447,8 @@ video {
 a {
   font-weight: 600;
   text-decoration-line: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 a:hover {
@@ -955,16 +955,8 @@ strong {
   text-decoration-line: none;
 }
 
-.decoration-1 {
-  text-decoration-thickness: 1px;
-}
-
 .decoration-2 {
   text-decoration-thickness: 2px;
-}
-
-.underline-offset-2 {
-  text-underline-offset: 2px;
 }
 
 .underline-offset-4 {
