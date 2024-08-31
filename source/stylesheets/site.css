@@ -959,10 +959,6 @@ strong {
   text-decoration-thickness: 2px;
 }
 
-.underline-offset-4 {
-  text-underline-offset: 4px;
-}
-
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
