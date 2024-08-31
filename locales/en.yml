@@ -27,7 +27,7 @@ en:
       title: Delivery Schedule
     memberships:
       description: Registration form, waiting list, supporting members, <strong>trial baskets</strong>, supplements, … everything is provided to efficiently manage your members and their subscriptions.
-      title: Members and Subscriptions
+      title: Members and Memberships
     opensource:
       description: Fully translated into English, French, German, and Italian, CSA Admin is also developed as %{opensource_link} under the %{mit_link}, so you can participate and propose improvements.
       mit_license: MIT license
