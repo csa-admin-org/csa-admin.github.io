@@ -1,7 +1,7 @@
 de:
   about:
     application: Open-Source-Webanwendung
-    other_orgs: zahlreiche andere Organisationen
+    other_orgs: zahlreichen anderen Organisationen
     text: Ursprünglich entwickelt, um die Verwaltung von %{ragedevert} in Neuchâtel (CH) zu vereinfachen, hat sich CSA Admin im Laufe der Jahre kontinuierlich verbessert und erweitert, um den unterschiedlichen Bedürfnissen von %{other_orgs} in der Schweiz gerecht zu werden. CSA Admin ist eine %{application}. Es soll einfach, effizient und intuitiv sein. Es wird mit Leidenschaft von %{author} entwickelt, der sich seit über 10 Jahren dafür einsetzt, das Leben der CSAs zu vereinfachen, um ihnen zum Erfolg zu verhelfen.
     title: Über CSA&nbsp;Admin
   call_to_action: Demo anfordern
@@ -11,7 +11,7 @@ de:
   email: E-Mail
   features:
     activity:
-      description: Nehmen Ihre Mitglieder an der Feldarbeit oder der Vorbereitung der Taschen teil? Alles ist bereitgestellt, um Ihnen zu helfen, <strong>Ihre Aktivitäten zu verwalten</strong>, die Anmeldungen und die Bestätigungen jeder Teilnahme.
+      description: Nehmen Ihre Mitglieder an der Feldarbeit oder der Vorbereitung der Taschen teil? Die Planung und Verwaltung, <strong>Koordination und Bestätigung der Einsätze</strong> ist im Programm enthalten.
       title: Mitgliederbeteiligung
     basket_content:
       description: Verteilen Sie Ihre Ernten effizient unter all Ihren Abonnenten, basierend auf der Größe/dem Preis der Taschen. Verfolgen Sie die Entwicklung des Wertes Ihrer Taschen und des Gemüses im Laufe des Jahres.
@@ -23,10 +23,10 @@ de:
       description: Jede E-Mail, die an Ihre Mitglieder gesendet wird, kann leicht angepasst werden. Wählen Sie den Inhalt und den Stil, der Ihnen gefällt. Ein ausgeklügeltes <strong>Newsletter</strong>-System ist ebenfalls integriert.
       title: Personalisierte Kommunikation
     deliveries:
-      description: Planen Sie Ihre Lieferungen einfach. Besondere Bedürfnisse, zwei Lieferungen pro Woche? Jede zweite Woche? Das ist möglich! <strong>Abwesenheiten</strong> werden ebenfalls automatisch abgezogen.
+      description: Einfache Planung Ihrer Lieferungen. Benötigen Sie besondere Lieferintervalle wie zwei Lieferungen pro Woche oder jede zweite Woche? Das ist möglich! <strong>Abwesenheiten</strong> werden ebenfalls automatisch abgezogen.
       title: Lieferplan
     memberships:
-      description: Anmeldeformular, Warteliste, fördernde Mitglieder, <strong>Probetaschen</strong>, Ergänzungen, … alles ist vorgesehen, um Ihre Mitglieder und deren Abonnements effizient zu verwalten.
+      description: Anmeldeformular, Warteliste, Warteliste, Sympathisanten, Passivmitglieder, <strong>Probetaschen</strong>, Taschenergänzung, … alles ist vorgesehen, um Ihre Mitglieder und deren Abonnements effizient zu verwalten.
       title: Mitglieder und Abonnements
     opensource:
       description: Vollständig ins Französische, Deutsche, Italienische und Englische übersetzt, wird CSA Admin auch als %{opensource_link} unter der %{mit_link} entwickelt, sodass Sie teilnehmen und Verbesserungen vorschlagen können.
@@ -34,12 +34,12 @@ de:
       opensource: Open Source
       title: Mehrsprachig und Open Source
     renewal:
-      description: Ist es das Ende des Jahres? Mit einem Klick senden Sie schnell eine Verlängerungsanfrage an alle Ihre Abonnenten. Ein <strong>Verlängerungs-/Kündigungsformular</strong> erwartet sie in ihrem Mitgliederkonto.
+      description: Geht das Abo zu Ende? Mit einem Klick senden Sie schnell allen Ihren Abonnenten eine Verlängerungsanfrage. Ein <strong>Verlängerungs-/Kündigungsformular</strong> befindet sich auch in jedem Mitgliederkonto.
       title: Vereinfachte Verlängerung
     shop:
       description: Bieten Sie Ihren Abonnenten <strong>zusätzliche Produkte</strong> an, um ihre Tasche bei jeder Lieferung zu bereichern. Ein Online-Shop steht ihnen in ihrem Mitgliederkonto zur Verfügung. Bestandsverwaltung inklusive!
       title: Online-Shop
-    subtitle: "CSA Admin bietet Ihnen eine breite Palette von Funktionen, die speziell für die Bedürfnisse der <span class='whitespace-nowrap'><strong class='text-logo-green'>So</strong>lidarischen <strong class='text-logo-green'>La</strong>nd<strong class='text-logo-green'>wi</strong>rtschaft</span> entwickelt wurden."
+    subtitle: "CSA Admin bietet Ihnen eine breite Palette von Funktionen, die speziell für die Bedürfnisse der <span class='whitespace-nowrap'><strong class='text-logo-green'>So</strong>lidarischen <strong class='text-logo-green'>La</strong>nd<strong class='text-logo-green'>wi</strong>rtschaft</span> ausgerichtet wurden."
     subtitle2: "Jede Solawi ist einzigartig, daher sind einige Module optional, nach Ihrem Ermessen. Weitere Bedürfnisse? Einfach fragen!"
     title: "Alles, was Sie brauchen …"
     title2: "… und noch viel mehr!"
