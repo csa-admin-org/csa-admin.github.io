@@ -21,6 +21,11 @@ html class='bg-white antialiased scroll-smooth' lang='fr'
             return
           }
 
+          var userAgent = navigator.userAgent.toLowerCase();
+          if (/bot|crawl|spider|slurp|bing|msn|teoma|baidu|yandex|duckduckbot|facebot|ia_archiver/.test(userAgent)) {
+            return;
+          }
+
           localStorage.setItem('languageRedirected', true)
           var browserLanguage = navigator.language ? navigator.language.slice(0, 2) : null
 
