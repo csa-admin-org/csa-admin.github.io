@@ -43,7 +43,8 @@ html class='bg-white antialiased scroll-smooth' lang='fr'
           }
         })
 
-  body class='font-sans mx-4 md:mx-12'
-    = partial 'header'
-    main = yield
-    = partial 'footer'
+  body class='font-sans md:mx-auto md:max-w-7xl'
+    .wrapper class="mx-4 md:mx-12"
+      = partial 'header'
+      main = yield
+      = partial 'footer'
