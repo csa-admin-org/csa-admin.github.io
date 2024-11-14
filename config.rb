@@ -29,7 +29,6 @@ configure :build do
   activate :favicon_maker, icons: generate_favicons_hash
   activate :gzip
   activate :minify_html
-  activate :search_engine_sitemap
   activate :relative_assets
   activate :robots,
     rules: [{ user_agent: '*', allow: %w[/] }],
