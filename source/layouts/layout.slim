@@ -8,40 +8,19 @@ html class='bg-white antialiased scroll-smooth' lang='fr'
     meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'
     meta name='Description' content = t('site.description')
     meta name='author' content = data.site.author.name
+    meta name="robots" content="index, follow"
+
+    link rel="canonical" href="https://csa-admin.org"
+    link rel="alternate" hreflang="en" href="https://csa-admin.org"
+    link rel="alternate" hreflang="fr" href="https://csa-admin.org/acp"
+    link rel="alternate" hreflang="de" href="https://csa-admin.org/solawi"
+    link rel="alternate" hreflang="x-default" href="https://csa-admin.org"
+
+    script type="application/ld+json"
+      == data.site.jsonld.to_json
 
     == auto_display_favicon_tags
     == stylesheet_link_tag 'site'
-
-    javascript:
-      // Redirect to the correct language landing page
-      javascript:
-        document.addEventListener('DOMContentLoaded', function() {
-          var languageRedirected = localStorage.getItem('languageRedirected')
-          if (languageRedirected) {
-            return
-          }
-
-          var userAgent = navigator.userAgent.toLowerCase();
-          if (/bot|crawl|spider|slurp|bing|msn|teoma|baidu|yandex|duckduckbot|facebot|ia_archiver/.test(userAgent)) {
-            return;
-          }
-
-          localStorage.setItem('languageRedirected', true)
-          var browserLanguage = navigator.language ? navigator.language.slice(0, 2) : null
-
-          if (!browserLanguage || window.location.pathname !== '/') {
-            return
-          }
-
-          switch (browserLanguage) {
-            case 'fr':
-              window.location.pathname = '/acp'
-              break
-            case 'de':
-              window.location.pathname = '/solawi'
-              break
-          }
-        })
 
   body class='font-sans md:mx-auto md:max-w-7xl'
     .wrapper class="mx-4 md:mx-12"

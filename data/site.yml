@@ -14,3 +14,23 @@ author:
   name: 'Thibaud Guillaume-Gentil'
   email: 'thibaud@thibaud.gg'
   website: 'https://thibaud.gg'
+
+jsonld:
+  "@context": "http://schema.org"
+  "@type": "WebSite"
+  "url": "https://csa-admin.org"
+  "inLanguage": "en"
+  "potentialAction":
+    "@type": "ReadAction"
+    "target":
+      - "@type": "EntryPoint"
+        "urlTemplate": "https://csa-admin.org"
+        "inLanguage": "en"
+      - "@type": "EntryPoint"
+        "urlTemplate": "https://csa-admin.org/acp"
+        "inLanguage": "fr"
+      - "@type": "EntryPoint"
+        "urlTemplate": "https://csa-admin.org/solawi"
+        "inLanguage": "de"
+
+
