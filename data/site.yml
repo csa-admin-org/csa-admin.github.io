@@ -20,17 +20,13 @@ jsonld:
   "@type": "WebSite"
   "url": "https://csa-admin.org"
   "inLanguage": "en"
-  "potentialAction":
-    "@type": "ReadAction"
-    "target":
-      - "@type": "EntryPoint"
-        "urlTemplate": "https://csa-admin.org"
-        "inLanguage": "en"
-      - "@type": "EntryPoint"
-        "urlTemplate": "https://csa-admin.org/acp"
-        "inLanguage": "fr"
-      - "@type": "EntryPoint"
-        "urlTemplate": "https://csa-admin.org/solawi"
-        "inLanguage": "de"
-
-
+  "hasPart":
+    - "@type": "WebPage"
+      "url": "https://csa-admin.org"
+      "inLanguage": "en"
+    - "@type": "WebPage"
+      "url": "https://csa-admin.org/acp"
+      "inLanguage": "fr"
+    - "@type": "WebPage"
+      "url": "https://csa-admin.org/solawi"
+      "inLanguage": "de"
