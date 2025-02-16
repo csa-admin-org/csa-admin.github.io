@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-ruby file: '.ruby-version'
-
 gem 'middleman', '~> 4.5'
 gem 'middleman-favicon-maker'
 gem 'middleman-gh-pages'
