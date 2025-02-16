@@ -11,13 +11,13 @@ de:
   email: E-Mail
   features:
     activity:
-      description: Nehmen Ihre Mitglieder an der Feldarbeit oder der Vorbereitung der Taschen teil? Die Planung und Verwaltung, <strong>Koordination und Bestätigung der Einsätze</strong> ist im Programm enthalten.
+      description: Beteiligen sich Ihre Mitglieder an der Feldarbeit oder an der Vorbereitung der Anteile? Die Planung und Verwaltung, <strong>Koordination und Bestätigung der Einsätze</strong> ist im Programm enthalten.
       title: Mitgliederbeteiligung
     basket_content:
-      description: Verteilen Sie Ihre Ernten effizient unter all Ihren Abonnenten, basierend auf der Größe/dem Preis der Taschen. Verfolgen Sie die Entwicklung des Wertes Ihrer Taschen und des Gemüses im Laufe des Jahres.
-      title: Tascheninhalt und -wert
+      description: Verteilen Sie Ihre Ernten effizient unter all Ihren Abonnenten, basierend auf der Größe bzw. dem Preis der Anteile. Verfolgen Sie die Entwicklung des Wertes Ihrer Anteile und des Gemüses im Laufe des Jahres.
+      title: Anteilinhalt und -wert
     billing:
-      description: Erstellung und Versand von <strong>QR-Rechnungen</strong> mit Referenznummer per E-Mail, <strong>tägliche Zahlungseingänge</strong> auf Ihrem Bankkonto (EBICS), Versand von Mahnungen, alles läuft automatisch!
+      description: Erstellung und Versand von <strong>QR-Rechnungen</strong> per E-Mail, tägliche Zahlungseingänge (EBICS), SEPA-Lastschriften und automatische Mahnungen.
       title: Automatisierte Abrechnung
     communication:
       description: Jede E-Mail, die an Ihre Mitglieder gesendet wird, kann leicht angepasst werden. Wählen Sie den Inhalt und den Stil, der Ihnen gefällt. Ein ausgeklügeltes <strong>Newsletter</strong>-System ist ebenfalls integriert.
@@ -26,7 +26,7 @@ de:
       description: Einfache Planung Ihrer Lieferungen. Benötigen Sie besondere Lieferintervalle wie zwei Lieferungen pro Woche oder jede zweite Woche? Das ist möglich! <strong>Abwesenheiten</strong> werden ebenfalls automatisch abgezogen.
       title: Lieferplan
     memberships:
-      description: Anmeldeformular, Warteliste, Warteliste, Sympathisanten, Passivmitglieder, <strong>Probetaschen</strong>, Taschenergänzung, … alles ist vorgesehen, um Ihre Mitglieder und deren Abonnements effizient zu verwalten.
+      description: Anmeldeformular, Warteliste, Sympathisanten, Passivmitglieder, <strong>Probianteile</strong>, Zusatzanteile, … alles ist vorgesehen, um Ihre Mitglieder und deren Abonnements effizient zu verwalten.
       title: Mitglieder und Abonnements
     opensource:
       description: Vollständig ins Französische, Deutsche, Italienische und Englische übersetzt, wird CSA Admin auch als %{opensource_link} unter der %{mit_link} entwickelt, sodass Sie teilnehmen und Verbesserungen vorschlagen können.
@@ -37,7 +37,7 @@ de:
       description: Geht das Abo zu Ende? Mit einem Klick senden Sie schnell allen Ihren Abonnenten eine Verlängerungsanfrage. Ein <strong>Verlängerungs-/Kündigungsformular</strong> befindet sich auch in jedem Mitgliederkonto.
       title: Vereinfachte Verlängerung
     shop:
-      description: Bieten Sie Ihren Abonnenten <strong>zusätzliche Produkte</strong> an, um ihre Tasche bei jeder Lieferung zu bereichern. Ein Online-Shop steht ihnen in ihrem Mitgliederkonto zur Verfügung. Bestandsverwaltung inklusive!
+      description: Bieten Sie Ihren Abonnenten <strong>zusätzliche Produkte</strong> an, um ihren Anteil bei jeder Lieferung zu bereichern. Ein Online-Shop steht ihnen in ihrem Mitgliederkonto zur Verfügung. Bestandsverwaltung inklusive!
       title: Online-Shop
     subtitle: "CSA Admin bietet Ihnen eine breite Palette von Funktionen, die speziell für die Bedürfnisse der <span class='whitespace-nowrap'><strong class='text-logo-green'>So</strong>lidarischen <strong class='text-logo-green'>La</strong>nd<strong class='text-logo-green'>wi</strong>rtschaft</span> ausgerichtet wurden."
     subtitle2: "Jede Solawi ist einzigartig, daher sind einige Module optional, nach Ihrem Ermessen. Weitere Bedürfnisse? Einfach fragen!"
@@ -60,6 +60,6 @@ de:
     description: Open-Source-Webanwendung für effiziente Solawi-Verwaltung (Solidarische Landwirtschaft). Vereinfachen Sie Ihre Abläufe – Demo jetzt anfordern!
     title: "CSA Admin - Effizientere Verwaltung Ihrer Solawi"
     path: /solawi
-  subtitle: "Seit 2014 nutzen %{orgs_link} CSA Admin, um ihre täglichen Aufgaben zu erleichtern und die jährliche Verteilung von über <strong>100.000 Taschen</strong> zu verwalten. Schließen Sie sich ihnen an!"
+  subtitle: "Seit 2014 nutzen %{orgs_link} CSA Admin, um ihre täglichen Aufgaben zu erleichtern und die jährliche Verteilung von über <strong>100.000 Anteilen</strong> zu verwalten. Schließen Sie sich ihnen an!"
   subtitle_orgs_link: zahlreiche&nbsp;Organisationen
   title: Effizientere %{org_name}&#8209;Verwaltung.
