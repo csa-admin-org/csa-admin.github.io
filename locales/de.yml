@@ -2,7 +2,7 @@ de:
   about:
     application: Open-Source-Webanwendung
     other_orgs: zahlreichen anderen Organisationen
-    text: Ursprünglich entwickelt, um die Verwaltung von %{ragedevert} in Neuchâtel (CH) zu vereinfachen, hat sich CSA Admin im Laufe der Jahre kontinuierlich verbessert und erweitert, um den unterschiedlichen Bedürfnissen von %{other_orgs} in der Schweiz gerecht zu werden. CSA Admin ist eine %{application}. Es soll einfach, effizient und intuitiv sein. Es wird mit Leidenschaft von %{author} entwickelt, der sich seit über 10 Jahren dafür einsetzt, das Leben der CSAs zu vereinfachen, um ihnen zum Erfolg zu verhelfen.
+    text: Ursprünglich entwickelt, um die Verwaltung von %{ragedevert} in Neuchâtel (CH) zu vereinfachen, entwickelt sich CSA Admin stetig weiter, um den vielfältigen Anforderungen von %{other_orgs} in der Schweiz gerecht zu werden. CSA Admin ist eine %{application}. Es soll einfach, effizient und intuitiv sein. Mit Leidenschaft entwickelt %{author} CSA Admin seit über 10 Jahren, um den Alltag in CSAs zu erleichtern.
     title: Über CSA&nbsp;Admin
   call_to_action: Demo anfordern
   contact:
@@ -11,33 +11,33 @@ de:
   email: E-Mail
   features:
     activity:
-      description: Beteiligen sich Ihre Mitglieder an der Feldarbeit oder an der Vorbereitung der Anteile? Die Planung und Verwaltung, <strong>Koordination und Bestätigung der Einsätze</strong> ist im Programm enthalten.
+      description: Beteiligen sich Ihre Mitglieder an Feldarbeit oder der Vorbereitung der Lieferungen? CSA Admin unterstützt Sie bei Planung, Koordination und Bestätigung der Einsätze.
       title: Mitgliederbeteiligung
     basket_content:
-      description: Verteilen Sie Ihre Ernten effizient unter all Ihren Abonnenten, basierend auf der Größe bzw. dem Preis der Anteile. Verfolgen Sie die Entwicklung des Wertes Ihrer Anteile und des Gemüses im Laufe des Jahres.
+      description: Verteilen Sie Ihre Ernten effizient, indem Sie die Größe oder den Preis der Anteile berücksichtigen – und behalten Sie dabei stets den Wert Ihrer Anteile sowie den Ernteverlauf im Blick.
       title: Anteilinhalt und -wert
     billing:
-      description: Erstellung und Versand von <strong>QR-Rechnungen</strong> per E-Mail, tägliche Zahlungseingänge (EBICS), SEPA-Lastschriften und automatische Mahnungen.
+      description: Erstellt und versendet QR-Rechnungen, überwacht tägliche Zahlungseingänge (EBICS) und SEPA-Lastschriften und verschickt automatisch Mahnungen.
       title: Automatisierte Abrechnung
     communication:
-      description: Jede E-Mail, die an Ihre Mitglieder gesendet wird, kann leicht angepasst werden. Wählen Sie den Inhalt und den Stil, der Ihnen gefällt. Ein ausgeklügeltes <strong>Newsletter</strong>-System ist ebenfalls integriert.
+      description: Passen Sie jede E-Mail individuell an – von Inhalt bis Stil. Unser integriertes Newsletter-System macht’s möglich.
       title: Personalisierte Kommunikation
     deliveries:
-      description: Einfache Planung Ihrer Lieferungen. Benötigen Sie besondere Lieferintervalle wie zwei Lieferungen pro Woche oder jede zweite Woche? Das ist möglich! <strong>Abwesenheiten</strong> werden ebenfalls automatisch abgezogen.
+      description: Planen Sie Ihre Lieferungen flexibel – egal, ob zwei Lieferungen pro Woche oder jede zweite Woche. Abwesenheiten werden automatisch berücksichtigt.
       title: Lieferplan
     memberships:
-      description: Anmeldeformular, Warteliste, Sympathisanten, Passivmitglieder, <strong>Probianteile</strong>, Zusatzanteile, … alles ist vorgesehen, um Ihre Mitglieder und deren Abonnements effizient zu verwalten.
+      description: Mit Anmeldeformular, Warteliste, Sympathisanten, Passivmitgliedern, <strong>Probianteile</strong> und Zusatzanteilen verwalten Sie Ihre Mitglieder und Abonnements mühelos.
       title: Mitglieder und Abonnements
     opensource:
-      description: Vollständig ins Französische, Deutsche, Italienische und Englische übersetzt, wird CSA Admin auch als %{opensource_link} unter der %{mit_link} entwickelt, sodass Sie teilnehmen und Verbesserungen vorschlagen können.
+      description: Verfügbar in Französisch, Deutsch, Italienisch und Englisch – CSA Admin ist zudem als %{opensource_link} unter der %{mit_link} erhältlich. So können Sie aktiv mitgestalten.
       mit_license: MIT-Lizenz
-      opensource: Open Source
+      opensource: Open-Source-Anwendung
       title: Mehrsprachig und Open Source
     renewal:
-      description: Geht das Abo zu Ende? Mit einem Klick senden Sie schnell allen Ihren Abonnenten eine Verlängerungsanfrage. Ein <strong>Verlängerungs-/Kündigungsformular</strong> befindet sich auch in jedem Mitgliederkonto.
+      description: Läuft ein Abo aus? Senden Sie mit einem Klick eine Verlängerungsanfrage an alle Abonnenten – das Verlängerungs- und Kündigungsformular finden Sie direkt in jedem Mitgliederkonto.
       title: Vereinfachte Verlängerung
     shop:
-      description: Bieten Sie Ihren Abonnenten <strong>zusätzliche Produkte</strong> an, um ihren Anteil bei jeder Lieferung zu bereichern. Ein Online-Shop steht ihnen in ihrem Mitgliederkonto zur Verfügung. Bestandsverwaltung inklusive!
+      description: Erweitern Sie Ihr Angebot – im integrierten Online-Shop können Abonnenten zusätzliche Produkte bestellen, inklusive Bestandsverwaltung.
       title: Online-Shop
     subtitle: "CSA Admin bietet Ihnen eine breite Palette von Funktionen, die speziell für die Bedürfnisse der <span class='whitespace-nowrap'><strong class='text-logo-green'>So</strong>lidarischen <strong class='text-logo-green'>La</strong>nd<strong class='text-logo-green'>wi</strong>rtschaft</span> ausgerichtet wurden."
     subtitle2: "Jede Solawi ist einzigartig, daher sind einige Module optional, nach Ihrem Ermessen. Weitere Bedürfnisse? Einfach fragen!"
@@ -60,6 +60,6 @@ de:
     description: Open-Source-Webanwendung für effiziente Solawi-Verwaltung (Solidarische Landwirtschaft). Vereinfachen Sie Ihre Abläufe – Demo jetzt anfordern!
     title: "CSA Admin - Effizientere Verwaltung Ihrer Solawi"
     path: /solawi
-  subtitle: "Seit 2014 nutzen %{orgs_link} CSA Admin, um ihre täglichen Aufgaben zu erleichtern und die jährliche Verteilung von über <strong>100.000 Anteilen</strong> zu verwalten. Schließen Sie sich ihnen an!"
+  subtitle: Seit 2014 nutzen %{orgs_link} CSA Admin, um ihre täglichen Aufgaben zu erleichtern und die jährliche Verteilung von über <strong>100.000 Anteilen</strong> zu verwalten. Schließen Sie sich ihnen an!
   subtitle_orgs_link: zahlreiche&nbsp;Organisationen
   title: Effizientere %{org_name}&#8209;Verwaltung.
