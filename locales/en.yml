@@ -17,7 +17,7 @@ en:
       description: Efficiently distribute your harvests among all your subscribers, based on the size/price of the baskets. Track the evolution of your basket value and vegetables throughout the year.
       title: Basket Content and Value
     billing:
-      description: Generation and sending of <strong>QR invoices</strong> with reference numbers by email, <strong>daily payment statements</strong> on your bank account (EBICS), sending reminders, everything is on autopilot!
+      description: Generation and sending of <strong>QR invoices</strong> with reference numbers by email, <strong>daily payment statements</strong> on your bank account (EBICS), SEPA Direct Debit support, sending reminders, everything is on autopilot!
       title: Automated Billing
     communication:
       description: Every email sent to your members can be easily modified. Choose the content and style that suits you. A sophisticated <strong>newsletter</strong> system is also integrated.
