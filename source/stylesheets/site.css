@@ -643,6 +643,10 @@ strong {
   margin-top: 0.5rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .mt-24 {
   margin-top: 6rem;
 }
@@ -748,8 +752,8 @@ strong {
   gap: 1rem;
 }
 
-.gap-y-10 {
-  row-gap: 2.5rem;
+.gap-8 {
+  gap: 2rem;
 }
 
 .scroll-smooth {
@@ -821,6 +825,11 @@ strong {
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-6 {
@@ -1091,8 +1100,8 @@ strong {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-6 {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+  .md\:grid-cols-8 {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
   }
 
   .md\:flex-row {
