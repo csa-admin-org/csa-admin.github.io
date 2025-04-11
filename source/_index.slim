@@ -74,13 +74,13 @@ h3 id='organizations' class='mt-16 pt-8 mx-auto md:w-5/6 text-center tracking-ti
 p class='mt-2 mx-auto md:w-7/12 text-center md:leading-normal text-xl font-normal'
   = t("organizations.subtitle")
 
-div class='mt-10 mx-auto md:w-5/6 grid grid-cols-3 md:grid-cols-6 gap-y-10'
+div class='mt-10 mx-auto px-4 grid grid-cols-3 md:grid-cols-8 gap-8'
   - data.organizations.each do |org, data|
     = link_to data.url, class: 'flex items-center no-underline', title: data.name
       = image_tag "https://cdn.csa-admin.org/logos/#{org}", class: 'size-16 md:size-24 mx-auto', alt: "#{data.name} (logo)", title: data.name
 
 
-h4 id='contact' class='mt-16 pt-8 mx-auto md:w-5/6 text-center text-xl md:text-3xl font-bold'
+h4 id='contact' class='mt-20 pt-8 mx-auto md:w-5/6 text-center text-xl md:text-3xl font-bold'
   = t("contact.title")
 p class='mt-4 mx-auto md:w-7/12 text-justify leading-normal text-lg'
   = I18n.t("contact.text", \
