@@ -52,7 +52,7 @@ h3 class='mt-24 mx-auto md:w-5/6 text-center tracking-tight text-2xl md:text-4xl
 p class='mt-2 mx-auto md:w-7/12 text-center md:leading-normal text-xl font-normal'
   = t("features.subtitle2")
 
-div class='mt-10 md:grid md:grid-cols-3 md:gap-6'
+div class='mt-10 md:grid md:grid-cols-3 mg:gap-4 lg:gap-6'
   = partial 'feature', locals: { \
       logo: 'building-storefront', \
       title: t('features.shop.title'), \
@@ -74,10 +74,10 @@ h3 id='organizations' class='mt-16 pt-8 mx-auto md:w-5/6 text-center tracking-ti
 p class='mt-2 mx-auto md:w-7/12 text-center md:leading-normal text-xl font-normal'
   = t("organizations.subtitle")
 
-div class='mt-10 mx-auto px-4 grid grid-cols-3 md:grid-cols-8 gap-8'
+div class='mt-10 mx-auto px-4 grid grid-cols-3 md:grid-cols-8 gap-6 lg:gap-8'
   - data.organizations.each do |org, data|
-    = link_to data.url, class: 'flex items-center no-underline', title: data.name
-      = image_tag "https://cdn.csa-admin.org/logos/#{org}", class: 'size-16 md:size-24 mx-auto', alt: "#{data.name} (logo)", title: data.name
+    = link_to data.url, class: 'size-16 md:size-20 lg:size-24 mx-auto flex items-center no-underline', title: data.name
+      = image_tag "https://cdn.csa-admin.org/logos/#{org}", alt: "#{data.name} (logo)", title: data.name
 
 
 h4 id='contact' class='mt-20 pt-8 mx-auto md:w-5/6 text-center text-xl md:text-3xl font-bold'
