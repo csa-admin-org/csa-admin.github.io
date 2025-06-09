@@ -74,7 +74,7 @@ h3 id='organizations' class='mt-16 pt-8 mx-auto md:w-5/6 text-center tracking-ti
 p class='mt-2 mx-auto md:w-7/12 text-center md:leading-normal text-xl font-normal'
   = t("organizations.subtitle")
 
-div class='mt-10 mx-auto px-4 grid grid-cols-3 md:grid-cols-8 gap-6 lg:gap-8'
+div class='mt-10 mx-auto px-4 grid grid-cols-3 md:grid-cols-7 gap-6 lg:gap-8'
   - data.organizations.each do |org, data|
     = link_to data.url, class: 'size-16 md:size-20 lg:size-24 mx-auto flex items-center no-underline', title: data.name
       = image_tag "https://cdn.csa-admin.org/logos/#{org}", alt: "#{data.name} (logo)", title: data.name
