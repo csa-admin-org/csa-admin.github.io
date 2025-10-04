@@ -2,7 +2,7 @@ en:
   about:
     application: open-source web application
     other_orgs: many other organizations
-    text: Initially created to simplify the management of %{ragedevert} in Neuchâtel (CH), CSA Admin has continuously improved and expanded over the years to meet the diverse needs of %{other_orgs} in Switzerland. CSA Admin is an %{application}. It aims to be simple, efficient, and intuitive. It is developed with passion by %{author}, who has been committed for over 10 years to simplifying the lives of CSAs to help them thrive.
+    text: Initially created to simplify the management of %{ragedevert} in Neuchâtel (CH), CSA Admin has continuously improved and expanded over the years to meet the diverse needs of %{other_orgs} in Switzerland and Germany. CSA Admin is an %{application}. It aims to be simple, efficient, and intuitive. It is developed with passion by %{author}, who has been committed for over 10 years to simplifying the lives of CSAs to help them thrive.
     title: About CSA&nbsp;Admin
   call_to_action: Request a demo
   contact:
@@ -29,7 +29,7 @@ en:
       description: Registration form, waiting list, supporting members, <strong>trial baskets</strong>, supplements, … everything is provided to efficiently manage your members and their subscriptions.
       title: Members and Memberships
     opensource:
-      description: Fully translated into English, French, German, and Italian, CSA Admin is also developed as %{opensource_link} under the %{mit_link}, so you can participate and propose improvements.
+      description: Fully translated into English, French, German, Italian, and Dutch, CSA Admin is also developed as %{opensource_link} under the %{mit_link}, so you can participate and propose improvements.
       mit_license: MIT license
       opensource: open source
       title: Multilingual and Open Source

@@ -2,7 +2,7 @@ de:
   about:
     application: Open-Source-Webanwendung
     other_orgs: zahlreichen anderen Organisationen
-    text: Ursprünglich entwickelt, um die Verwaltung von %{ragedevert} in Neuchâtel (CH) zu vereinfachen, entwickelt sich CSA Admin stetig weiter, um den vielfältigen Anforderungen von %{other_orgs} in der Schweiz gerecht zu werden. CSA Admin ist eine %{application}. Es soll einfach, effizient und intuitiv sein. Mit Leidenschaft entwickelt %{author} CSA Admin seit über 10 Jahren, um den Alltag in CSAs zu erleichtern.
+    text: Ursprünglich entwickelt, um die Verwaltung von %{ragedevert} in Neuchâtel (CH) zu vereinfachen, entwickelt sich CSA Admin stetig weiter, um den vielfältigen Anforderungen von %{other_orgs} in der Schweiz und Deutschland gerecht zu werden. CSA Admin ist eine %{application}. Es soll einfach, effizient und intuitiv sein. Mit Leidenschaft entwickelt %{author} CSA Admin seit über 10 Jahren, um den Alltag in CSAs zu erleichtern.
     title: Über CSA&nbsp;Admin
   call_to_action: Demo anfordern
   contact:
@@ -29,7 +29,7 @@ de:
       description: Mit Anmeldeformular, Warteliste, Sympathisanten, Passivmitgliedern, <strong>Probianteile</strong> und Zusatzanteilen verwalten Sie Ihre Mitglieder und Abonnements mühelos.
       title: Mitglieder und Abonnements
     opensource:
-      description: Verfügbar in Französisch, Deutsch, Italienisch und Englisch – CSA Admin ist zudem als %{opensource_link} unter der %{mit_link} erhältlich. So können Sie aktiv mitgestalten.
+      description: Verfügbar in Französisch, Deutsch, Italienisch, Niederländisch und Englisch – CSA Admin ist zudem als %{opensource_link} unter der %{mit_link} erhältlich. So können Sie aktiv mitgestalten.
       mit_license: MIT-Lizenz
       opensource: Open-Source-Anwendung
       title: Mehrsprachig und Open Source
