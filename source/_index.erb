@@ -1,0 +1,116 @@
+<h1 class="mt-12 md:mt-28 mx-2 md:mx-auto md:w-5/6 text-center tracking-tight text-4xl md:text-6xl font-extrabold">
+  <%= I18n.t 'title', org_name: content_tag(:span, t("org_name"), class: "text-logo-green drop-shadow-sm", title: t("org_name_definition")) %>
+</h1>
+
+<h2 class="mt-4 mx-auto md:w-4/6 text-center md:leading-normal text-xl font-light">
+  <%= I18n.t 'subtitle', orgs_link: link_to(t('subtitle_orgs_link'), '#organizations') %>
+</h2>
+
+<div class="mt-12 md:mt-8 block text-center">
+  <%= link_to t('call_to_action'), '#contact', class: 'mx-auto text-center px-6 py-3 bg-logo-green hover:bg-green-700 text-base md:text-lg text-white hover:text-white no-underline font-bold rounded-full' %>
+</div>
+
+<h3 id="features" class="mt-16 pt-8 mx-auto md:w-5/6 text-center tracking-tight text-2xl md:text-4xl font-extrabold">
+  <%= t("features.title") %>
+</h3>
+<p class="mt-2 mx-auto md:w-4/6 text-center md:leading-normal text-xl font-normal">
+  <%= t("features.subtitle") %>
+</p>
+
+<div class="mt-10 md:grid md:grid-cols-3 md:gap-6">
+  <%= partial 'feature', locals: { \
+      logo: 'user-group', \
+      title: t('features.memberships.title'), \
+      description: t('features.memberships.description') \
+    } %>
+  <%= partial 'feature', locals: { \
+      logo: 'calendar-days', \
+      title: t('features.deliveries.title'), \
+      description: t('features.deliveries.description') \
+    } %>
+  <%= partial 'feature', locals: { \
+      logo: 'banknotes', \
+      title: t('features.billing.title'), \
+      description: t('features.billing.description') \
+    } %>
+  <%= partial 'feature', locals: { \
+      logo: 'arrow-path', \
+      title: t('features.renewal.title'), \
+      description: t('features.renewal.description') \
+    } %>
+  <%= partial 'feature', locals: { \
+      logo: 'chat-bubble-left-right', \
+      title: t('features.communication.title'), \
+      description: t('features.communication.description') \
+    } %>
+  <%= partial 'feature', locals: { \
+      logo: 'globe-europe-africa', \
+      title: t('features.opensource.title'), \
+      description: I18n.t('features.opensource.description',
+        opensource_link: link_to(t('features.opensource.opensource'), data.site.repository), \
+        mit_link: link_to(t('features.opensource.mit_license'), 'https://wikipedia.org/wiki/MIT_License') \
+      ) \
+    } %>
+</div>
+
+<h3 class="mt-24 mx-auto md:w-5/6 text-center tracking-tight text-2xl md:text-4xl font-extrabold">
+  <%= t("features.title2") %>
+</h3>
+<p class="mt-2 mx-auto md:w-7/12 text-center md:leading-normal text-xl font-normal">
+  <%= t("features.subtitle2") %>
+</p>
+
+<div class="mt-10 md:grid md:grid-cols-3 mg:gap-4 lg:gap-6">
+  <%= partial 'feature', locals: { \
+      logo: 'building-storefront', \
+      title: t('features.shop.title'), \
+      description: t('features.shop.description') \
+    } %>
+  <%= partial 'feature', locals: { \
+      logo: 'shopping-bag', \
+      title: t('features.basket_content.title'), \
+      description: t('features.basket_content.description') \
+    } %>
+  <%= partial 'feature', locals: { \
+      logo: 'wrench-screwdriver', \
+      title: t('features.activity.title'), \
+      description: t('features.activity.description') \
+    } %>
+</div>
+
+<h3 id="organizations" class="mt-16 pt-8 mx-auto md:w-5/6 text-center tracking-tight text-2xl md:text-4xl font-extrabold">
+  <%= t("organizations.title") %>
+</h3>
+<p class="mt-2 mx-auto md:w-7/12 text-center md:leading-normal text-xl font-normal">
+  <%= t("organizations.subtitle") %>
+</p>
+
+<div class="mt-10 mx-auto px-4 grid grid-cols-3 md:grid-cols-7 gap-6 lg:gap-8">
+  <% data.organizations.each do |org, data| %>
+    <%= link_to image_tag("https://cdn.csa-admin.org/logos/#{org}", alt: "#{data.name} (logo)", title: data.name), data.url, class: 'size-16 md:size-20 lg:size-24 mx-auto flex items-center no-underline', title: data.name %>
+  <% end %>
+</div>
+
+<h4 id="contact" class="mt-20 pt-8 mx-auto md:w-5/6 text-center text-xl md:text-3xl font-bold">
+  <%= t("contact.title") %>
+</h4>
+<p class="mt-4 mx-auto md:w-7/12 text-justify leading-normal text-lg">
+  <%= I18n.t("contact.text", \
+    mail: link_to(data.site.contact.email, data.site.contact.email_link, class: 'whitespace-nowrap'), \
+    phone: link_to(data.site.contact.phone, data.site.contact.phone_link, class: 'whitespace-nowrap') \
+  ) %>
+</p>
+
+<span class="mt-16 mx-auto block w-52 h-1 rounded-full bg-gradient-to-r from-logo-green to-green-600"></span>
+
+<h4 id="about" class="mt-8 pt-8 mx-auto md:w-5/6 text-center text-xl md:text-3xl font-bold">
+  <%= t("about.title") %>
+</h4>
+<p class="mt-4 mx-auto md:w-7/12 text-justify leading-normal text-lg">
+  <%= I18n.t("about.text", \
+    ragedevert: link_to('Rage de Vert', 'https://www.ragedevert.ch', class: 'whitespace-nowrap'), \
+    other_orgs: link_to(t('about.other_orgs'), '#organizations'), \
+    application: link_to(t('about.application'), data.site.repository), \
+    author: link_to(data.site.author.name, data.site.author.website, class: 'whitespace-nowrap') \
+  ) %>
+</p>
