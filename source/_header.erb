@@ -29,8 +29,7 @@
     <%= link_to t('header.about'), '#about', class: 'text-gray-800 text-lg font-medium' %>
   </div>
 
-  <div class="flex flex-col items-center md:items-end w-full md:w-fit mt-6 md:mt-0 md:ml-16 justify-center md:justify-end">
-    <%= link_to (inline_svg('envelope.svg', class: 'w-5 h-5 md:order-2 mr-2 md:mr-0 md:ml-3 mt-0.5', alt: t('email')) + content_tag(:strong, data.site.contact.email, class: 'font-semibold md:order-1')).html_safe, data.site.contact.email_link, class: 'flex items-center no-underline text-gray-800', title: t('email') %>
-    <%= link_to (inline_svg('phone.svg', class: 'w-5 h-5 md:order-2 mr-2 md:mr-0 md:ml-3', alt: t('phone')) + content_tag(:strong, data.site.contact.phone, class: 'font-semibold md:order-1')).html_safe, data.site.contact.phone_link, class: 'mt-0.5 flex items-center no-underline text-gray-800', title: t('phone') %>
+  <div class="flex items-center gap-4 w-full md:text-base md:w-fit mt-6 md:mt-0 md:ml-16 justify-center md:justify-end">
+    <%= link_to (inline_svg('envelope.svg', class: 'w-6 h-6 md:order-2 mr-2 md:mr-0 md:ml-2 mt-0.5', alt: t('email')) + content_tag(:strong, data.site.contact.email, class: 'font-semibold md:order-1')).html_safe, data.site.contact.email_link, class: 'flex items-center no-underline text-gray-800', title: t('email') %>
   </div>
 </header

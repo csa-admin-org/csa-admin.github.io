@@ -1,19 +1,17 @@
-name: 'CSA Admin'
-host: 'https://csa-admin.org'
-thumbnail: 'logo.svg'
-favicon: '_favicon_template.svg'
-base_color: '#21952F'
-repository: 'https://github.com/csa-admin-org/csa-admin'
-license: 'MIT'
+name: "CSA Admin"
+host: "https://csa-admin.org"
+thumbnail: "logo.svg"
+favicon: "_favicon_template.svg"
+base_color: "#21952F"
+repository: "https://github.com/csa-admin-org/csa-admin"
+license: "MIT"
 contact:
-  email: 'info@csa-admin.org'
-  email_link: 'mailto:info@csa-admin.org'
-  phone: '+41 76 449 59 38'
-  phone_link: 'tel:+41764495938'
+  email: "info@csa-admin.org"
+  email_link: "mailto:info@csa-admin.org"
 author:
-  name: 'Thibaud Guillaume-Gentil'
-  email: 'thibaud@thibaud.gg'
-  website: 'https://thibaud.gg'
+  name: "Thibaud Guillaume-Gentil"
+  email: "thibaud@thibaud.gg"
+  website: "https://thibaud.gg"
 
 jsonld:
   "@context": "http://schema.org"

@@ -6,7 +6,7 @@ en:
     title: About CSA&nbsp;Admin
   call_to_action: Request a demo
   contact:
-    text: Would you like to know more about CSA Admin? Do you have any questions? Feel free to contact me for more information and/or to schedule a demo. You can reach me by email at %{mail}, or by phone at %{phone}. I'll be happy to answer all your questions.
+    text: Would you like to know more about CSA Admin? Do you have any questions? Feel free to contact me for more information and/or to schedule a demo. You can reach me by email at %{mail}. I'll be happy to answer all your questions.
     title: Interested? Request&nbsp;a&nbsp;demo!
   email: Email
   features:

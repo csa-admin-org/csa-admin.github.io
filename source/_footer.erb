@@ -17,16 +17,15 @@
     </li>
   </ul>
 
+  <div class="mt-4 md:mt-8 flex flex-col md:flex-row items-center md:justify-center">
+    <%= link_to (inline_svg('envelope.svg', class: 'w-5 h-5 mr-2 mt-0.5', alt: t('email')) + content_tag(:strong, data.site.contact.email, class: 'font-semibold')).html_safe, data.site.contact.email_link, class: 'flex items-center no-underline', title: t('email') %>
+  </div>
+
   <div class="mt-8 md:mt-16 flex items-center justify-center">
     <%= inline_svg 'logo.svg', class: 'fill-current w-8 h-8', alt: t("logo_alt") %>
     <strong class="text-logo-green ml-2 font-bold text-lg tracking-tight">
       <%= data.site.name %>
     </strong>
-  </div>
-
-  <div class="mt-4 md:mt-8 flex flex-col md:flex-row items-center md:justify-center">
-    <%= link_to (inline_svg('envelope.svg', class: 'w-5 h-5 mr-2 mt-0.5', alt: t('email')) + content_tag(:strong, data.site.contact.email, class: 'font-semibold')).html_safe, data.site.contact.email_link, class: 'md:mr-8 flex items-center no-underline', title: t('email') %>
-    <%= link_to (inline_svg('phone.svg', class: 'w-5 h-5 mr-2', alt: t('phone')) + content_tag(:strong, data.site.contact.phone, class: 'font-semibold')).html_safe, data.site.contact.phone_link, class: 'mt-2 md:mt-0 flex items-center no-underline', title: t('phone') %>
   </div>
 
   <p class="mt-4 md:mt-8 text-center text-sm text-gray-500">
