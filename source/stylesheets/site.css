@@ -692,6 +692,10 @@ strong {
   height: 1.25rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -706,6 +710,10 @@ strong {
 
 .w-52 {
   width: 13rem;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .w-8 {
@@ -1026,16 +1034,12 @@ strong {
     margin-left: 4rem;
   }
 
-  .md\:ml-3 {
-    margin-left: 0.75rem;
+  .md\:ml-2 {
+    margin-left: 0.5rem;
   }
 
   .md\:mr-0 {
     margin-right: 0px;
-  }
-
-  .md\:mr-8 {
-    margin-right: 2rem;
   }
 
   .md\:mt-0 {
@@ -1110,10 +1114,6 @@ strong {
 
   .md\:flex-nowrap {
     flex-wrap: nowrap;
-  }
-
-  .md\:items-end {
-    align-items: flex-end;
   }
 
   .md\:justify-start {
