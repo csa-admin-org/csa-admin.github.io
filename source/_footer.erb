@@ -1,19 +1,19 @@
 <footer class="w-full pt-32 pb-4">
   <ul class="flex justify-center items-center tracking-tight gap-2 text-lg">
     <li>
-      <%= link_to 'EN', '/', class: 'font-semibold p-1' %>
+      <%= link_to "EN", "/", class: "font-semibold p-1 #{"active" unless current_page?("/") }" %>
     </li>
     <li class="text-gray-500 font-extralight text-xs">
       /
     </li>
     <li>
-      <%= link_to 'FR', '/acp', class: 'font-semibold p-1' %>
+      <%= link_to "FR", '/acp', class: "font-semibold p-1 #{"active" unless current_page?('/acp') }" %>
     </li>
     <li class="text-gray-500 font-extralight text-xs">
       /
     </li>
     <li>
-      <%= link_to 'DE', '/solawi', class: 'font-semibold p-1' %>
+      <%= link_to 'DE', '/solawi', class: "font-semibold p-1 #{"active" unless current_page?('/solawi') }" %>
     </li>
   </ul>
 
