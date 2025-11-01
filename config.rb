@@ -12,8 +12,8 @@ activate :tailwind do |config|
 end
 activate :livereload
 activate :i18n,
-  mount_at_root: :en,
-  lang_map: { fr: :acp, de: :solawi }
+         mount_at_root: :en,
+         lang_map: { fr: :acp, de: :solawi }
 
 configure :development do
   set      :debug_assets, true
@@ -29,8 +29,8 @@ configure :build do
   activate :minify_html
   activate :relative_assets
   activate :robots,
-    rules: [{ user_agent: '*', allow: %w[/] }],
-    sitemap: File.join(@app.data.site.host, 'sitemap.xml')
+           rules: [{ user_agent: '*', allow: %w[/] }],
+           sitemap: File.join(@app.data.site.host, 'sitemap.xml')
 end
 activate :inline_svg
 
@@ -58,3 +58,9 @@ set :favicons, [
     icon: 'favicon.ico'
   }
 ]
+
+helpers do
+  def current_page?(path)
+    current_page.url.chomp('/') == path.chomp('/')
+  end
+end

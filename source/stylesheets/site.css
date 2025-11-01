@@ -456,6 +456,12 @@ a:hover {
   color: rgb(21 137 35 / var(--tw-text-opacity));
 }
 
+a {
+  &.active {
+    text-decoration-line: none;
+  }
+}
+
 p {
   margin-top: 1.25rem;
   line-height: 1.375;
