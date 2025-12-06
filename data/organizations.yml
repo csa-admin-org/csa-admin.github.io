@@ -61,9 +61,7 @@ alpgrava:
 locali:
   name: Les Paniers Locali
   url: https://panier-locali.ch
-wurzelkollektiv:
-  name: Wurzel Kollektiv
-  url: https://wurzelkollektiv.de
+
 fermedesverpilleres:
   name: Ferme des Verpillères
   url: https://ferme-des-verpilleres.ch
