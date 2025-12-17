@@ -29,8 +29,8 @@ en:
       description: Registration form, waiting list, supporting members, <strong>trial baskets</strong>, supplements, … everything is provided to efficiently manage your members and their subscriptions.
       title: Members and Memberships
     opensource:
-      description: Fully translated into English, French, German, Italian, and Dutch, CSA Admin is also developed as %{opensource_link} under the %{mit_link}, so you can participate and propose improvements.
-      mit_license: MIT license
+      description: Fully translated into English, French, German, Italian, and Dutch, CSA Admin is also developed as %{opensource_link} under the %{license_link}, so you can participate and propose improvements.
+      license: O'Saasy license
       opensource: open source
       title: Multilingual and Open Source
     renewal:
