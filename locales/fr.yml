@@ -29,8 +29,8 @@ fr:
       description: Formulaire d'inscription, liste d'attente, membres de soutien, <strong>paniers à l'essai</strong>, compléments, … tout est prévu pour gérer efficacement vos membres et leurs abonnements.
       title: Membres et abonnements
     opensource:
-      description: Entièrement traduite en français, allemand, italien, néerlandais et anglais, CSA Admin est aussi développée en %{opensource_link} sous la %{mit_link}, vous pouvez donc participer et proposer des améliorations.
-      mit_license: licence MIT
+      description: Entièrement traduite en français, allemand, italien, néerlandais et anglais, CSA Admin est aussi développée en %{opensource_link} sous la %{license_link}, vous pouvez donc participer et proposer des améliorations.
+      license: licence O'Saasy
       opensource: open source
       title: Multilingue et open source
     renewal:

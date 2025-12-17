@@ -29,8 +29,8 @@ de:
       description: Mit Anmeldeformular, Warteliste, Sympathisanten, Passivmitgliedern, <strong>Probianteile</strong> und Zusatzanteilen verwalten Sie Ihre Mitglieder und Abonnements mühelos.
       title: Mitglieder und Abonnements
     opensource:
-      description: Verfügbar in Französisch, Deutsch, Italienisch, Niederländisch und Englisch – CSA Admin ist zudem als %{opensource_link} unter der %{mit_link} erhältlich. So können Sie aktiv mitgestalten.
-      mit_license: MIT-Lizenz
+      description: Verfügbar in Französisch, Deutsch, Italienisch, Niederländisch und Englisch – CSA Admin ist zudem als %{opensource_link} unter der %{license_link} erhältlich. So können Sie aktiv mitgestalten.
+      license: O'Saasy-Lizenz
       opensource: Open-Source-Anwendung
       title: Mehrsprachig und Open Source
     renewal:

@@ -4,7 +4,6 @@ thumbnail: "logo.svg"
 favicon: "_favicon_template.svg"
 base_color: "#21952F"
 repository: "https://github.com/csa-admin-org/csa-admin"
-license: "MIT"
 contact:
   email: "info@csa-admin.org"
   email_link: "mailto:info@csa-admin.org"
