@@ -16,9 +16,6 @@ croquterre:
 alabellecourgette:
   name: À la Belle Courgette
   url: https://www.alabellecourgette.ch
-lesjardinsdouchy:
-  name: Les Jardins d'Ouchy
-  url: https://www.lesjardinsdouchy.ch
 lamule:
   name: Les paniers de la mule
   url: https://lamule.ch
@@ -58,10 +55,9 @@ latouviere:
 alpgrava:
   name: Alp Grava
   url: https://alpgrava.ch
-locali:
-  name: Les Paniers Locali
-  url: https://panier-locali.ch
-
+filierealimentaire:
+  name: Paniers CAP
+  url: https://filierealimentaire.ch
 fermedesverpilleres:
   name: Ferme des Verpillères
   url: https://ferme-des-verpilleres.ch
@@ -86,9 +82,6 @@ fairdura:
 wilderauke:
   name: Wilde Rauke
   url: https://www.wilde-rauke.de
-baieattitude:
-  name: Baie-Attitude
-  url: https://www.baie-attitude.ch
 boisdunant:
   name: La Ferme de Bois du Nant
   url: https://ferme-boisdunant.ch
