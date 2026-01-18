@@ -3,7 +3,7 @@
 </h1>
 
 <h2 class="mt-4 mx-auto md:w-4/6 text-center md:leading-normal text-xl font-light">
-  <%= I18n.t 'subtitle', orgs_link: link_to(t('subtitle_orgs_link'), '#organizations') %>
+  <%= I18n.t 'subtitle', orgs_link: link_to(t('subtitle_orgs_link'), '#organizations'), baskets_count: format_number(data.site.baskets_count) %>
 </h2>
 
 <div class="mt-12 md:mt-8 block text-center">

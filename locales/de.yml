@@ -60,6 +60,6 @@ de:
     description: Open-Source-Webanwendung für effiziente Solawi-Verwaltung (Solidarische Landwirtschaft). Vereinfachen Sie Ihre Abläufe – Demo jetzt anfordern!
     title: "CSA Admin - Effizientere Verwaltung Ihrer Solawi"
     path: /solawi
-  subtitle: Seit 2014 nutzen %{orgs_link} CSA Admin, um ihre täglichen Aufgaben zu erleichtern und die jährliche Verteilung von über <strong>100.000 Anteilen</strong> zu verwalten. Schließen Sie sich ihnen an!
+  subtitle: Seit 2014 nutzen %{orgs_link} CSA Admin, um ihre täglichen Aufgaben zu erleichtern und die jährliche Verteilung von über <strong>%{baskets_count} Anteilen</strong> zu verwalten. Schließen Sie sich ihnen an!
   subtitle_orgs_link: zahlreiche&nbsp;Organisationen
   title: Effizientere %{org_name}&#8209;Verwaltung.
