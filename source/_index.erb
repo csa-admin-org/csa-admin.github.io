@@ -94,7 +94,7 @@
 <h2 id="contact" class="mt-20 pt-8 mx-auto md:w-5/6 text-center text-xl md:text-3xl font-bold scroll-mt-24">
   <%= t("contact.title") %>
 </h2>
-<p class="mt-4 mx-auto md:w-7/12 text-justify leading-normal text-lg">
+<p class="mt-4 mx-auto md:w-7/12 text-pretty text-justify leading-normal text-lg">
   <%= I18n.t("contact.text", mail: link_to(data.site.contact.email, data.site.contact.email_link, class: 'whitespace-nowrap')) %>
 </p>
 
@@ -103,7 +103,7 @@
 <h2 id="about" class="mt-8 pt-8 mx-auto md:w-5/6 text-center text-xl md:text-3xl font-bold scroll-mt-24">
   <%= t("about.title") %>
 </h2>
-<p class="mt-4 mx-auto md:w-7/12 text-justify leading-normal text-lg">
+<p class="mt-4 mx-auto md:w-7/12 text-pretty text-justify leading-normal text-lg">
   <%= I18n.t("about.text", \
     ragedevert: link_to('Rage de Vert', 'https://www.ragedevert.ch', class: 'whitespace-nowrap'), \
     other_orgs: link_to(t('about.other_orgs'), '#organizations'), \
