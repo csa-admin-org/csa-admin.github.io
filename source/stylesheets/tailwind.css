@@ -19,3 +19,10 @@
     @apply font-semibold;
   }
 }
+
+@layer utilities {
+  /* Improved color contrast for footer text - WCAG AA compliant */
+  .text-footer {
+    @apply text-gray-600;
+  }
+}

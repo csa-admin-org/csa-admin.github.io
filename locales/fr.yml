@@ -1,13 +1,14 @@
 fr:
+  skip_to_content: Aller au contenu principal
   about:
     application: application web open source
     other_orgs: de nombreuses autres organisations
     text: Initialement créée pour simplifier la gestion de %{ragedevert} à Neuchâtel (CH), CSA Admin n'a cessé de s'améliorer et de s'agrandir au fil des années pour répondre aux besoins divers et variés %{other_orgs} en Suisse et en Allemagne. CSA Admin est une %{application}. Elle se veut simple, efficace et intuitive. Elle est développée avec passion par %{author}, qui s'engage depuis plus de 10 ans à simplifier la vie des ACP pour les aider à prospérer.
-    title: À propos de CSA&nbsp;Admin
+    title: À propos de CSA Admin
   call_to_action: Demander une démo
   contact:
     text: Vous souhaitez en savoir plus sur CSA Admin? Vous avez des questions? N'hésitez pas à me contacter pour plus d'informations et/ou pour planifier une démo. Vous pouvez me joindre par e-mail à l'adresse %{mail}. Je me ferai un plaisir de répondre à toutes vos questions.
-    title: Intéressé·e? Demandez&nbsp;une&nbsp;démo!
+    title: Intéressé·e? Demandez une démo!
   email: E-mail
   features:
     activity:
@@ -53,13 +54,14 @@ fr:
   org_name: ACP
   org_name_definition: Agriculture Contractuelle de Proximité
   organizations:
-    subtitle: Que vous soyez une association, une coopérative, une entreprise ou un particulier, CSA&nbsp;Admin s'adapte à vos besoins.
-    title: Ils·Elles utilisent CSA&nbsp;Admin
+    logo_alt: "Logo de %{name}"
+    subtitle: Que vous soyez une association, une coopérative, une entreprise ou un particulier, CSA Admin s'adapte à vos besoins.
+    title: Ils·Elles utilisent CSA Admin
   phone: Téléphone
   site:
     description: Application web open source pour gérer efficacement votre ACP (Agriculture Contractuelle de Proximité). Simplifiez vos opérations, demandez une démo!
     title: CSA Admin - Simplifiez la gestion de votre ACP
     path: /acp
-  subtitle: Depuis 2014, %{orgs_link} utilisent CSA Admin pour faciliter leurs tâches quotidiennes et gérer la distribution annuelle de plus de <strong>%{baskets_count} paniers</strong>. Rejoignez-les !
-  subtitle_orgs_link: de&nbsp;nombreuses&nbsp;organisations
-  title: Simplifiez la gestion de votre&nbsp;%{org_name}.
+  subtitle: Depuis 2014, %{orgs_link} utilisent CSA Admin pour faciliter leurs tâches quotidiennes et gérer la distribution annuelle de plus de <span class='font-semibold'>%{baskets_count} paniers</span>. Rejoignez-les !
+  subtitle_orgs_link: <span class="whitespace-nowrap">de nombreuses organisations</span>
+  title: Simplifiez la gestion de <span class="whitespace-nowrap">votre %{org_name}.</span>

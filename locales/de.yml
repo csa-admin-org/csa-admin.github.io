@@ -1,13 +1,14 @@
 de:
+  skip_to_content: Zum Hauptinhalt springen
   about:
     application: Open-Source-Webanwendung
     other_orgs: zahlreichen anderen Organisationen
     text: Ursprünglich entwickelt, um die Verwaltung von %{ragedevert} in Neuchâtel (CH) zu vereinfachen, entwickelt sich CSA Admin stetig weiter, um den vielfältigen Anforderungen von %{other_orgs} in der Schweiz und Deutschland gerecht zu werden. CSA Admin ist eine %{application}. Es soll einfach, effizient und intuitiv sein. Mit Leidenschaft entwickelt %{author} CSA Admin seit über 10 Jahren, um den Alltag in CSAs zu erleichtern.
-    title: Über CSA&nbsp;Admin
+    title: Über CSA Admin
   call_to_action: Demo anfordern
   contact:
-    text: Möchten Sie mehr über CSA Admin erfahren? Haben Sie Fragen? Zögern Sie nicht, mich für weitere Informationen und/oder zur Vereinbarung einer Demo zu kontaktieren. Sie können mich per E-Mail unter %{mail}. Ich beantworte gerne alle Ihre Fragen.
-    title: Interessiert? Fordern&nbsp;Sie&nbsp;eine&nbsp;Demo&nbsp;an!
+    text: Möchten Sie mehr über CSA Admin erfahren? Haben Sie Fragen? Zögern Sie nicht, mich für weitere Informationen und/oder zur Vereinbarung einer Demo zu kontaktieren. Sie können mich per E-Mail unter %{mail} erreichen. Ich beantworte gerne alle Ihre Fragen.
+    title: Interessiert? Fordern Sie eine Demo an!
   email: E-Mail
   features:
     activity:
@@ -17,10 +18,10 @@ de:
       description: Verteilen Sie Ihre Ernten effizient, indem Sie die Größe oder den Preis der Anteile berücksichtigen – und behalten Sie dabei stets den Wert Ihrer Anteile sowie den Ernteverlauf im Blick.
       title: Anteilinhalt und -wert
     billing:
-      description: Erstellt und versendet QR-Rechnungen, überwacht tägliche Zahlungseingänge (EBICS) und SEPA-Lastschriften und verschickt automatisch Mahnungen.
+      description: Erstellt und versendet QR-Rechnungen, überwacht tägliche Zahlungseingänge (EBICS), unterstützt <strong>SEPA-Lastschriften</strong> und verschickt automatisch Mahnungen.
       title: Automatisierte Abrechnung
     communication:
-      description: Passen Sie jede E-Mail individuell an – von Inhalt bis Stil. Unser integriertes Newsletter-System macht’s möglich.
+      description: Passen Sie jede E-Mail individuell an – von Inhalt bis Stil. Unser integriertes Newsletter-System macht's möglich.
       title: Personalisierte Kommunikation
     deliveries:
       description: Planen Sie Ihre Lieferungen flexibel – egal, ob zwei Lieferungen pro Woche oder jede zweite Woche. Abwesenheiten werden automatisch berücksichtigt.
@@ -53,13 +54,14 @@ de:
   org_name: "Solawi"
   org_name_definition: "Solidarische Landwirtschaft"
   organizations:
-    subtitle: Ob Sie ein Verein, eine Genossenschaft, ein Unternehmen oder eine Einzelperson sind, CSA&nbsp;Admin passt sich Ihren Bedürfnissen an.
-    title: Sie nutzen CSA&nbsp;Admin
+    logo_alt: "Logo von %{name}"
+    subtitle: Ob Sie ein Verein, eine Genossenschaft, ein Unternehmen oder eine Einzelperson sind, CSA Admin passt sich Ihren Bedürfnissen an.
+    title: Sie nutzen CSA Admin
   phone: Telefon
   site:
     description: Open-Source-Webanwendung für effiziente Solawi-Verwaltung (Solidarische Landwirtschaft). Vereinfachen Sie Ihre Abläufe – Demo jetzt anfordern!
     title: "CSA Admin - Effizientere Verwaltung Ihrer Solawi"
     path: /solawi
-  subtitle: Seit 2014 nutzen %{orgs_link} CSA Admin, um ihre täglichen Aufgaben zu erleichtern und die jährliche Verteilung von über <strong>%{baskets_count} Anteilen</strong> zu verwalten. Schließen Sie sich ihnen an!
-  subtitle_orgs_link: zahlreiche&nbsp;Organisationen
-  title: Effizientere %{org_name}&#8209;Verwaltung.
+  subtitle: Seit 2014 nutzen %{orgs_link} CSA Admin, um ihre täglichen Aufgaben zu erleichtern und die jährliche Verteilung von über <span class='font-semibold'>%{baskets_count} Anteilen</span> zu verwalten. Schließen Sie sich ihnen an!
+  subtitle_orgs_link: <span class="whitespace-nowrap">zahlreiche Organisationen</span>
+  title: Effizientere <span class="whitespace-nowrap">%{org_name}-Verwaltung.</span>

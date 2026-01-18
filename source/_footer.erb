@@ -3,13 +3,13 @@
     <li>
       <%= link_to "EN", "/", class: "font-semibold p-1 #{"active" unless current_page?("/") }" %>
     </li>
-    <li class="text-gray-500 font-extralight text-xs">
+    <li class="text-gray-400 font-extralight text-xs">
       /
     </li>
     <li>
       <%= link_to "FR", '/acp', class: "font-semibold p-1 #{"active" unless current_page?('/acp') }" %>
     </li>
-    <li class="text-gray-500 font-extralight text-xs">
+    <li class="text-gray-400 font-extralight text-xs">
       /
     </li>
     <li>
@@ -28,7 +28,7 @@
     </strong>
   </div>
 
-  <p class="mt-4 md:mt-8 text-center text-sm text-gray-500">
-    <%= I18n.t("footer.developed_by", author_link: link_to(data.site.author.name, data.site.author.website, class: 'whitespace-nowrap no-underline text-gray-500 font-normal', title: "thibaud.gg")) %>
+  <p class="mt-4 md:mt-8 text-center text-sm text-gray-600">
+    <%= I18n.t("footer.developed_by", author_link: link_to(data.site.author.name, data.site.author.website, class: 'whitespace-nowrap no-underline text-gray-600 font-normal', title: "thibaud.gg")) %>
   </p>
 </footer>

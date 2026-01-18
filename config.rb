@@ -56,6 +56,11 @@ set :favicons, [
     rel: 'shortcut icon',
     size: '64x64,32x32,24x24,16x16',
     icon: 'favicon.ico'
+  },
+  {
+    rel: 'og-image',
+    size: '1200x630',
+    icon: 'og-image.png'
   }
 ]
 

@@ -1,14 +1,34 @@
 <!DOCTYPE html>
-<html class="bg-white antialiased scroll-smooth" lang="fr">
+<html class="bg-white antialiased scroll-smooth" lang="<%= I18n.locale %>">
   <head>
     <title><%= t('site.title') %></title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-language" content="<%= I18n.locale %>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="Description" content="<%= t('site.description') %>">
+    <meta name="description" content="<%= t('site.description') %>">
     <meta name="author" content="<%= data.site.author.name %>">
     <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<%= t('site.title') %>">
+    <meta property="og:description" content="<%= t('site.description') %>">
+    <meta property="og:url" content="https://csa-admin.org<%= t('site.path') %>">
+    <meta property="og:site_name" content="<%= data.site.name %>">
+    <meta property="og:image" content="https://csa-admin.org/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="<%= I18n.locale %>">
+    <meta property="og:locale:alternate" content="en">
+    <meta property="og:locale:alternate" content="fr">
+    <meta property="og:locale:alternate" content="de">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<%= t('site.title') %>">
+    <meta name="twitter:description" content="<%= t('site.description') %>">
+    <meta name="twitter:image" content="https://csa-admin.org/images/og-image.png">
 
     <link rel="canonical" href="https://csa-admin.org<%= t('site.path') %>">
     <link rel="alternate" hreflang="en" href="https://csa-admin.org">
@@ -19,7 +39,74 @@
     <script src="https://tinylytics.app/embed/VCNWP-XMyNphqWL6sBVi.js" defer="true"></script>
 
     <script type="application/ld+json">
-      <%= data.site.jsonld.to_json %>
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://csa-admin.org/#website",
+            "url": "https://csa-admin.org",
+            "name": "<%= data.site.name %>",
+            "description": "<%= t('site.description').gsub('"', '\\"') %>",
+            "inLanguage": ["en", "fr", "de"],
+            "publisher": {
+              "@id": "https://csa-admin.org/#organization"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://csa-admin.org/#organization",
+            "name": "<%= data.site.name %>",
+            "url": "https://csa-admin.org",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://csa-admin.org/images/logo.png"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "<%= data.site.contact.email %>",
+              "contactType": "customer service"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://csa-admin.org/#software",
+            "name": "<%= data.site.name %>",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "description": "<%= t('site.description').gsub('"', '\\"') %>",
+            "url": "https://csa-admin.org",
+            "author": {
+              "@type": "Person",
+              "name": "<%= data.site.author.name %>",
+              "url": "<%= data.site.author.website %>"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "CHF"
+            },
+            "softwareHelp": {
+              "@type": "CreativeWork",
+              "url": "<%= data.site.repository %>"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://csa-admin.org<%= t('site.path') %>/#webpage",
+            "url": "https://csa-admin.org<%= t('site.path') %>",
+            "name": "<%= t('site.title') %>",
+            "description": "<%= t('site.description').gsub('"', '\\"') %>",
+            "inLanguage": "<%= I18n.locale %>",
+            "isPartOf": {
+              "@id": "https://csa-admin.org/#website"
+            },
+            "about": {
+              "@id": "https://csa-admin.org/#software"
+            }
+          }
+        ]
+      }
     </script>
 
     <%= auto_display_favicon_tags %>
@@ -27,9 +114,12 @@
 
   </head>
   <body class="font-sans md:mx-auto md:max-w-7xl">
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-logo-green focus:text-white focus:rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-logo-green">
+      <%= t('skip_to_content') %>
+    </a>
     <div class="wrapper mx-4 md:mx-12">
       <%= partial 'header' %>
-      <main><%= yield %></main>
+      <main id="main-content"><%= yield %></main>
       <%= partial 'footer' %>
     </div>
   </body>

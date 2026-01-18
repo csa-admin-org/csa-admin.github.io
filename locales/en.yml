@@ -1,13 +1,14 @@
 en:
+  skip_to_content: Skip to main content
   about:
     application: open-source web application
     other_orgs: many other organizations
     text: Initially created to simplify the management of %{ragedevert} in Neuchâtel (CH), CSA Admin has continuously improved and expanded over the years to meet the diverse needs of %{other_orgs} in Switzerland and Germany. CSA Admin is an %{application}. It aims to be simple, efficient, and intuitive. It is developed with passion by %{author}, who has been committed for over 10 years to simplifying the lives of CSAs to help them thrive.
-    title: About CSA&nbsp;Admin
+    title: About CSA Admin
   call_to_action: Request a demo
   contact:
     text: Would you like to know more about CSA Admin? Do you have any questions? Feel free to contact me for more information and/or to schedule a demo. You can reach me by email at %{mail}. I'll be happy to answer all your questions.
-    title: Interested? Request&nbsp;a&nbsp;demo!
+    title: Interested? Request a demo!
   email: Email
   features:
     activity:
@@ -40,7 +41,7 @@ en:
       description: Offer your subscribers <strong>additional products</strong> to enhance their basket with each delivery. An online shop is available on their member account. Stock management included!
       title: Online Shop
     subtitle: "CSA Admin offers you a wide range of features specifically developed for the needs of <span class='whitespace-nowrap'><strong class='text-logo-green'>C</strong>ommunity <strong class='text-logo-green'>S</strong>upported <strong class='text-logo-green'>A</strong>griculture</span>."
-    subtitle2: "Each CSA is unique, so some modules are optional, at your convenience. Other&nbsp;needs? Just ask!"
+    subtitle2: "Each CSA is unique, so some modules are optional, at your convenience. Other needs? Just ask!"
     title: "Everything you need …"
     title2: "… and much more!"
   footer:
@@ -53,13 +54,14 @@ en:
   org_name: "CSA"
   org_name_definition: "Community Supported Agriculture"
   organizations:
-    subtitle: Whether you are an association, a cooperative, a business, or an individual, CSA&nbsp;Admin adapts to your needs.
-    title: They use CSA&nbsp;Admin
+    logo_alt: "Logo of %{name}"
+    subtitle: Whether you are an association, a cooperative, a business, or an individual, CSA Admin adapts to your needs.
+    title: They use CSA Admin
   phone: Phone
   site:
     description: Open-source web app to efficiently manage your CSA (Community Supported Agriculture). Simplify your operations and request a demo today!
     title: "CSA Admin - Streamline your CSA management"
     path: ""
-  subtitle: "Since 2014, %{orgs_link} have been using CSA Admin to facilitate their daily tasks and manage the annual distribution of over <strong>%{baskets_count} baskets</strong>. Join them!"
-  subtitle_orgs_link: many&nbsp;organizations
-  title: Streamline your&nbsp;%{org_name} management.
+  subtitle: "Since 2014, %{orgs_link} have been using CSA Admin to facilitate their daily tasks and manage the annual distribution of over <span class='font-semibold'>%{baskets_count} baskets</span>. Join them!"
+  subtitle_orgs_link: <span class="whitespace-nowrap">many organizations</span>
+  title: Streamline your <span class="whitespace-nowrap">%{org_name} management.</span>
