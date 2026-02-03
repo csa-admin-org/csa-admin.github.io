@@ -1,6 +1,4 @@
-@import "tailwindcss";
-
-@source "../../source/**/*.erb";
+@import "tailwindcss" source("../");
 
 @theme {
   --color-logo-green: #158923;
