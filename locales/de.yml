@@ -21,7 +21,7 @@ de:
       description: Erstellt und versendet QR-Rechnungen, überwacht tägliche Zahlungseingänge (EBICS), unterstützt <strong>SEPA-Lastschriften</strong> und verschickt automatisch Mahnungen.
       title: Automatisierte Abrechnung
     communication:
-      description: Passen Sie jede E-Mail individuell an – von Inhalt bis Stil. Unser integriertes Newsletter-System macht's möglich.
+      description: Passen Sie jede E-Mail individuell an – von Inhalt bis Stil. Ein integriertes <strong>Newsletter</strong>-System macht's möglich.
       title: Personalisierte Kommunikation
     deliveries:
       description: Planen Sie Ihre Lieferungen flexibel – egal, ob zwei Lieferungen pro Woche oder jede zweite Woche. Abwesenheiten werden automatisch berücksichtigt.
@@ -35,7 +35,7 @@ de:
       opensource: Open-Source-Anwendung
       title: Mehrsprachig und Open Source
     renewal:
-      description: Läuft ein Abo aus? Senden Sie mit einem Klick eine Verlängerungsanfrage an alle Abonnenten – das Verlängerungs- und Kündigungsformular finden Sie direkt in jedem Mitgliederkonto.
+      description: Senden Sie mit einem Klick eine <strong>Verlängerungsanfrage</strong> an alle Abonnenten. Eine <strong>Bieterunde</strong> ermöglicht danach solidarische Preisgestaltung.
       title: Vereinfachte Verlängerung
     shop:
       description: Erweitern Sie Ihr Angebot – im integrierten Online-Shop können Abonnenten zusätzliche Produkte bestellen, inklusive Bestandsverwaltung.
