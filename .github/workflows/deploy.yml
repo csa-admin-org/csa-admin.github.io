@@ -27,6 +27,9 @@ jobs:
         with:
           bundler-cache: true
 
+      - name: Generate Tailwind CSS
+        run: bundle exec tailwindcss -i source/stylesheets/tailwind.css -o source/stylesheets/site.css --minify
+
       - name: Build site with Middleman
         run: bundle exec middleman build
 

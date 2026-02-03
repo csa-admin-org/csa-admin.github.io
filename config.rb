@@ -31,10 +31,6 @@ configure :build do
            sitemap: File.join(@app.data.site.host, 'sitemap.xml')
 end
 
-before_build do
-  system 'tailwindcss -i source/stylesheets/tailwind.css -o source/stylesheets/site.css --minify'
-end
-
 activate :inline_svg
 
 helpers do
