@@ -1,6 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@source "../../source/**/*.erb";
+
+@theme {
+  --color-logo-green: #158923;
+}
 
 @layer base {
   a {

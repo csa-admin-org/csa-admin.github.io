@@ -5,11 +5,11 @@ include FaviconsHelper
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 set :url_root, @app.data.site.host
 
-activate :tailwind do |config|
-  config.destination_path = 'source/stylesheets/site.css'
-  config.css_path = 'source/stylesheets/tailwind.css'
-  config.config_path = 'tailwind.config.js'
-end
+activate :external_pipeline,
+         name: :tailwindcss,
+         command: build? ? 'tailwindcss -i source/stylesheets/tailwind.css -o source/stylesheets/site.css --minify' : 'tailwindcss -i source/stylesheets/tailwind.css -o source/stylesheets/site.css --watch',
+         source: 'source',
+         latency: 1
 activate :livereload
 activate :i18n,
          mount_at_root: :en,
