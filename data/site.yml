@@ -2,7 +2,6 @@ name: "CSA Admin"
 baskets_count: 140000
 host: "https://csa-admin.org"
 thumbnail: "logo.svg"
-favicon: "_favicon_template.svg"
 base_color: "#21952F"
 repository: "https://github.com/csa-admin-org/csa-admin"
 contact:

@@ -107,7 +107,9 @@
       }
     </script>
 
-    <%= auto_display_favicon_tags %>
+    <meta name="theme-color" content="<%= data.site.base_color %>">
+    <link rel="icon" href="<%= image_path('favicon.svg') %>" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="<%= image_path('apple-touch-icon.png') %>">
     <%= stylesheet_link_tag 'site' %>
 
   </head>
