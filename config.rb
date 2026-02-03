@@ -4,6 +4,12 @@ Dir['./*/*.rb'].each { |file| load file }
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 set :url_root, @app.data.site.host
 
+activate :external_pipeline,
+         name: :tailwindcss,
+         command: build? ? 'tailwindcss -i source/stylesheets/tailwind.css -o source/stylesheets/site.css --minify' : 'tailwindcss -i source/stylesheets/tailwind.css -o source/stylesheets/site.css --watch --minify',
+         source: 'source',
+         latency: 1
+
 activate :livereload
 activate :i18n,
          mount_at_root: :en,
@@ -11,12 +17,6 @@ activate :i18n,
 
 configure :development do
   set :debug_assets, true
-
-  activate :external_pipeline,
-           name: :tailwindcss,
-           command: 'tailwindcss -i source/stylesheets/tailwind.css -o source/stylesheets/site.css --watch',
-           source: 'source',
-           latency: 1
 end
 
 configure :build do
