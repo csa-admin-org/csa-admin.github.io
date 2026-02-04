@@ -27,7 +27,7 @@ fr:
       description: Planifiez facilement vos livraisons. Des besoins spéciaux, deux livraisons par semaine? Une semaine sur deux? C'est possible! Les <strong>absences</strong> sont également automatiquement déduites.
       title: Calendrier des livraisons
     memberships:
-      description: Formulaire d'inscription, liste d'attente, membres de soutien, <strong>paniers à l'essai</strong>, compléments, … tout est prévu pour gérer efficacement vos membres et leurs abonnements.
+      description: Formulaire d'inscription, liste d'attente, <strong>paniers à l'essai</strong>, compléments, … tout est prévu pour gérer efficacement vos membres, en conformité avec le <strong>RGPD/nLPD</strong>.
       title: Membres et abonnements
     opensource:
       description: Entièrement traduite en français, allemand, italien, néerlandais et anglais, CSA Admin est aussi développée en %{opensource_link} sous la %{license_link}, vous pouvez donc participer et proposer des améliorations.

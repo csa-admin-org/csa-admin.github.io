@@ -27,7 +27,7 @@ en:
       description: Easily plan your deliveries. Special needs, two deliveries per week? Every other week? It's possible! <strong>Absences</strong> are also automatically deducted.
       title: Delivery Schedule
     memberships:
-      description: Registration form, waiting list, supporting members, <strong>trial baskets</strong>, supplements, … everything is provided to efficiently manage your members and their subscriptions.
+      description: Registration form, waiting list, supporting members, <strong>trial baskets</strong>, supplements, … everything is provided to efficiently manage your members. <strong>GDPR/nFADP</strong> compliant.
       title: Members and Memberships
     opensource:
       description: Fully translated into English, French, German, Italian, and Dutch, CSA Admin is also developed as %{opensource_link} under the %{license_link}, so you can participate and propose improvements.

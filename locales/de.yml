@@ -27,7 +27,7 @@ de:
       description: Planen Sie Ihre Lieferungen flexibel – egal, ob zwei Lieferungen pro Woche oder jede zweite Woche. Abwesenheiten werden automatisch berücksichtigt.
       title: Lieferplan
     memberships:
-      description: Mit Anmeldeformular, Warteliste, Sympathisanten, Passivmitgliedern, <strong>Probianteile</strong> und Zusatzanteilen verwalten Sie Ihre Mitglieder und Abonnements mühelos.
+      description: Anmeldeformular, Warteliste, <strong>Probianteile</strong>, Zusatzanteile, … alles ist vorhanden, um Ihre Mitglieder effizient zu verwalten. <strong>DSGVO/nDSG</strong>-konform.
       title: Mitglieder und Abonnements
     opensource:
       description: Verfügbar in Französisch, Deutsch, Italienisch, Niederländisch und Englisch – CSA Admin ist zudem als %{opensource_link} unter der %{license_link} erhältlich. So können Sie aktiv mitgestalten.
