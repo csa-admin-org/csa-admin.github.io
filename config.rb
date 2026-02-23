@@ -22,7 +22,7 @@ end
 configure :build do
   set      :asset_host, @app.data.site.host
   set      :relative_links, true
-  activate :asset_hash
+  activate :asset_hash, ignore: %w[images/logo.png]
   activate :directory_indexes
   activate :gzip
   activate :relative_assets

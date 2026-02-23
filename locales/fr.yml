@@ -61,7 +61,7 @@ fr:
   site:
     description: Application web open source pour gérer efficacement votre ACP (Agriculture Contractuelle de Proximité). Simplifiez vos opérations, demandez une démo!
     title: CSA Admin - Simplifiez la gestion de votre ACP
-    path: /acp
+    path: /acp/
   subtitle: Depuis 2014, %{orgs_link} utilisent CSA Admin pour faciliter leurs tâches quotidiennes et gérer la distribution annuelle de plus de <span class='font-semibold'>%{baskets_count} paniers</span>. Rejoignez-les !
   subtitle_orgs_link: <span class="whitespace-nowrap">de nombreuses organisations</span>
   title: Simplifiez la gestion de <span class="whitespace-nowrap">votre %{org_name}.</span>
