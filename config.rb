@@ -37,4 +37,10 @@ helpers do
   def current_page?(path)
     current_page.url.chomp('/') == path.chomp('/')
   end
+
+  def locale_link_to(text, path, options = {})
+    path = "#{path}/" unless path.end_with?('/')
+    host = build? ? data.site.host : "http://localhost:#{config[:port]}"
+    link_to(text, "#{host}#{path}", options)
+  end
 end

@@ -3,19 +3,19 @@
     <%= inline_svg 'logo.svg', class: 'fill-current w-10 h-10 md:w-12 md:h-12', alt: t("logo_alt") %>
     <nav class="text-logo-green ml-3 font-bold text-2xl tracking-tight flex items-center">
       <span>
-        <%= link_to "CSA", "/", class: "font-bold  #{"no-underline" unless I18n.locale == :en} decoration-2 hover:underline" %>
+        <%= locale_link_to "CSA", "/", class: "font-bold #{"no-underline" unless I18n.locale == :en} decoration-2 hover:underline" %>
       </span>
       <span class="font-extralight text-base px-1 md:px-2">
         /
       </span>
       <span>
-        <%= link_to "ACP", "/acp/", class: "font-bold #{"no-underline" unless I18n.locale == :fr} decoration-2 hover:underline" %>
+        <%= locale_link_to "ACP", "/acp", class: "font-bold #{"no-underline" unless I18n.locale == :fr} decoration-2 hover:underline" %>
       </span>
       <span class="font-extralight text-base px-1 md:px-2">
         /
       </span>
       <span>
-        <%= link_to "Solawi", "/solawi/", class: "font-bold #{"no-underline" unless I18n.locale == :de} decoration-2 hover:underline" %>
+        <%= locale_link_to "Solawi", "/solawi", class: "font-bold #{"no-underline" unless I18n.locale == :de} decoration-2 hover:underline" %>
       </span>
       <span class="ml-3">
         Admin
