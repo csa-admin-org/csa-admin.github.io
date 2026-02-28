@@ -18,7 +18,7 @@ fr:
       description: Répartissez efficacement vos récoltes entre tous vos abonné·e·s, en fonction de la taille/prix des paniers. Suivez l'évolution de la valeur de vos paniers et des légumes au cours de l'année.
       title: Contenu et valeur des paniers
     billing:
-      description: Génération et envoi des <strong>factures QR</strong> avec numéro de référence par e-mail, <strong>relevé quotidien des paiements</strong> sur votre compte bancaire (EBICS), envoi des rappels, tout est sur pilote automatique!
+      description: Génération et envoi des <strong>factures QR</strong> avec numéro de référence par e-mail, <strong>relevé quotidien des paiements</strong> sur votre compte bancaire (EBICS), envoi des rappels, tout est automatisé!
       title: Facturation automatisée
     communication:
       description: Chaque e-mail envoyé à vos membres peut être facilement modifié. Choisissez le contenu et le style qui vous conviennent. Un système sophistiqué de <strong>newsletter</strong> est également intégré.

@@ -3,11 +3,11 @@ en:
   about:
     application: open-source web application
     other_orgs: many other organizations
-    text: Initially created to simplify the management of %{ragedevert} in Neuchâtel (CH), CSA Admin has continuously improved and expanded over the years to meet the diverse needs of %{other_orgs} in Switzerland and Germany. CSA Admin is an %{application}. It aims to be simple, efficient, and intuitive. It is developed with passion by %{author}, who has been committed for over 10 years to simplifying the lives of CSAs to help them thrive.
+    text: Initially created to simplify the management of %{ragedevert} in Neuchâtel (CH), CSA Admin has continuously improved and expanded over the years to meet the diverse needs of %{other_orgs} in Switzerland and Germany. CSA Admin is an %{application}. It aims to be simple, efficient, and intuitive. It is developed with passion by %{author}, who has been dedicated for over 10 years to making CSA administration easier.
     title: About CSA Admin
   call_to_action: Request a demo
   contact:
-    text: Would you like to know more about CSA Admin? Do you have any questions? Feel free to contact me for more information and/or to schedule a demo. You can reach me by email at %{mail}. I'll be happy to answer all your questions.
+    text: Would you like to know more about CSA Admin? Do you have any questions? Feel free to contact me for more information and/or to schedule a demo. You can reach me by email at %{mail}. I'm happy to answer any questions.
     title: Interested? Request a demo!
   email: Email
   features:
@@ -18,7 +18,7 @@ en:
       description: Efficiently distribute your harvests among all your subscribers, based on the size/price of the baskets. Track the evolution of your basket value and vegetables throughout the year.
       title: Basket Content and Value
     billing:
-      description: Generation and sending of <strong>QR invoices</strong> with reference numbers by email, <strong>daily payment statements</strong> on your bank account (EBICS), SEPA Direct Debit support, sending reminders, everything is on autopilot!
+      description: Generation and sending of <strong>QR invoices</strong> with reference numbers by email, <strong>daily payment statements</strong> on your bank account (EBICS), SEPA Direct Debit support, sending reminders, everything runs automatically.
       title: Automated Billing
     communication:
       description: Every email sent to your members can be easily modified. Choose the content and style that suits you. A sophisticated <strong>newsletter</strong> system is also integrated.
@@ -40,7 +40,7 @@ en:
     shop:
       description: Offer your subscribers <strong>additional products</strong> to enhance their basket with each delivery. An online shop is available on their member account. Stock management included!
       title: Online Shop
-    subtitle: "CSA Admin offers you a wide range of features specifically developed for the needs of <span class='whitespace-nowrap'><strong class='text-logo-green'>C</strong>ommunity <strong class='text-logo-green'>S</strong>upported <strong class='text-logo-green'>A</strong>griculture</span>."
+    subtitle: "CSA Admin is built for the specific needs of <span class='whitespace-nowrap'><strong class='text-logo-green'>C</strong>ommunity <strong class='text-logo-green'>S</strong>upported <strong class='text-logo-green'>A</strong>griculture</span>."
     subtitle2: "Each CSA is unique, so some modules are optional, at your convenience. Other needs? Just ask!"
     title: "Everything you need …"
     title2: "… and much more!"
@@ -55,11 +55,11 @@ en:
   org_name_definition: "Community Supported Agriculture"
   organizations:
     logo_alt: "Logo of %{name}"
-    subtitle: Whether you are an association, a cooperative, a business, or an individual, CSA Admin adapts to your needs.
+    subtitle: CSA Admin works for associations, cooperatives, businesses, and individuals alike.
     title: They use CSA Admin
   phone: Phone
   site:
-    description: Open-source web app to efficiently manage your CSA (Community Supported Agriculture). Simplify your operations and request a demo today!
+    description: Open-source web app to efficiently manage your CSA (Community Supported Agriculture). Simplify your operations — request a free demo.
     title: "CSA Admin - Streamline your CSA management"
     path: ""
   subtitle: "Since 2014, %{orgs_link} have been using CSA Admin to facilitate their daily tasks and manage the annual distribution of over <span class='font-semibold'>%{baskets_count} baskets</span>. Join them!"
