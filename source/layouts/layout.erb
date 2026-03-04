@@ -29,10 +29,10 @@
     <meta name="twitter:image" content="https://csa-admin.org/images/logo.png">
 
     <link rel="canonical" href="https://csa-admin.org<%= t('site.path') %>">
-    <link rel="alternate" hreflang="en" href="https://csa-admin.org">
+    <link rel="alternate" hreflang="en" href="https://csa-admin.org/">
     <link rel="alternate" hreflang="fr" href="https://csa-admin.org/acp/">
     <link rel="alternate" hreflang="de" href="https://csa-admin.org/solawi/">
-    <link rel="alternate" hreflang="x-default" href="https://csa-admin.org">
+    <link rel="alternate" hreflang="x-default" href="https://csa-admin.org/">
 
     <script type="application/ld+json">
       {
@@ -41,7 +41,7 @@
           {
             "@type": "WebSite",
             "@id": "https://csa-admin.org/#website",
-            "url": "https://csa-admin.org",
+            "url": "https://csa-admin.org/",
             "name": "<%= data.site.name %>",
             "description": "<%= t('site.description').gsub('"', '\\"') %>",
             "inLanguage": ["en", "fr", "de"],
@@ -53,7 +53,7 @@
             "@type": "Organization",
             "@id": "https://csa-admin.org/#organization",
             "name": "<%= data.site.name %>",
-            "url": "https://csa-admin.org",
+            "url": "https://csa-admin.org/",
             "logo": {
               "@type": "ImageObject",
               "url": "https://csa-admin.org/images/logo.png"
@@ -71,7 +71,7 @@
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web",
             "description": "<%= t('site.description').gsub('"', '\\"') %>",
-            "url": "https://csa-admin.org",
+            "url": "https://csa-admin.org/",
             "author": {
               "@type": "Person",
               "name": "<%= data.site.author.name %>",

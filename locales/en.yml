@@ -61,7 +61,7 @@ en:
   site:
     description: Open-source web app to efficiently manage your CSA (Community Supported Agriculture). Simplify your operations — request a free demo.
     title: "CSA Admin - Streamline your CSA management"
-    path: ""
+    path: /
   subtitle: "Since 2014, %{orgs_link} have been using CSA Admin to facilitate their daily tasks and manage the annual distribution of over <span class='font-semibold'>%{baskets_count} baskets</span>. Join them!"
   subtitle_orgs_link: <span class="whitespace-nowrap">many organizations</span>
   title: Streamline your <span class="whitespace-nowrap">%{org_name} management.</span>

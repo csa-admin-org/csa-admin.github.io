@@ -48,3 +48,14 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Ping IndexNow
+        run: |
+          for url in \
+            "https://csa-admin.org/" \
+            "https://csa-admin.org/acp/" \
+            "https://csa-admin.org/solawi/"
+          do
+            curl -s -o /dev/null -w "IndexNow %{url_effective} → HTTP %{http_code}\n" \
+              "https://api.indexnow.org/indexnow?url=${url}&key=8f940d3ccbab4035acab547df3432ac0"
+          done
