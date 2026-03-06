@@ -1,7 +1,7 @@
 fr:
   skip_to_content: Aller au contenu principal
   about:
-    application: application web open source
+    application: application web source-available
     other_orgs: de nombreuses autres organisations
     text: Initialement créée pour simplifier la gestion de %{ragedevert} à Neuchâtel (CH), CSA Admin n'a cessé de s'améliorer et de s'agrandir au fil des années pour répondre aux besoins divers et variés %{other_orgs} en Suisse et en Allemagne. CSA Admin est une %{application}. Elle se veut simple, efficace et intuitive. Elle est développée avec passion par %{author}, qui s'engage depuis plus de 10 ans à simplifier la vie des ACP pour les aider à prospérer.
     title: À propos de CSA Admin
@@ -29,11 +29,11 @@ fr:
     memberships:
       description: Formulaire d'inscription, liste d'attente, <strong>paniers à l'essai</strong>, compléments, … tout est prévu pour gérer efficacement vos membres, en conformité avec le <strong>RGPD/nLPD</strong>.
       title: Membres et abonnements
-    opensource:
-      description: Entièrement traduite en français, allemand, italien, néerlandais et anglais, CSA Admin est aussi développée en %{opensource_link} sous la %{license_link}, vous pouvez donc participer et proposer des améliorations.
+    opencode:
+      description: Entièrement traduite en français, allemand, italien, néerlandais et anglais, CSA Admin est aussi développée en %{opencode_link} sous la %{license_link}, vous pouvez donc participer et proposer des améliorations.
       license: licence O'Saasy
-      opensource: open source
-      title: Multilingue et open source
+      opencode: open code
+      title: Multilingue et open code
     renewal:
       description: C'est la fin de l'année? En un clic, envoyez rapidement une demande de renouvellement à tous vos abonné·e·s. Un formulaire de <strong>renouvellement/résiliation</strong> les attend sur leur compte de membre.
       title: Renouvellement simplifié
@@ -59,7 +59,7 @@ fr:
     title: Ils·Elles utilisent CSA Admin
   phone: Téléphone
   site:
-    description: Application web open source pour gérer efficacement votre ACP (Agriculture Contractuelle de Proximité). Simplifiez vos opérations, demandez une démo!
+    description: Application web source-available pour gérer efficacement votre ACP (Agriculture Contractuelle de Proximité). Simplifiez vos opérations, demandez une démo!
     title: CSA Admin - Simplifiez la gestion de votre ACP
     path: /acp/
   subtitle: Depuis 2014, %{orgs_link} utilisent CSA Admin pour faciliter leurs tâches quotidiennes et gérer la distribution annuelle de plus de <span class='font-semibold'>%{baskets_count} paniers</span>. Rejoignez-les !

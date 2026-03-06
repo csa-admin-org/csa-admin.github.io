@@ -1,7 +1,7 @@
 en:
   skip_to_content: Skip to main content
   about:
-    application: open-source web application
+    application: source-available web application
     other_orgs: many other organizations
     text: Initially created to simplify the management of %{ragedevert} in Neuchâtel (CH), CSA Admin has continuously improved and expanded over the years to meet the diverse needs of %{other_orgs} in Switzerland and Germany. CSA Admin is an %{application}. It aims to be simple, efficient, and intuitive. It is developed with passion by %{author}, who has been dedicated for over 10 years to making CSA administration easier.
     title: About CSA Admin
@@ -29,11 +29,11 @@ en:
     memberships:
       description: Registration form, waiting list, supporting members, <strong>trial baskets</strong>, supplements, … everything is provided to efficiently manage your members. <strong>GDPR/nFADP</strong> compliant.
       title: Members and Memberships
-    opensource:
-      description: Fully translated into English, French, German, Italian, and Dutch, CSA Admin is also developed as %{opensource_link} under the %{license_link}, so you can participate and propose improvements.
+    opencode:
+      description: Fully translated into English, French, German, Italian, and Dutch, CSA Admin is also developed as %{opencode_link} under the %{license_link}, so you can participate and propose improvements.
       license: O'Saasy license
-      opensource: open source
-      title: Multilingual and Open Source
+      opencode: open code
+      title: Multilingual and Open Code
     renewal:
       description: Is it the end of the year? With one click, quickly send a renewal request to all your subscribers. A <strong>renewal form</strong> and optional <strong>bidding round</strong> are available on their member account.
       title: Simplified Renewal
@@ -59,7 +59,7 @@ en:
     title: They use CSA Admin
   phone: Phone
   site:
-    description: Open-source web app to efficiently manage your CSA (Community Supported Agriculture). Simplify your operations — request a free demo.
+    description: Source-available web app to efficiently manage your CSA (Community Supported Agriculture). Simplify your operations — request a free demo.
     title: "CSA Admin - Streamline your CSA management"
     path: /
   subtitle: "Since 2014, %{orgs_link} have been using CSA Admin to facilitate their daily tasks and manage the annual distribution of over <span class='font-semibold'>%{baskets_count} baskets</span>. Join them!"
