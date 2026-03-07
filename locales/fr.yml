@@ -1,14 +1,15 @@
 fr:
   skip_to_content: Aller au contenu principal
   about:
-    application: application web source-available
+    application: application web en code ouvert
     other_orgs: de nombreuses autres organisations
-    text: Initialement créée pour simplifier la gestion de %{ragedevert} à Neuchâtel (CH), CSA Admin n'a cessé de s'améliorer et de s'agrandir au fil des années pour répondre aux besoins divers et variés %{other_orgs} en Suisse et en Allemagne. CSA Admin est une %{application}. Elle se veut simple, efficace et intuitive. Elle est développée avec passion par %{author}, qui s'engage depuis plus de 10 ans à simplifier la vie des ACP pour les aider à prospérer.
+    text: Initialement créée pour simplifier la gestion de %{ragedevert}, CSA Admin n'a cessé de s'améliorer et de s'agrandir au fil des années pour répondre aux besoins divers et variés %{other_orgs}. CSA Admin est une %{application}. Elle se veut simple, efficace et intuitive. Elle est développée avec passion par %{author}, qui s'engage depuis plus de 10 ans à simplifier la vie des ACP pour les aider à prospérer.
     title: À propos de CSA Admin
-  call_to_action: Demander une démo
+  call_to_action: Explorer la démo
   contact:
-    text: Vous souhaitez en savoir plus sur CSA Admin? Vous avez des questions? N'hésitez pas à me contacter pour plus d'informations et/ou pour planifier une démo. Vous pouvez me joindre par e-mail à l'adresse %{mail}. Je me ferai un plaisir de répondre à toutes vos questions.
-    title: Intéressé·e? Demandez une démo!
+    text: Vous pouvez explorer une installation démo par vous-même pour vous faire une idée du fonctionnement. Si vous avez des questions ou préférez une visite guidée, écrivez-moi simplement à %{mail}.
+    title: Intéressé·e? Explorez la démo!
+  demo_url: https://admin.acp-admin.ch/demo/new
   email: E-mail
   features:
     activity:
@@ -32,8 +33,8 @@ fr:
     opencode:
       description: Entièrement traduite en français, allemand, italien, néerlandais et anglais, CSA Admin est aussi développée en %{opencode_link} sous la %{license_link}, vous pouvez donc participer et proposer des améliorations.
       license: licence O'Saasy
-      opencode: open code
-      title: Multilingue et open code
+      opencode: code ouvert
+      title: Multilingue et code ouvert
     renewal:
       description: C'est la fin de l'année? En un clic, envoyez rapidement une demande de renouvellement à tous vos abonné·e·s. Un formulaire de <strong>renouvellement/résiliation</strong> les attend sur leur compte de membre.
       title: Renouvellement simplifié
@@ -50,6 +51,7 @@ fr:
     about: À propos
     demo: Démo
     features: Fonctionnalités
+    pricing: Prix
   logo_alt: Logo de CSA Admin
   org_name: ACP
   org_name_definition: Agriculture Contractuelle de Proximité
@@ -58,8 +60,19 @@ fr:
     subtitle: Que vous soyez une association, une coopérative, une entreprise ou un particulier, CSA Admin s'adapte à vos besoins.
     title: Ils·Elles utilisent CSA Admin
   phone: Téléphone
+  pricing:
+    title: Un prix simple et juste
+    subtitle: du montant facturé par CSA Admin, à payer une fois par an.
+    hosting: Hébergement entièrement géré, conforme RGPD/nLPD
+    security: Mises à jour de sécurité, backup, et maintenance
+    features_included: Toutes les fonctionnalités et amélioration continue
+    emails: Envoi d'emails inclus (newsletters et notifications)
+    support: Support direct et personnalisé par email
+    opencode: Code source disponible, aucune dépendance
+    description: Le coût grandit avec vous. Les petites ACP paient peu, les grandes sont plafonnées à 2'400 CHF/EUR par an.
+    description_bold: Pas de supplément, pas de frais de mise en place, tout est inclus.
   site:
-    description: Application web source-available pour gérer efficacement votre ACP (Agriculture Contractuelle de Proximité). Simplifiez vos opérations, demandez une démo!
+    description: Application web en code ouvert pour gérer efficacement votre ACP (Agriculture Contractuelle de Proximité). Explorez la démo librement!
     title: CSA Admin - Simplifiez la gestion de votre ACP
     path: /acp/
   subtitle: Depuis 2014, %{orgs_link} utilisent CSA Admin pour faciliter leurs tâches quotidiennes et gérer la distribution annuelle de plus de <span class='font-semibold'>%{baskets_count} paniers</span>. Rejoignez-les !

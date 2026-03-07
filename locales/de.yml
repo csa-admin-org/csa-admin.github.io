@@ -1,14 +1,15 @@
 de:
   skip_to_content: Zum Hauptinhalt springen
   about:
-    application: Source-Available-Webanwendung
+    application: quelloffene Webanwendung
     other_orgs: zahlreichen anderen Organisationen
-    text: Ursprünglich entwickelt, um die Verwaltung von %{ragedevert} in Neuchâtel (CH) zu vereinfachen, entwickelt sich CSA Admin stetig weiter, um den vielfältigen Anforderungen von %{other_orgs} in der Schweiz und Deutschland gerecht zu werden. CSA Admin ist eine %{application}. Es soll einfach, effizient und intuitiv sein. Mit Leidenschaft entwickelt %{author} CSA Admin seit über 10 Jahren, um den Alltag in CSAs zu erleichtern.
+    text: Ursprünglich entwickelt, um die Verwaltung von %{ragedevert} zu vereinfachen, entwickelt sich CSA Admin stetig weiter, um den vielfältigen Anforderungen von %{other_orgs} gerecht zu werden. CSA Admin ist eine %{application}. Es soll einfach, effizient und intuitiv sein. Mit Leidenschaft entwickelt %{author} CSA Admin seit über 10 Jahren, um den Alltag in CSAs zu erleichtern.
     title: Über CSA Admin
-  call_to_action: Demo anfordern
+  call_to_action: Die Demo entdecken
   contact:
-    text: Möchten Sie mehr über CSA Admin erfahren? Haben Sie Fragen? Zögern Sie nicht, mich für weitere Informationen und/oder zur Vereinbarung einer Demo zu kontaktieren. Sie können mich per E-Mail unter %{mail} erreichen. Ich beantworte gerne alle Ihre Fragen.
-    title: Interessiert? Fordern Sie eine Demo an!
+    text: Sie können eine Demo-Installation selbst erkunden, um sich einen Eindruck zu verschaffen. Bei Fragen oder wenn Sie eine geführte Tour bevorzugen, schreiben Sie mir einfach an %{mail}.
+    title: Interessiert? Entdecken Sie die Demo!
+  demo_url: https://admin.solawi-admin.org/demo/new
   email: E-Mail
   features:
     activity:
@@ -32,8 +33,8 @@ de:
     opencode:
       description: Verfügbar in Französisch, Deutsch, Italienisch, Niederländisch und Englisch – CSA Admin ist zudem als %{opencode_link} unter der %{license_link} erhältlich. So können Sie aktiv mitgestalten.
       license: O'Saasy-Lizenz
-      opencode: Open-Code-Anwendung
-      title: Mehrsprachig und Open Code
+      opencode: Quelloffene Anwendung
+      title: Mehrsprachig und quelloffen
     renewal:
       description: Senden Sie mit einem Klick eine <strong>Verlängerungsanfrage</strong> an alle Abonnenten. Eine <strong>Bieterunde</strong> ermöglicht danach solidarische Preisgestaltung.
       title: Vereinfachte Verlängerung
@@ -50,6 +51,7 @@ de:
     about: Über
     demo: Demo
     features: Funktionen
+    pricing: Preis
   logo_alt: "CSA Admin Logo"
   org_name: "Solawi"
   org_name_definition: "Solidarische Landwirtschaft"
@@ -58,8 +60,19 @@ de:
     subtitle: Ob Sie ein Verein, eine Genossenschaft, ein Unternehmen oder eine Einzelperson sind, CSA Admin passt sich Ihren Bedürfnissen an.
     title: Sie nutzen CSA Admin
   phone: Telefon
+  pricing:
+    title: Einfache, faire Preisgestaltung
+    subtitle: des über CSA Admin fakturierten Betrags, einmal jährlich zu bezahlen.
+    hosting: Vollständig verwaltetes Hosting, DSGVO/nDSG-konform
+    security: Sicherheitsupdates, Backups und Wartung
+    features_included: Alle Funktionen und kontinuierliche Verbesserung
+    emails: E-Mail-Versand inklusive (Newsletter und Benachrichtigungen)
+    support: Direkter und persönlicher E-Mail-Support
+    opencode: Quellcode verfügbar, keine Abhängigkeit
+    description: Die Kosten wachsen mit Ihnen. Kleine Solawis zahlen wenig, grosse sind bei 2'400 CHF/EUR/Jahr gedeckelt.
+    description_bold: Kein Aufpreis, keine Einrichtungskosten, alles ist inklusive.
   site:
-    description: Source-Available-Webanwendung für effiziente Solawi-Verwaltung (Solidarische Landwirtschaft). Vereinfachen Sie Ihre Abläufe – Demo jetzt anfordern!
+    description: Quelloffene Webanwendung für effiziente Solawi-Verwaltung (Solidarische Landwirtschaft). Entdecken Sie die Demo!
     title: "CSA Admin - Effizientere Verwaltung Ihrer Solawi"
     path: /solawi/
   subtitle: Seit 2014 nutzen %{orgs_link} CSA Admin, um ihre täglichen Aufgaben zu erleichtern und die jährliche Verteilung von über <span class='font-semibold'>%{baskets_count} Anteilen</span> zu verwalten. Schließen Sie sich ihnen an!

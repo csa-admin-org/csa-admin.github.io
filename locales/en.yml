@@ -3,12 +3,13 @@ en:
   about:
     application: source-available web application
     other_orgs: many other organizations
-    text: Initially created to simplify the management of %{ragedevert} in Neuchâtel (CH), CSA Admin has continuously improved and expanded over the years to meet the diverse needs of %{other_orgs} in Switzerland and Germany. CSA Admin is an %{application}. It aims to be simple, efficient, and intuitive. It is developed with passion by %{author}, who has been dedicated for over 10 years to making CSA administration easier.
+    text: Initially created to simplify the management of %{ragedevert}, CSA Admin has continuously improved and expanded over the years to meet the diverse needs of %{other_orgs}. CSA Admin is a %{application}. It aims to be simple, efficient, and intuitive. It is developed with passion by %{author}, who has been dedicated for over 10 years to making CSA administration easier.
     title: About CSA Admin
-  call_to_action: Request a demo
+  call_to_action: Explore the demo
   contact:
-    text: Would you like to know more about CSA Admin? Do you have any questions? Feel free to contact me for more information and/or to schedule a demo. You can reach me by email at %{mail}. I'm happy to answer any questions.
-    title: Interested? Request a demo!
+    text: You can explore a demo setup on your own to get a feel for how it works. If you have questions or prefer a guided tour, just write me at %{mail}.
+    title: Interested? Explore the demo!
+  demo_url: https://admin.csa-admin.org/demo/new
   email: Email
   features:
     activity:
@@ -32,8 +33,8 @@ en:
     opencode:
       description: Fully translated into English, French, German, Italian, and Dutch, CSA Admin is also developed as %{opencode_link} under the %{license_link}, so you can participate and propose improvements.
       license: O'Saasy license
-      opencode: open code
-      title: Multilingual and Open Code
+      opencode: source-available code
+      title: Multilingual and Source Available
     renewal:
       description: Is it the end of the year? With one click, quickly send a renewal request to all your subscribers. A <strong>renewal form</strong> and optional <strong>bidding round</strong> are available on their member account.
       title: Simplified Renewal
@@ -50,6 +51,7 @@ en:
     about: About
     demo: Demo
     features: Features
+    pricing: Pricing
   logo_alt: "CSA Admin Logo"
   org_name: "CSA"
   org_name_definition: "Community Supported Agriculture"
@@ -58,8 +60,19 @@ en:
     subtitle: CSA Admin works for associations, cooperatives, businesses, and individuals alike.
     title: They use CSA Admin
   phone: Phone
+  pricing:
+    title: Simple, fair pricing
+    subtitle: of the amount invoiced through CSA Admin, billed once a year.
+    hosting: Fully managed hosting, GDPR/nDSG compliant
+    security: Security updates, backups, and maintenance
+    features_included: All features and continuous improvement
+    emails: Email sending included (newsletters and notifications)
+    support: Direct and personalized email support
+    opencode: Source code available, no lock-in
+    description: The cost grows with your size. Small CSAs pay little, larger ones are capped at 2,400 CHF/EUR per year.
+    description_bold: No add-on, no extra setup cost, everything is included.
   site:
-    description: Source-available web app to efficiently manage your CSA (Community Supported Agriculture). Simplify your operations — request a free demo.
+    description: Source-available web app to efficiently manage your CSA (Community Supported Agriculture). Explore the demo freely!
     title: "CSA Admin - Streamline your CSA management"
     path: /
   subtitle: "Since 2014, %{orgs_link} have been using CSA Admin to facilitate their daily tasks and manage the annual distribution of over <span class='font-semibold'>%{baskets_count} baskets</span>. Join them!"

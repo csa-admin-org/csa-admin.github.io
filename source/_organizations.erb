@@ -1,0 +1,12 @@
+<h2 id="organizations" class="section-anchor section-heading">
+  <%= t("organizations.title") %>
+</h2>
+<p class="section-subtitle">
+  <%= t("organizations.subtitle") %>
+</p>
+
+<div class="mt-10 mx-auto px-4 grid grid-cols-3 md:grid-cols-7 gap-6 lg:gap-8">
+  <% data.organizations.each do |org, org_data| %>
+    <%= link_to image_tag("https://cdn.csa-admin.org/logos/#{org}", alt: I18n.t('organizations.logo_alt', name: org_data.name), title: org_data.name), org_data.url, class: 'size-16 md:size-20 lg:size-24 mx-auto flex items-center no-underline', title: org_data.name %>
+  <% end %>
+</div>

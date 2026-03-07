@@ -1,0 +1,67 @@
+<h2 id="features" class="section-anchor section-heading">
+  <%= t("features.title") %>
+</h2>
+<p class="section-subtitle">
+  <%= t("features.subtitle") %>
+</p>
+
+<div class="mt-10 md:grid md:grid-cols-3 md:gap-6">
+  <%= partial 'feature', locals: { \
+      logo: 'user-group', \
+      title: t('features.memberships.title'), \
+      description: t('features.memberships.description') \
+    } %>
+  <%= partial 'feature', locals: { \
+      logo: 'calendar-days', \
+      title: t('features.deliveries.title'), \
+      description: t('features.deliveries.description') \
+    } %>
+  <%= partial 'feature', locals: { \
+      logo: 'banknotes', \
+      title: t('features.billing.title'), \
+      description: t('features.billing.description') \
+    } %>
+  <%= partial 'feature', locals: { \
+      logo: 'arrow-path', \
+      title: t('features.renewal.title'), \
+      description: t('features.renewal.description') \
+    } %>
+  <%= partial 'feature', locals: { \
+      logo: 'chat-bubble-left-right', \
+      title: t('features.communication.title'), \
+      description: t('features.communication.description') \
+    } %>
+  <%= partial 'feature', locals: { \
+      logo: 'globe-europe-africa', \
+      title: t('features.opencode.title'), \
+      description: I18n.t('features.opencode.description',
+        opencode_link: link_to(t('features.opencode.opencode'), data.site.repository), \
+        license_link: link_to(t('features.opencode.license'), 'https://osaasy.dev') \
+      ) \
+    } %>
+</div>
+
+<h3 class="mt-16 section-heading">
+  <%= t("features.title2") %>
+</h3>
+<p class="section-subtitle">
+  <%= t("features.subtitle2") %>
+</p>
+
+<div class="mt-10 md:grid md:grid-cols-3 md:gap-4 lg:gap-6">
+  <%= partial 'feature', locals: { \
+      logo: 'building-storefront', \
+      title: t('features.shop.title'), \
+      description: t('features.shop.description') \
+    } %>
+  <%= partial 'feature', locals: { \
+      logo: 'shopping-bag', \
+      title: t('features.basket_content.title'), \
+      description: t('features.basket_content.description') \
+    } %>
+  <%= partial 'feature', locals: { \
+      logo: 'wrench-screwdriver', \
+      title: t('features.activity.title'), \
+      description: t('features.activity.description') \
+    } %>
+</div>

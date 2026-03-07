@@ -1,0 +1,11 @@
+<h2 id="about" class="section-anchor section-heading-sm">
+  <%= t("about.title") %>
+</h2>
+<p class="section-body mt-4 text-justify">
+  <%= I18n.t("about.text", \
+    ragedevert: link_to('Rage de Vert', 'https://www.ragedevert.ch', class: 'whitespace-nowrap'), \
+    other_orgs: link_to(t('about.other_orgs'), '#organizations'), \
+    application: link_to(t('about.application'), data.site.repository), \
+    author: link_to(data.site.author.name, data.site.author.website, class: 'whitespace-nowrap') \
+  ) %>
+</p>

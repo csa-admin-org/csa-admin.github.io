@@ -1,0 +1,11 @@
+<div id="contact" class="section-anchor pb-10 highlight-on-target rounded-md">
+  <h2 class="section-heading-sm">
+    <%= t("contact.title") %>
+  </h2>
+  <p class="section-body mt-4 text-center">
+    <%= I18n.t("contact.text", mail: link_to(data.site.contact.email, data.site.contact.email_link, class: 'whitespace-nowrap')) %>
+  </p>
+  <div class="mt-8 text-center">
+    <%= link_to t('call_to_action'), t('demo_url'), class: 'btn-cta' %>
+  </div>
+</div>
