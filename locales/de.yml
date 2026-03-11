@@ -3,47 +3,47 @@ de:
   about:
     application: quelloffene Webanwendung
     other_orgs: zahlreichen anderen Organisationen
-    text: Ursprünglich entwickelt, um die Verwaltung von %{ragedevert} zu vereinfachen, entwickelt sich CSA Admin stetig weiter, um den vielfältigen Anforderungen von %{other_orgs} gerecht zu werden. CSA Admin ist eine %{application}. Es soll einfach, effizient und intuitiv sein. Mit Leidenschaft entwickelt %{author} CSA Admin seit über 10 Jahren, um den Alltag in CSAs zu erleichtern.
+    text: Ursprünglich entwickelt, um die Verwaltung von %{ragedevert} zu vereinfachen, entwickelt sich CSA Admin stetig weiter, um den vielfältigen Anforderungen von %{other_orgs} gerecht zu werden. CSA Admin ist eine %{application}. Es soll einfach, effizient und intuitiv sein. Mit Leidenschaft entwickelt %{author} CSA Admin seit über 10 Jahren, um den Alltag in Solawis zu erleichtern.
     title: Über CSA Admin
   call_to_action: Die Demo entdecken
   contact:
-    text: Sie können eine Demo-Installation selbst erkunden, um sich einen Eindruck zu verschaffen. Bei Fragen oder wenn Sie eine geführte Tour bevorzugen, schreiben Sie mir einfach an %{mail}.
-    title: Interessiert? Entdecken Sie die Demo!
+    text: Du kannst eine Demo-Installation selbst erkunden, um dir einen Eindruck zu verschaffen. Bei Fragen oder wenn du eine geführte Tour bevorzugst, schreib mir einfach an %{mail}.
+    title: Interessiert? Entdecke die Demo!
   demo_url: https://admin.solawi-admin.org/demo/new
   email: E-Mail
   features:
     activity:
-      description: Beteiligen sich Ihre Mitglieder an Feldarbeit oder der Vorbereitung der Lieferungen? CSA Admin unterstützt Sie bei Planung, Koordination und Bestätigung der Einsätze.
+      description: Beteiligen sich deine Mitglieder an Feldarbeit oder der Vorbereitung der Lieferungen? CSA Admin unterstützt dich bei Planung, Koordination und Bestätigung der Einsätze.
       title: Mitgliederbeteiligung
     basket_content:
-      description: Verteilen Sie Ihre Ernten effizient, indem Sie die Größe oder den Preis der Anteile berücksichtigen – und behalten Sie dabei stets den Wert Ihrer Anteile sowie den Ernteverlauf im Blick.
+      description: Verteile deine Ernten effizient, indem du die Grösse oder den Preis der Anteile berücksichtigst, und behalte dabei stets den Wert deiner Anteile sowie den Ernteverlauf im Blick.
       title: Anteilinhalt und -wert
     billing:
       description: Erstellt und versendet QR-Rechnungen, überwacht tägliche Zahlungseingänge (EBICS), unterstützt <strong>SEPA-Lastschriften</strong> und verschickt automatisch Mahnungen.
       title: Automatisierte Abrechnung
     communication:
-      description: Passen Sie jede E-Mail individuell an – von Inhalt bis Stil. Ein integriertes <strong>Newsletter</strong>-System macht's möglich.
+      description: Passe jede E-Mail individuell an, von Inhalt bis Stil. Ein integriertes <strong>Newsletter</strong>-System macht's möglich.
       title: Personalisierte Kommunikation
     deliveries:
-      description: Planen Sie Ihre Lieferungen flexibel – egal, ob zwei Lieferungen pro Woche oder jede zweite Woche. Abwesenheiten werden automatisch berücksichtigt.
+      description: Plane deine Lieferungen flexibel, egal ob zwei Lieferungen pro Woche oder jede zweite Woche. Abwesenheiten werden automatisch berücksichtigt.
       title: Lieferplan
     memberships:
-      description: Anmeldeformular, Warteliste, <strong>Probianteile</strong>, Zusatzanteile, … alles ist vorhanden, um Ihre Mitglieder effizient zu verwalten. <strong>DSGVO/nDSG</strong>-konform.
+      description: Anmeldeformular, Warteliste, <strong>Probianteile</strong>, Zusatzanteile, … alles ist vorhanden, um deine Mitglieder effizient zu verwalten. <strong>DSGVO/nDSG</strong>-konform.
       title: Mitglieder und Abonnements
     opencode:
-      description: Verfügbar in Französisch, Deutsch, Italienisch, Niederländisch und Englisch – CSA Admin ist zudem als %{opencode_link} unter der %{license_link} erhältlich. So können Sie aktiv mitgestalten.
+      description: Verfügbar in Französisch, Deutsch, Italienisch, Niederländisch und Englisch. CSA Admin ist zudem als %{opencode_link} unter der %{license_link} erhältlich, so kannst du aktiv mitgestalten.
       license: O'Saasy-Lizenz
       opencode: Quelloffene Anwendung
       title: Mehrsprachig und quelloffen
     renewal:
-      description: Senden Sie mit einem Klick eine <strong>Verlängerungsanfrage</strong> an alle Abonnenten. Eine <strong>Bieterunde</strong> ermöglicht danach solidarische Preisgestaltung.
+      description: Sende mit einem Klick eine <strong>Verlängerungsanfrage</strong> an alle Abonnenten. Eine <strong>Beitragsrunde</strong> ermöglicht danach solidarische Preisgestaltung.
       title: Vereinfachte Verlängerung
     shop:
-      description: Erweitern Sie Ihr Angebot – im integrierten Online-Shop können Abonnenten zusätzliche Produkte bestellen, inklusive Bestandsverwaltung.
+      description: Erweitere dein Angebot! Im integrierten Online-Shop können Abonnenten zusätzliche Produkte bestellen, inklusive Bestandsverwaltung.
       title: Online-Shop
-    subtitle: "CSA Admin bietet Ihnen eine breite Palette von Funktionen, die speziell für die Bedürfnisse der <span class='whitespace-nowrap'><strong class='text-logo-green'>So</strong>lidarischen <strong class='text-logo-green'>La</strong>nd<strong class='text-logo-green'>wi</strong>rtschaft</span> ausgerichtet wurden."
-    subtitle2: "Jede Solawi ist einzigartig, daher sind einige Module optional, nach Ihrem Ermessen. Weitere Bedürfnisse? Einfach fragen!"
-    title: "Alles, was Sie brauchen …"
+    subtitle: "CSA Admin bietet dir eine breite Palette von Funktionen, die speziell für die Bedürfnisse der <span class='whitespace-nowrap'><strong class='text-logo-green'>So</strong>lidarischen <strong class='text-logo-green'>La</strong>nd<strong class='text-logo-green'>wi</strong>rtschaft</span> ausgerichtet wurden."
+    subtitle2: "Jede Solawi ist einzigartig, daher sind einige Module optional, ganz nach deinem Bedarf. Weitere Bedürfnisse? Einfach fragen!"
+    title: "Alles, was du brauchst …"
     title2: "… und noch viel mehr!"
   footer:
     developed_by: CSA Admin wird mit Leidenschaft von %{author_link} entwickelt.
@@ -57,7 +57,7 @@ de:
   org_name_definition: "Solidarische Landwirtschaft"
   organizations:
     logo_alt: "Logo von %{name}"
-    subtitle: Ob Sie ein Verein, eine Genossenschaft, ein Unternehmen oder eine Einzelperson sind, CSA Admin passt sich Ihren Bedürfnissen an.
+    subtitle: Ob Verein, Genossenschaft, Unternehmen oder Einzelperson, CSA Admin passt sich deinen Bedürfnissen an.
     title: Sie nutzen CSA Admin
   phone: Telefon
   pricing:
@@ -69,12 +69,12 @@ de:
     emails: E-Mail-Versand inklusive (Newsletter und Benachrichtigungen)
     support: Direkter und persönlicher E-Mail-Support
     opencode: Quellcode verfügbar, keine Abhängigkeit
-    description: Die Kosten wachsen mit Ihnen. Kleine Solawis zahlen wenig, grosse sind bei 2'400 CHF/EUR/Jahr gedeckelt.
+    description: Die Kosten wachsen mit deiner Solawi. Kleine Solawis zahlen wenig, grosse sind bei 2'400 CHF/EUR/Jahr gedeckelt.
     description_bold: Kein Aufpreis, keine Einrichtungskosten, alles ist inklusive.
   site:
-    description: Quelloffene Webanwendung für effiziente Solawi-Verwaltung (Solidarische Landwirtschaft). Entdecken Sie die Demo!
-    title: "CSA Admin - Effizientere Verwaltung Ihrer Solawi"
+    description: Quelloffene Webanwendung für effiziente Solawi-Verwaltung (Solidarische Landwirtschaft). Entdecke die Demo!
+    title: "CSA Admin - Effizientere Verwaltung deiner Solawi"
     path: /solawi/
-  subtitle: Seit 2014 nutzen %{orgs_link} CSA Admin, um ihre täglichen Aufgaben zu erleichtern und die jährliche Verteilung von über <span class='font-semibold'>%{baskets_count} Anteilen</span> zu verwalten. Schließen Sie sich ihnen an!
+  subtitle: Seit 2014 nutzen %{orgs_link} CSA Admin, um ihre täglichen Aufgaben zu erleichtern und die jährliche Verteilung von über <span class='font-semibold'>%{baskets_count} Anteilen</span> zu verwalten. Mach mit!
   subtitle_orgs_link: <span class="whitespace-nowrap">zahlreiche Organisationen</span>
   title: Effizientere <span class="whitespace-nowrap">%{org_name}-Verwaltung.</span>
