@@ -58,7 +58,7 @@ fr:
   organizations:
     logo_alt: "Logo de %{name}"
     subtitle: Que vous soyez une association, une coopérative, une entreprise ou un particulier, CSA Admin s'adapte à vos besoins.
-    title: Ils·Elles utilisent CSA Admin
+    title: "Ces organisations utilisent <span class='whitespace-nowrap'>CSA Admin</span>"
   phone: Téléphone
   pricing:
     title: Un prix simple et juste

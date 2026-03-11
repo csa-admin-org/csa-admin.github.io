@@ -58,7 +58,7 @@ de:
   organizations:
     logo_alt: "Logo von %{name}"
     subtitle: Ob Verein, Genossenschaft, Unternehmen oder Einzelperson, CSA Admin passt sich deinen Bedürfnissen an.
-    title: Sie nutzen CSA Admin
+    title: "Diese Solawis nutzen <span class='whitespace-nowrap'>CSA Admin</span>"
   phone: Telefon
   pricing:
     title: Einfache, faire Preisgestaltung
