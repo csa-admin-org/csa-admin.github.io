@@ -22,7 +22,7 @@ de:
       description: Erstellt und versendet QR-Rechnungen, überwacht tägliche Zahlungseingänge (EBICS), unterstützt <strong>SEPA-Lastschriften</strong> und verschickt automatisch Mahnungen.
       title: Automatisierte Abrechnung
     communication:
-      description: Passe jede E-Mail individuell an, von Inhalt bis Stil. Ein integriertes <strong>Newsletter</strong>-System macht's möglich.
+      description: Passe jede E-Mail individuell an, von Inhalt bis Stil. Ein integriertes <strong>Newsletter</strong>-System macht es möglich.
       title: Personalisierte Kommunikation
     deliveries:
       description: Plane deine Lieferungen flexibel, egal ob zwei Lieferungen pro Woche oder jede zweite Woche. Abwesenheiten werden automatisch berücksichtigt.
@@ -31,9 +31,9 @@ de:
       description: Anmeldeformular, Warteliste, <strong>Probianteile</strong>, Zusatzanteile, … alles ist vorhanden, um deine Mitglieder effizient zu verwalten. <strong>DSGVO/nDSG</strong>-konform.
       title: Mitglieder und Abonnements
     opencode:
-      description: Verfügbar in Französisch, Deutsch, Italienisch, Niederländisch und Englisch. CSA Admin ist zudem als %{opencode_link} unter der %{license_link} erhältlich, so kannst du aktiv mitgestalten.
+      description: Verfügbar in Französisch, Deutsch, Italienisch, Niederländisch und Englisch. CSA Admin ist zudem als %{opencode_link} unter der %{license_link} erhältlich, sodass du aktiv mitgestalten kannst.
       license: O'Saasy-Lizenz
-      opencode: Quelloffene Anwendung
+      opencode: quelloffene Software
       title: Mehrsprachig und quelloffen
     renewal:
       description: Sende mit einem Klick eine <strong>Verlängerungsanfrage</strong> an alle Abonnenten. Eine <strong>Beitragsrunde</strong> ermöglicht danach solidarische Preisgestaltung.
@@ -68,11 +68,11 @@ de:
     features_included: Alle Funktionen und kontinuierliche Verbesserung
     emails: E-Mail-Versand inklusive (Newsletter und Benachrichtigungen)
     support: Direkter und persönlicher E-Mail-Support
-    opencode: Quellcode verfügbar, keine Abhängigkeit
+    opencode: Quellcode verfügbar, keine Herstellerabhängigkeit
     description: Die Kosten wachsen mit deiner Solawi. Kleine Solawis zahlen wenig, grosse sind bei 2'400 CHF/EUR/Jahr gedeckelt.
     description_bold: Kein Aufpreis, keine Einrichtungskosten, alles ist inklusive.
   site:
-    description: Quelloffene Webanwendung für effiziente Solawi-Verwaltung (Solidarische Landwirtschaft). Entdecke die Demo!
+    description: Quelloffene Webanwendung zur effizienten Verwaltung deiner Solawi (Solidarische Landwirtschaft). Entdecke die Demo!
     title: "CSA Admin - Effizientere Verwaltung deiner Solawi"
     path: /solawi/
   subtitle: Seit 2014 nutzen %{orgs_link} CSA Admin, um ihre täglichen Aufgaben zu erleichtern und die jährliche Verteilung von über <span class='font-semibold'>%{baskets_count} Anteilen</span> zu verwalten. Mach mit!

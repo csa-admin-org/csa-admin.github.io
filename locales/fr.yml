@@ -2,8 +2,8 @@ fr:
   skip_to_content: Aller au contenu principal
   about:
     application: application web en code ouvert
-    other_orgs: de nombreuses autres organisations
-    text: Initialement créée pour simplifier la gestion de %{ragedevert}, CSA Admin n'a cessé de s'améliorer et de s'agrandir au fil des années pour répondre aux besoins divers et variés %{other_orgs}. CSA Admin est une %{application}. Elle se veut simple, efficace et intuitive. Elle est développée avec passion par %{author}, qui s'engage depuis plus de 10 ans à simplifier la vie des ACP pour les aider à prospérer.
+    other_orgs: nombreuses autres organisations
+    text: Initialement créée pour simplifier la gestion de %{ragedevert}, CSA Admin n'a cessé de s'améliorer et de s'agrandir au fil des années pour répondre aux besoins divers et variés de %{other_orgs}. CSA Admin est une %{application}. Elle se veut simple, efficace et intuitive. Elle est développée avec passion par %{author}, qui s'engage depuis plus de 10 ans à simplifier la vie des ACP pour les aider à prospérer.
     title: À propos de CSA Admin
   call_to_action: Explorer la démo
   contact:
@@ -39,7 +39,7 @@ fr:
       description: C'est la fin de l'année? En un clic, envoyez rapidement une demande de renouvellement à tous vos abonné·e·s. Un formulaire de <strong>renouvellement/résiliation</strong> les attend sur leur compte de membre.
       title: Renouvellement simplifié
     shop:
-      description: Proposez à vos abonné·e·s des <strong>produits supplémentaires</strong> pour agrémenter leur panier à chaque livraison. Un shop en ligne est à leur disposition sur leur compte de membre. Gestion de stock incluse!
+      description: Proposez à vos abonné·e·s des <strong>produits supplémentaires</strong> pour agrémenter leur panier à chaque livraison. Un shop en ligne est à leur disposition sur leur compte de membre. Gestion des stocks incluse!
       title: Épicerie en ligne
     subtitle: CSA Admin vous offre un large éventail de fonctionnalités développées spécifiquement pour les besoins de <span class='whitespace-nowrap'>l'<strong class='text-logo-green'>A</strong>griculture <strong class='text-logo-green'>C</strong>ontractuelle de <strong class='text-logo-green'>P</strong>roximité</span>.
     subtitle2: Chaque ACP est unique, certains modules sont donc optionnels, à votre convenance. D'autres besoins? Il suffit de demander!
@@ -64,13 +64,13 @@ fr:
     title: Un prix simple et juste
     subtitle: du montant facturé par CSA Admin, à payer une fois par an.
     hosting: Hébergement entièrement géré, conforme RGPD/nLPD
-    security: Mises à jour de sécurité, backup, et maintenance
+    security: Mises à jour de sécurité, sauvegardes, et maintenance
     features_included: Toutes les fonctionnalités et amélioration continue
     emails: Envoi d'emails inclus (newsletters et notifications)
     support: Support direct et personnalisé par email
     opencode: Code source disponible, aucune dépendance
     description: Le coût grandit avec vous. Les petites ACP paient peu, les grandes sont plafonnées à 2'400 CHF/EUR par an.
-    description_bold: Pas de supplément, pas de frais de mise en place, tout est inclus.
+    description_bold: Aucun supplément, aucuns frais de mise en place, tout est inclus.
   site:
     description: Application web en code ouvert pour gérer efficacement votre ACP (Agriculture Contractuelle de Proximité). Explorez la démo librement!
     title: CSA Admin - Simplifiez la gestion de votre ACP

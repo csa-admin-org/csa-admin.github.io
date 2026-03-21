@@ -3,11 +3,11 @@ en:
   about:
     application: source-available web application
     other_orgs: many other organizations
-    text: Initially created to simplify the management of %{ragedevert}, CSA Admin has continuously improved and expanded over the years to meet the diverse needs of %{other_orgs}. CSA Admin is a %{application}. It aims to be simple, efficient, and intuitive. It is developed with passion by %{author}, who has been dedicated for over 10 years to making CSA administration easier.
+    text: Originally created to simplify the management of %{ragedevert}, CSA Admin has continuously evolved over the years to meet the diverse needs of %{other_orgs}. CSA Admin is a %{application}. It is designed to be simple, efficient, and intuitive. It is developed with passion by %{author}, who has been dedicated to making CSA administration easier for over 10 years.
     title: About CSA Admin
   call_to_action: Explore the demo
   contact:
-    text: You can explore a demo setup on your own to get a feel for how it works. If you have questions or prefer a guided tour, just write me at %{mail}.
+    text: You can try the demo on your own to get a feel for how it works. If you have questions or would prefer a guided tour, just write to me at %{mail}.
     title: Interested? Explore the demo!
   demo_url: https://admin.csa-admin.org/demo/new
   email: Email
@@ -16,10 +16,10 @@ en:
       description: Do your members participate in fieldwork or basket preparation? Everything is provided to help you <strong>manage your activities</strong>, registrations, and validations of each participation.
       title: Member Participation
     basket_content:
-      description: Efficiently distribute your harvests among all your subscribers, based on the size/price of the baskets. Track the evolution of your basket value and vegetables throughout the year.
+      description: Efficiently distribute your harvests among all your subscribers based on basket size and price. Track how your basket value and vegetable mix evolve throughout the year.
       title: Basket Content and Value
     billing:
-      description: Generation and sending of <strong>QR invoices</strong> with reference numbers by email, <strong>daily payment statements</strong> on your bank account (EBICS), SEPA Direct Debit support, sending reminders, everything runs automatically.
+      description: Create and send <strong>QR invoices</strong> with reference numbers by email, receive <strong>daily payment statements</strong> in your bank account (EBICS), support <strong>SEPA Direct Debit</strong>, and send reminders automatically.
       title: Automated Billing
     communication:
       description: Every email sent to your members can be easily modified. Choose the content and style that suits you. A sophisticated <strong>newsletter</strong> system is also integrated.
@@ -31,7 +31,7 @@ en:
       description: Registration form, waiting list, supporting members, <strong>trial baskets</strong>, supplements, … everything is provided to efficiently manage your members. <strong>GDPR/nFADP</strong> compliant.
       title: Members and Memberships
     opencode:
-      description: Fully translated into English, French, German, Italian, and Dutch, CSA Admin is also developed as %{opencode_link} under the %{license_link}, so you can participate and propose improvements.
+      description: Fully translated into English, French, German, Italian, and Dutch, CSA Admin is also developed as %{opencode_link} under the %{license_link}, so you can contribute and suggest improvements.
       license: O'Saasy license
       opencode: source-available code
       title: Multilingual and Source Available
@@ -57,7 +57,7 @@ en:
   org_name_definition: "Community Supported Agriculture"
   organizations:
     logo_alt: "Logo of %{name}"
-    subtitle: CSA Admin works for associations, cooperatives, businesses, and individuals alike.
+    subtitle: CSA Admin works equally well for associations, cooperatives, businesses, and individuals.
     title: They use CSA Admin
   phone: Phone
   pricing:
@@ -70,9 +70,9 @@ en:
     support: Direct and personalized email support
     opencode: Source code available, no lock-in
     description: The cost grows with your size. Small CSAs pay little, larger ones are capped at 2,400 CHF/EUR per year.
-    description_bold: No add-on, no extra setup cost, everything is included.
+    description_bold: No add-ons, no setup fees — everything is included.
   site:
-    description: Source-available web app to efficiently manage your CSA (Community Supported Agriculture). Explore the demo freely!
+    description: A source-available web app to help you manage your CSA (Community Supported Agriculture) efficiently. Explore the demo freely!
     title: "CSA Admin - Streamline your CSA management"
     path: /
   subtitle: "Since 2014, %{orgs_link} have been using CSA Admin to facilitate their daily tasks and manage the annual distribution of over <span class='font-semibold'>%{baskets_count} baskets</span>. Join them!"
