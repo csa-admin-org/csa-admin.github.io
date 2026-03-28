@@ -77,11 +77,26 @@
               "name": "<%= data.site.author.name %>",
               "url": "<%= data.site.author.website %>"
             },
-            "offers": {
-              "@type": "Offer",
-              "price": "0",
-              "priceCurrency": "CHF"
-            },
+            "offers": [
+              {
+                "@type": "Offer",
+                "description": "Pricing starts at 1% of the amount invoiced through CSA Admin, billed once a year, and is capped at 2,400 CHF per year.",
+                "priceSpecification": {
+                  "@type": "PriceSpecification",
+                  "priceCurrency": "CHF",
+                  "valueAddedTaxIncluded": true
+                }
+              },
+              {
+                "@type": "Offer",
+                "description": "Pricing starts at 1% of the amount invoiced through CSA Admin, billed once a year, and is capped at 2,400 EUR per year.",
+                "priceSpecification": {
+                  "@type": "PriceSpecification",
+                  "priceCurrency": "EUR",
+                  "valueAddedTaxIncluded": true
+                }
+              }
+            ],
             "softwareHelp": {
               "@type": "CreativeWork",
               "url": "<%= data.site.repository %>"
