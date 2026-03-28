@@ -51,11 +51,23 @@ jobs:
 
       - name: Ping IndexNow
         run: |
-          for url in \
-            "https://csa-admin.org/" \
-            "https://csa-admin.org/acp/" \
-            "https://csa-admin.org/solawi/"
-          do
-            curl -s -o /dev/null -w "IndexNow %{url_effective} → HTTP %{http_code}\n" \
-              "https://api.indexnow.org/indexnow?url=${url}&key=8f940d3ccbab4035acab547df3432ac0"
-          done
+          http_code=$(curl -s -o /tmp/indexnow-response.txt -w "%{http_code}" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d '{
+              "host":"csa-admin.org",
+              "key":"8f940d3ccbab4035acab547df3432ac0",
+              "keyLocation":"https://csa-admin.org/8f940d3ccbab4035acab547df3432ac0.txt",
+              "urlList":[
+                "https://csa-admin.org/",
+                "https://csa-admin.org/acp/",
+                "https://csa-admin.org/solawi/"
+              ]
+            }' \
+            "https://api.indexnow.org/indexnow")
+
+          echo "IndexNow canonical URL submission → HTTP ${http_code}"
+          cat /tmp/indexnow-response.txt
+
+          if [ "${http_code}" -lt 200 ] || [ "${http_code}" -ge 300 ]; then
+            exit 1
+          fi
