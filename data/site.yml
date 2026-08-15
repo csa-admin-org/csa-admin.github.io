@@ -1,5 +1,5 @@
 name: "CSA Admin"
-baskets_count: 140000
+baskets_count: 150000
 host: "https://csa-admin.org"
 thumbnail: "logo.svg"
 base_color: "#21952F"
