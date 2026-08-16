@@ -40,7 +40,8 @@ helpers do
 
   def locale_link_to(text, path, options = {})
     path = "#{path}/" unless path.end_with?('/')
-    host = build? ? data.site.host : "http://localhost:#{config[:port]}"
-    link_to(text, "#{host}#{path}", options)
+    # Avoid link_to: Middleman i18n rewrites /solawi/ to the current locale.
+    href = build? ? "#{data.site.host}#{path}" : path
+    content_tag(:a, text, options.merge(href: href))
   end
 end

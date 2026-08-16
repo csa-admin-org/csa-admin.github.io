@@ -1,11 +1,14 @@
-<div id="contact" class="section-anchor pb-10 highlight-on-target rounded-md">
-  <h2 class="section-heading-sm">
+<div id="contact" class="section-anchor !scroll-mt-6 highlight-on-target contact-card mx-auto max-w-3xl mt-36">
+  <div class="flex justify-center -mt-15">
+    <div class="flex items-center bg-green-400 rounded-full p-2 drop-shadow">
+      <%= inline_svg "monitor-play.svg", class: "size-7 text-white" %>
+    </div>
+  </div>
+  <h2 class="section-heading-sm mt-6 md:w-full">
     <%= t("contact.title") %>
   </h2>
-  <p class="section-body mt-4 text-center">
-    <%= I18n.t("contact.text", mail: link_to(data.site.contact.email, data.site.contact.email_link, class: 'whitespace-nowrap')) %>
+  <p class="mt-4 text-center text-pretty leading-normal text-lg">
+    <%= I18n.t("contact.text", mail: link_to(data.site.contact.email, data.site.contact.email_link, class: "whitespace-nowrap")) %>
   </p>
-  <div class="mt-8 text-center">
-    <%= link_to t('call_to_action'), t('demo_url'), class: 'btn-cta' %>
-  </div>
+  <%= partial :ctas %>
 </div>

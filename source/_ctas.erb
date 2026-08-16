@@ -1,0 +1,5 @@
+<% start = defined?(align) && align == :start %>
+<div class="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center justify-center <%= "lg:justify-start" if start %> gap-3">
+  <%= link_to t("call_to_action"), t("demo_url"), class: "btn-cta text-center min-w-56" %>
+  <%= link_to t("talk_to_you"), data.site.contact.email_link, class: "btn-cta-secondary text-center min-w-56" %>
+</div>

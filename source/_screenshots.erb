@@ -1,0 +1,24 @@
+<% shots = [
+  { name: "memberships", klass: "top-0 left-0 w-[72%] z-10", rotate: "-rotate-3" },
+  { name: "member",      klass: "top-[8%] right-0 w-[72%] z-20", rotate: "rotate-2" },
+  { name: "dashboard",   klass: "bottom-0 left-[10%] w-[84%] z-30", rotate: "-rotate-1" }
+] %>
+<div class="relative mt-18 lg:-mt-4 mx-auto w-full max-w-xl lg:max-w-none lg:-ml-4 aspect-[5/4] overflow-visible p-3 sm:p-5">
+  <% shots.each do |shot| %>
+    <div class="screenshot-tilt absolute <%= shot[:klass] %> <%= shot[:rotate] %>">
+      <figure class="screenshot-frame">
+        <div class="screenshot-chrome" aria-hidden="true">
+          <span class="screenshot-dot bg-red-400/80"></span>
+          <span class="screenshot-dot bg-amber-400/80"></span>
+          <span class="screenshot-dot bg-green-400/80"></span>
+        </div>
+        <%= image_tag "screenshots/#{I18n.locale}-#{shot[:name]}.png",
+              alt: t("screenshots.#{shot[:name]}"),
+              class: "w-full block",
+              loading: "eager",
+              width: 1440,
+              height: 900 %>
+      </figure>
+    </div>
+  <% end %>
+</div>

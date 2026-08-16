@@ -7,7 +7,7 @@
 
 <div class="mt-10 md:grid md:grid-cols-3 md:gap-6">
   <%= partial 'feature', locals: { \
-      logo: 'user-group', \
+      logo: 'users', \
       title: t('features.memberships.title'), \
       description: t('features.memberships.description') \
     } %>
@@ -22,17 +22,17 @@
       description: t('features.billing.description') \
     } %>
   <%= partial 'feature', locals: { \
-      logo: 'arrow-path', \
+      logo: 'refresh-cw', \
       title: t('features.renewal.title'), \
       description: t('features.renewal.description') \
     } %>
   <%= partial 'feature', locals: { \
-      logo: 'chat-bubble-left-right', \
+      logo: 'mails', \
       title: t('features.communication.title'), \
       description: t('features.communication.description') \
     } %>
   <%= partial 'feature', locals: { \
-      logo: 'globe-europe-africa', \
+      logo: 'languages', \
       title: t('features.opencode.title'), \
       description: I18n.t('features.opencode.description',
         opencode_link: link_to(t('features.opencode.opencode'), data.site.repository), \
@@ -50,7 +50,7 @@
 
 <div class="mt-10 md:grid md:grid-cols-3 md:gap-4 lg:gap-6">
   <%= partial 'feature', locals: { \
-      logo: 'building-storefront', \
+      logo: 'shopping-basket', \
       title: t('features.shop.title'), \
       description: t('features.shop.description') \
     } %>
@@ -60,7 +60,8 @@
       description: t('features.basket_content.description') \
     } %>
   <%= partial 'feature', locals: { \
-      logo: 'wrench-screwdriver', \
+      logo: 'handshake', \
+      logo_class: 'translate-y-0.5', \
       title: t('features.activity.title'), \
       description: t('features.activity.description') \
     } %>

@@ -6,9 +6,10 @@ de:
     text: Ursprünglich entwickelt, um die Verwaltung von %{ragedevert} zu vereinfachen, entwickelt sich CSA Admin stetig weiter, um den vielfältigen Anforderungen von %{other_orgs} gerecht zu werden. CSA Admin ist eine %{application}. Es soll einfach, effizient und intuitiv sein. Mit Leidenschaft entwickelt %{author} CSA Admin seit über 10 Jahren, um den Alltag in Solawis zu erleichtern.
     title: Über CSA Admin
   call_to_action: Die Demo entdecken
+  talk_to_you: Lass uns sprechen
   contact:
-    text: Du kannst eine Demo-Installation selbst erkunden, um dir einen Eindruck zu verschaffen. Bei Fragen oder wenn du eine geführte Tour bevorzugst, schreib mir einfach an %{mail}.
-    title: Interessiert? Entdecke die Demo!
+    text: Entdecke die Demo selbst, oder schreib mir an %{mail} und ich zeige sie dir per Bildschirmteilung.
+    title: Sieh es in Aktion
   demo_url: https://admin.solawi-admin.org/demo/new
   email: E-Mail
   features:
@@ -59,7 +60,6 @@ de:
     logo_alt: "Logo von %{name}"
     subtitle: Ob Verein, Genossenschaft, Unternehmen oder Einzelperson, CSA Admin passt sich deinen Bedürfnissen an.
     title: "Diese Solawis nutzen <span class='whitespace-nowrap'>CSA Admin</span>"
-  phone: Telefon
   pricing:
     title: Einfache, faire Preisgestaltung
     subtitle: des über CSA Admin fakturierten Betrags, einmal jährlich zu bezahlen.
@@ -71,6 +71,10 @@ de:
     opencode: Quellcode verfügbar, keine Herstellerabhängigkeit
     description: Die Kosten wachsen mit deiner Solawi. Kleine Solawis zahlen wenig, grosse sind bei 2'400 CHF/EUR/Jahr gedeckelt.
     description_bold: Kein Aufpreis, keine Einrichtungskosten, alles ist inklusive.
+  screenshots:
+    dashboard: Dashboard in der Verwaltung
+    member: Mitgliedsseite in der Verwaltung
+    memberships: Abonnementsliste in der Verwaltung
   site:
     description: Quelloffene Webanwendung zur effizienten Verwaltung deiner Solawi (Solidarische Landwirtschaft). Entdecke die Demo!
     title: "CSA Admin - Effizientere Verwaltung deiner Solawi"

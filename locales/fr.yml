@@ -6,9 +6,10 @@ fr:
     text: Initialement créée pour simplifier la gestion de %{ragedevert}, CSA Admin n'a cessé de s'améliorer et de s'agrandir au fil des années pour répondre aux besoins divers et variés de %{other_orgs}. CSA Admin est une %{application}. Elle se veut simple, efficace et intuitive. Elle est développée avec passion par %{author}, qui s'engage depuis plus de 10 ans à simplifier la vie des ACP pour les aider à prospérer.
     title: À propos de CSA Admin
   call_to_action: Explorer la démo
+  talk_to_you: Parlons-en
   contact:
-    text: Vous pouvez explorer une installation démo par vous-même pour vous faire une idée du fonctionnement. Si vous avez des questions ou préférez une visite guidée, écrivez-moi simplement à %{mail}.
-    title: Intéressé·e? Explorez la démo!
+    text: Explorez la démo par vous-même, ou écrivez-moi à %{mail} et je vous présente volontiers CSA Admin en partage d'écran.
+    title: Voyez-le en action
   demo_url: https://admin.acp-admin.ch/demo/new
   email: E-mail
   features:
@@ -59,7 +60,6 @@ fr:
     logo_alt: "Logo de %{name}"
     subtitle: Que vous soyez une association, une coopérative, une entreprise ou un particulier, CSA Admin s'adapte à vos besoins.
     title: "Ces organisations utilisent <span class='whitespace-nowrap'>CSA Admin</span>"
-  phone: Téléphone
   pricing:
     title: Un prix simple et juste
     subtitle: du montant facturé via CSA Admin, à payer une fois par an.
@@ -71,6 +71,10 @@ fr:
     opencode: Code source disponible, aucune dépendance
     description: Le coût grandit avec vous. Les petites ACP paient peu, les grandes sont plafonnées à 2'400 CHF/EUR par an.
     description_bold: Aucun supplément, aucuns frais de mise en place, tout est inclus.
+  screenshots:
+    dashboard: Tableau de bord de CSA Admin
+    member: Fiche membre dans l'espace d'administration
+    memberships: Liste des abonnements dans l'espace d'administration
   site:
     description: Application web en code ouvert pour gérer efficacement votre ACP (Agriculture Contractuelle de Proximité). Explorez la démo librement!
     title: CSA Admin - Simplifiez la gestion de votre ACP

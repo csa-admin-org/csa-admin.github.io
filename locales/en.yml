@@ -6,9 +6,10 @@ en:
     text: Originally created to simplify the management of %{ragedevert}, CSA Admin has continuously evolved over the years to meet the diverse needs of %{other_orgs}. CSA Admin is a %{application}. It is designed to be simple, efficient, and intuitive. It is developed with passion by %{author}, who has been dedicated to making CSA administration easier for over 10 years.
     title: About CSA Admin
   call_to_action: Explore the demo
+  talk_to_you: Let's talk
   contact:
-    text: You can try the demo on your own to get a feel for how it works. If you have questions or would prefer a guided tour, just write to me at %{mail}.
-    title: Interested? Explore the demo!
+    text: Explore the demo on your own, or write me at %{mail} and I'll walk you through it on a screen share.
+    title: See it in action
   demo_url: https://admin.csa-admin.org/demo/new
   email: Email
   features:
@@ -59,7 +60,6 @@ en:
     logo_alt: "Logo of %{name}"
     subtitle: CSA Admin works equally well for associations, cooperatives, businesses, and individuals.
     title: They use CSA Admin
-  phone: Phone
   pricing:
     title: Simple, fair pricing
     subtitle: of the amount invoiced through CSA Admin, billed once a year.
@@ -71,6 +71,10 @@ en:
     opencode: Source code available, no lock-in
     description: The cost grows with your size. Small CSAs pay little, larger ones are capped at 2,400 CHF/EUR per year.
     description_bold: No add-ons, no setup fees — everything is included.
+  screenshots:
+    dashboard: CSA Admin dashboard
+    member: Member page in the CSA Admin back office
+    memberships: Memberships list in the CSA Admin back office
   site:
     description: A source-available web app to help you manage your CSA (Community Supported Agriculture) efficiently. Explore the demo freely!
     title: "CSA Admin - Streamline your CSA management"

@@ -1,0 +1,95 @@
+#!/usr/bin/env bash
+# Capture locale-specific product screenshots from local demo tenants.
+#
+# Requires:
+#   - agent-browser
+#   - puma-dev demo admin hosts (.test)
+#   - AUTO_SIGN_IN_ADMIN_EMAIL for admin auto sign-in
+#
+# Usage: bin/screenshots
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+APP_ROOT="${CSA_ADMIN_ROOT:-$(cd "$ROOT/../csa-admin" && pwd)}"
+OUT="$ROOT/source/images/screenshots"
+SESSION="csa-screenshots"
+VIEWPORT_W=1440
+VIEWPORT_H=900
+VIEWPORT_SCALE=2
+
+need() {
+  command -v "$1" >/dev/null 2>&1 || {
+    echo "error: missing $1" >&2
+    exit 1
+  }
+}
+
+browser() {
+  agent-browser --session "$SESSION" "$@"
+}
+
+capture() {
+  local url="$1"
+  local dest="$2"
+  local expect="$3"
+
+  echo "  $url"
+  browser open "$url"
+  browser wait --load networkidle
+  if ! browser get url | grep -q "$expect"; then
+    echo "error: expected URL matching $expect, got $(browser get url)" >&2
+    exit 1
+  fi
+  # Fonts / AAUI paint after network idle.
+  browser wait 800
+  browser screenshot "$dest"
+}
+
+member_path() {
+  local tenant="$1"
+  local output
+  output="$(cd "$APP_ROOT" && TENANT_NAME="$tenant" bin/rails runner '
+    Tenant.switch(ENV.fetch("TENANT_NAME")) do
+      member = Member.kept.find_by(id: 1) || Member.kept.order(:id).first
+      raise "No kept member on #{Tenant.current}" unless member
+      puts "/members/#{member.id}"
+    end
+  ')"
+  printf '%s\n' "$output" | grep '^/members/' | tail -1
+}
+
+need agent-browser
+if [ ! -x "$APP_ROOT/bin/rails" ]; then
+  echo "error: CSA Admin not found at $APP_ROOT (set CSA_ADMIN_ROOT)" >&2
+  exit 1
+fi
+
+mkdir -p "$OUT"
+browser set viewport "$VIEWPORT_W" "$VIEWPORT_H" "$VIEWPORT_SCALE"
+
+# tenant|locale|admin_host
+tenants=(
+  "demo-fr|fr|admin.acp-admin.test"
+  "demo-en|en|admin.csa-admin.test"
+  "demo-de|de|admin.solawi-admin.test"
+)
+
+for row in "${tenants[@]}"; do
+  IFS="|" read -r tenant locale admin <<<"$row"
+  echo "== $locale ($tenant)"
+
+  capture "https://$admin/?welcome=false" "$OUT/$locale-dashboard.png" "/"
+
+  member="$(member_path "$tenant")"
+  if [ -z "$member" ]; then
+    echo "error: could not resolve a member path for $tenant" >&2
+    exit 1
+  fi
+  capture "https://$admin$member" "$OUT/$locale-member.png" "$member"
+
+  capture "https://$admin/memberships" "$OUT/$locale-memberships.png" "/memberships"
+done
+
+browser close
+echo "Wrote screenshots to $OUT"
+ls -lh "$OUT"
