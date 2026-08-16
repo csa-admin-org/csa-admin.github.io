@@ -76,7 +76,7 @@ fr:
     member: Fiche membre dans l'espace d'administration
     memberships: Liste des abonnements dans l'espace d'administration
   site:
-    description: Application web en code ouvert pour gérer efficacement votre ACP (Agriculture Contractuelle de Proximité). Explorez la démo librement!
+    description: Application web en code ouvert pour gérer efficacement votre ACP (Agriculture Contractuelle de Proximité). Explorez la démo, ou parlons-en.
     title: CSA Admin - Simplifiez la gestion de votre ACP
     path: /acp/
   subtitle: Depuis 2014, %{orgs_link} utilisent CSA Admin pour faciliter leurs tâches quotidiennes et gérer la distribution annuelle de plus de <span class='font-semibold'>%{baskets_count} paniers</span>. Rejoignez-les !

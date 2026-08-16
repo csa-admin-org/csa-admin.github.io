@@ -76,7 +76,7 @@ de:
     member: Mitgliedsseite in der Verwaltung
     memberships: Abonnementsliste in der Verwaltung
   site:
-    description: Quelloffene Webanwendung zur effizienten Verwaltung deiner Solawi (Solidarische Landwirtschaft). Entdecke die Demo!
+    description: Quelloffene Webanwendung zur effizienten Verwaltung deiner Solawi (Solidarische Landwirtschaft). Entdecke die Demo, oder lass uns sprechen.
     title: "CSA Admin - Effizientere Verwaltung deiner Solawi"
     path: /solawi/
   subtitle: Seit 2014 nutzen %{orgs_link} CSA Admin, um ihre täglichen Aufgaben zu erleichtern und die jährliche Verteilung von über <span class='font-semibold'>%{baskets_count} Anteilen</span> zu verwalten. Mach mit!

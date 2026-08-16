@@ -76,7 +76,7 @@ en:
     member: Member page in the CSA Admin back office
     memberships: Memberships list in the CSA Admin back office
   site:
-    description: A source-available web app to help you manage your CSA (Community Supported Agriculture) efficiently. Explore the demo freely!
+    description: A source-available web app to help you manage your CSA (Community Supported Agriculture) efficiently. Explore the demo, or let's talk.
     title: "CSA Admin - Streamline your CSA management"
     path: /
   subtitle: "Since 2014, %{orgs_link} have been using CSA Admin to facilitate their daily tasks and manage the annual distribution of over <span class='font-semibold'>%{baskets_count} baskets</span>. Join them!"
