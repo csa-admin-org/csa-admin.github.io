@@ -38,13 +38,13 @@ Livereload is on. Locale switches in development are host-relative (`/`, `/acp/`
 
 ## Screenshots
 
-Hero mosaic images live in `source/images/screenshots/` (`{en,fr,de}-{dashboard,member,memberships}.png`). Recapture them against the local demo admin hosts (puma-dev, not `localhost:3000`):
+Hero mosaic images live in `source/images/screenshots/` (`{en,fr,de}-{dashboard,member,memberships}.webp`). Recapture them against the local demo admin hosts (puma-dev, not `localhost:3000`):
 
 ```sh
 bin/screenshots
 ```
 
-Needs `agent-browser`, the CSA Admin repo next to this one (or `CSA_ADMIN_ROOT`), and `AUTO_SIGN_IN_ADMIN_EMAIL` on:
+Needs `agent-browser`, `cwebp`, the CSA Admin repo next to this one (or `CSA_ADMIN_ROOT`), and `AUTO_SIGN_IN_ADMIN_EMAIL` on:
 
 | Locale | Admin |
 | --- | --- |
@@ -52,7 +52,7 @@ Needs `agent-browser`, the CSA Admin repo next to this one (or `CSA_ADMIN_ROOT`)
 | EN | `https://admin.csa-admin.test` |
 | DE | `https://admin.solawi-admin.test` |
 
-Each shot is 1440×900 at 2×. Dashboard uses `?welcome=false` so the demo welcome pane stays out of the mosaic.
+Each shot is 1440×900 at 2×, encoded as WebP quality 80. Dashboard uses `?welcome=false` so the demo welcome pane stays out of the mosaic.
 
 ## Build and publish
 

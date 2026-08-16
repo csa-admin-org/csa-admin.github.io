@@ -7,12 +7,7 @@
   <% shots.each do |shot| %>
     <div class="screenshot-tilt absolute <%= shot[:klass] %> <%= shot[:rotate] %>">
       <figure class="screenshot-frame">
-        <div class="screenshot-chrome" aria-hidden="true">
-          <span class="screenshot-dot bg-red-400/80"></span>
-          <span class="screenshot-dot bg-amber-400/80"></span>
-          <span class="screenshot-dot bg-green-400/80"></span>
-        </div>
-        <%= image_tag "screenshots/#{I18n.locale}-#{shot[:name]}.png",
+        <%= image_tag "screenshots/#{I18n.locale}-#{shot[:name]}.webp",
               alt: t("screenshots.#{shot[:name]}"),
               class: "w-full block",
               loading: "eager",

@@ -73,14 +73,6 @@
     @apply overflow-hidden rounded-md bg-white outline outline-1 -outline-offset-1 outline-black/10;
   }
 
-  .screenshot-chrome {
-    @apply flex items-center gap-1 px-1.5 py-1 bg-gray-100;
-  }
-
-  .screenshot-dot {
-    @apply size-1.5 rounded-full;
-  }
-
   /* Pricing checklist item */
   .pricing-check {
     @apply flex items-start gap-2;

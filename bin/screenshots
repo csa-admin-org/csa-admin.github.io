@@ -3,6 +3,7 @@
 #
 # Requires:
 #   - agent-browser
+#   - cwebp
 #   - puma-dev demo admin hosts (.test)
 #   - AUTO_SIGN_IN_ADMIN_EMAIL for admin auto sign-in
 #
@@ -28,10 +29,18 @@ browser() {
   agent-browser --session "$SESSION" "$@"
 }
 
+encode_webp() {
+  local png="$1"
+  local dest="${png%.png}.webp"
+  cwebp -q 80 -quiet "$png" -o "$dest"
+  rm -f "$png"
+}
+
 capture() {
   local url="$1"
   local dest="$2"
   local expect="$3"
+  local png="${dest%.webp}.png"
 
   echo "  $url"
   browser open "$url"
@@ -42,7 +51,8 @@ capture() {
   fi
   # Fonts / AAUI paint after network idle.
   browser wait 800
-  browser screenshot "$dest"
+  browser screenshot "$png"
+  encode_webp "$png"
 }
 
 member_path() {
@@ -59,6 +69,7 @@ member_path() {
 }
 
 need agent-browser
+need cwebp
 if [ ! -x "$APP_ROOT/bin/rails" ]; then
   echo "error: CSA Admin not found at $APP_ROOT (set CSA_ADMIN_ROOT)" >&2
   exit 1
@@ -78,16 +89,16 @@ for row in "${tenants[@]}"; do
   IFS="|" read -r tenant locale admin <<<"$row"
   echo "== $locale ($tenant)"
 
-  capture "https://$admin/?welcome=false" "$OUT/$locale-dashboard.png" "/"
+  capture "https://$admin/?welcome=false" "$OUT/$locale-dashboard.webp" "/"
 
   member="$(member_path "$tenant")"
   if [ -z "$member" ]; then
     echo "error: could not resolve a member path for $tenant" >&2
     exit 1
   fi
-  capture "https://$admin$member" "$OUT/$locale-member.png" "$member"
+  capture "https://$admin$member" "$OUT/$locale-member.webp" "$member"
 
-  capture "https://$admin/memberships" "$OUT/$locale-memberships.png" "/memberships"
+  capture "https://$admin/memberships" "$OUT/$locale-memberships.webp" "/memberships"
 done
 
 browser close
