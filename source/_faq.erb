@@ -1,0 +1,26 @@
+<div id="faq" class="section-anchor">
+  <h2 class="section-heading">
+    <%= t("faq.title") %>
+  </h2>
+  <div class="section-body mt-10 mx-auto max-w-3xl">
+    <% faq_keys.each do |key| %>
+      <details class="faq-item">
+        <summary>
+          <%= inline_svg "chevron-right.svg", class: "faq-chevron" %>
+          <%= t("faq.#{key}.question") %>
+        </summary>
+        <p>
+          <%= I18n.t(
+            "faq.#{key}.answer",
+            source_link: link_to(t("features.opencode.opencode"), data.site.repository),
+            license_link: link_to(t("features.opencode.license"), "https://osaasy.dev"),
+            demo_link: link_to(t("faq.start.demo"), t("demo_url")),
+            form_link: link_to(t("faq.website.form"), t("registration_url")),
+            orgs_link: link_to(t("faq.self_host.orgs"), "#organizations"),
+            mail_link: link_to(data.site.contact.email, data.site.contact.email_link)
+          ) %>
+        </p>
+      </details>
+    <% end %>
+  </div>
+</div>

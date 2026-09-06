@@ -11,6 +11,7 @@ fr:
     text: Explorez la démo par vous-même, ou écrivez-moi à %{mail} et je vous présente volontiers CSA Admin en partage d'écran.
     title: Voyez-le en action
   demo_url: https://admin.acp-admin.ch/demo/new
+  registration_url: https://membres.acp-admin.ch/new
   email: E-mail
   features:
     activity:
@@ -48,9 +49,40 @@ fr:
     title2: … et bien plus encore!
   footer:
     developed_by: CSA Admin est développée avec passion par %{author_link}.
+  faq:
+    title: Questions fréquentes
+    items:
+      - website
+      - migration
+      - data
+      - self_host
+      - billing
+      - start
+    website:
+      question: Faut-il un nouveau site web?
+      form: formulaire d'inscription
+      answer: Non. Votre site actuel reste le vôtre. CSA Admin est le back-office. Une fois en place, l'admin est sur admin.votre-acp.ch et l'espace membres sur membres.votre-acp.ch. Le %{form_link} s'ajoute avec un lien ou un bouton.
+    migration:
+      question: On a déjà des membres/abos. Peut-on les importer?
+      answer: Oui, très facilement! J'importe volontiers vos données lors de la mise en place, depuis votre fichier Excel ou un autre format. L'importation est incluse et n'est pas facturée en supplément.
+    data:
+      question: Où sont les données?
+      answer: Chez Hetzner à Nuremberg, en Allemagne. Les sauvegardes restent en Europe. Conforme RGPD/nLPD. %{source_link} sous la %{license_link}.
+    self_host:
+      question: Peut-on héberger soi-même?
+      orgs: Toutes les organisations ci-dessus
+      answer: Oui. %{orgs_link} sont hébergées par mes soins (sauvegardes, mises à jour continues, maintenance), mais le code source est disponible si vous préférez faire tourner l'application vous-même (connaissances techniques avancées requises).
+    billing:
+      question: Comment paient les membres?
+      answer: Factures QR avec numéro de référence, rapprochement automatique des paiements (via EBICS ou importation manuelle) et emails de rappels.
+    start:
+      question: Comment commencer?
+      demo: la démo
+      answer: Explorez %{demo_link}, ou écrivez-moi à %{mail_link} et je vous présente volontiers l'application en partage d'écran. Le manuel est dans la démo.
   header:
     about: À propos
     demo: Démo
+    faq: FAQ
     features: Fonctionnalités
     pricing: Prix
   logo_alt: Logo de CSA Admin
@@ -71,6 +103,10 @@ fr:
     opencode: Code source disponible, aucune dépendance
     description: Le coût grandit avec vous. Les petites ACP paient peu, les grandes sont plafonnées à 2'400 CHF/EUR par an.
     description_bold: Aucun supplément, aucuns frais de mise en place, tout est inclus.
+    examples_title: Quelques exemples
+    invoiced: Facturé via CSA Admin
+    yearly_fee: Coût annuel
+    max: max
   screenshots:
     dashboard: Tableau de bord de CSA Admin
     member: Fiche membre dans l'espace d'administration
@@ -79,6 +115,6 @@ fr:
     description: Application web en code ouvert pour gérer efficacement votre ACP (Agriculture Contractuelle de Proximité). Explorez la démo, ou parlons-en.
     title: CSA Admin - Simplifiez la gestion de votre ACP
     path: /acp/
-  subtitle: Depuis 2014, %{orgs_link} utilisent CSA Admin pour faciliter leurs tâches quotidiennes et gérer la distribution annuelle de plus de <span class='font-semibold'>%{baskets_count} paniers</span>. Rejoignez-les !
-  subtitle_orgs_link: <span class="whitespace-nowrap">de nombreuses organisations</span>
+  subtitle: Depuis 2014, %{orgs_link} en Suisse, en Allemagne et aux Pays-Bas utilisent CSA Admin et gèrent plus de <span class='font-semibold'>%{baskets_count} paniers</span> par an. Rejoignez-les !
+  subtitle_orgs_link: <span class="whitespace-nowrap">%{orgs_count} organisations</span>
   title: Simplifiez la gestion de <span class="whitespace-nowrap">votre %{org_name}.</span>

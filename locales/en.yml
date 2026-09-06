@@ -11,6 +11,7 @@ en:
     text: Explore the demo on your own, or write me at %{mail} and I'll walk you through it on a screen share.
     title: See it in action
   demo_url: https://admin.csa-admin.org/demo/new
+  registration_url: https://members.csa-admin.org/new
   email: Email
   features:
     activity:
@@ -48,9 +49,40 @@ en:
     title2: "… and much more!"
   footer:
     developed_by: CSA Admin is developed with passion by %{author_link}.
+  faq:
+    title: Common questions
+    items:
+      - website
+      - migration
+      - data
+      - self_host
+      - billing
+      - start
+    website:
+      question: Does this replace our website?
+      form: registration form
+      answer: No. Your existing website stays yours. CSA Admin is the back office. Once set up, admin is at admin.your-csa.org and the member area at members.your-csa.org. The %{form_link} is a link or button on your site.
+    migration:
+      question: Can we import our existing members/subscriptions?
+      answer: Yes, easily. I import your data at setup, from your Excel file or another format. The import is included, no extra fee.
+    data:
+      question: Where is the data?
+      answer: On Hetzner in Nuremberg, Germany. Backups stay in Europe. GDPR/nDSG compliant. %{source_link} under the %{license_link}.
+    self_host:
+      question: Can I self-host?
+      orgs: All the organizations above
+      answer: Yes. %{orgs_link} are hosted by me (backups, ongoing updates, maintenance), but the source is available if you prefer to run the application yourself (advanced technical knowledge required).
+    billing:
+      question: How do members pay?
+      answer: QR invoices with reference numbers, automatic payment matching (EBICS or a manual import), reminder emails, and SEPA Direct Debit.
+    start:
+      question: How do I start?
+      demo: the demo
+      answer: Try %{demo_link}, or write me at %{mail_link} and I'll walk you through the app on a screen share. The handbook is in the demo.
   header:
     about: About
     demo: Demo
+    faq: FAQ
     features: Features
     pricing: Pricing
   logo_alt: "CSA Admin Logo"
@@ -70,7 +102,11 @@ en:
     support: Direct and personalized email support
     opencode: Source code available, no lock-in
     description: The cost grows with your size. Small CSAs pay little, larger ones are capped at 2,400 CHF/EUR per year.
-    description_bold: No add-ons, no setup fees — everything is included.
+    description_bold: No add-ons, no setup fees, everything is included.
+    examples_title: A few examples
+    invoiced: Invoiced through CSA Admin
+    yearly_fee: Yearly cost
+    max: max
   screenshots:
     dashboard: CSA Admin dashboard
     member: Member page in the CSA Admin back office
@@ -79,6 +115,6 @@ en:
     description: A source-available web app to help you manage your CSA (Community Supported Agriculture) efficiently. Explore the demo, or let's talk.
     title: "CSA Admin - Streamline your CSA management"
     path: /
-  subtitle: "Since 2014, %{orgs_link} have been using CSA Admin to facilitate their daily tasks and manage the annual distribution of over <span class='font-semibold'>%{baskets_count} baskets</span>. Join them!"
-  subtitle_orgs_link: <span class="whitespace-nowrap">many organizations</span>
+  subtitle: "Since 2014, %{orgs_link} in Switzerland, Germany, and the Netherlands have used CSA Admin to manage over <span class='font-semibold'>%{baskets_count} baskets</span> a year. Join them!"
+  subtitle_orgs_link: <span class="whitespace-nowrap">%{orgs_count} organizations</span>
   title: Streamline your <span class="whitespace-nowrap">%{org_name} management.</span>

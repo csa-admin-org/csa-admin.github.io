@@ -5,7 +5,9 @@
     </h1>
 
     <p class="mt-4 lg:mt-6 mx-auto lg:mx-0 lg:max-w-xl text-pretty md:leading-normal text-xl font-light">
-      <%= I18n.t 'subtitle', orgs_link: link_to(t('subtitle_orgs_link'), '#organizations'), baskets_count: format_number(data.site.baskets_count) %>
+      <%= I18n.t 'subtitle',
+            orgs_link: link_to(I18n.t('subtitle_orgs_link', orgs_count: format_number(orgs_count)), '#organizations'),
+            baskets_count: format_number(data.site.baskets_count) %>
     </p>
 
     <%= partial :ctas, locals: { align: :start } %>

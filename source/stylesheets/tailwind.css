@@ -82,6 +82,33 @@
       @apply text-logo-green font-bold;
     }
   }
+
+  .faq-item {
+    @apply border-b border-gray-200 first:border-t;
+  }
+
+  .faq-item summary {
+    @apply cursor-pointer font-semibold text-lg text-gray-800 py-4 flex items-center gap-2;
+    list-style: none;
+  }
+
+  .faq-item summary::-webkit-details-marker,
+  .faq-item summary::marker {
+    display: none;
+    content: "";
+  }
+
+  .faq-chevron {
+    @apply size-5 shrink-0 text-gray-800;
+  }
+
+  .faq-item[open] .faq-chevron {
+    transform: rotate(90deg);
+  }
+
+  .faq-item p {
+    @apply !mt-0 pb-4 pl-7 text-gray-700;
+  }
 }
 
 @layer utilities {

@@ -11,6 +11,7 @@ de:
     text: Entdecke die Demo selbst, oder schreib mir an %{mail} und ich zeige sie dir per Bildschirmteilung.
     title: Sieh es in Aktion
   demo_url: https://admin.solawi-admin.org/demo/new
+  registration_url: https://mitglieder.solawi-admin.org/new
   email: E-Mail
   features:
     activity:
@@ -48,9 +49,40 @@ de:
     title2: "… und noch viel mehr!"
   footer:
     developed_by: CSA Admin wird mit Leidenschaft von %{author_link} entwickelt.
+  faq:
+    title: Häufige Fragen
+    items:
+      - website
+      - migration
+      - data
+      - self_host
+      - sepa
+      - start
+    website:
+      question: Ersetzt das unsere Website?
+      form: Anmeldeformular
+      answer: Nein. Deine bestehende Website bleibt deine. CSA Admin ist das Backoffice. Nach der Einrichtung ist die Verwaltung auf admin.deine-solawi.de, der Mitgliederbereich auf mitglieder.deine-solawi.de. Das %{form_link} ist ein Link oder Button auf deiner Website.
+    migration:
+      question: Können wir unsere bestehenden Mitglieder/Abos importieren?
+      answer: Ja, ganz einfach. Ich übernehme deine Daten beim Start, aus deiner Excel-Datei oder einem anderen Format. Der Import ist inklusive, ohne Aufpreis.
+    data:
+      question: Wo liegen die Daten?
+      answer: Bei Hetzner in Nürnberg. Backups bleiben in Europa. DSGVO/nDSG-konform. %{source_link} unter der %{license_link}.
+    self_host:
+      question: Kann ich selbst hosten?
+      orgs: Alle Organisationen oben
+      answer: Ja. %{orgs_link} werden von mir gehostet (Backups, laufende Updates, Wartung), der Quellcode ist aber verfügbar, falls du die Anwendung selbst betreiben möchtest (fortgeschrittene technische Kenntnisse nötig).
+    sepa:
+      question: Funktioniert SEPA in Deutschland?
+      answer: Ja. GiroCode-QR, SEPA-Lastschrift, automatischer Zahlungsabgleich (via EBICS oder manueller Import) und Mahnungen per E-Mail.
+    start:
+      question: Wie fange ich an?
+      demo: die Demo
+      answer: Entdecke %{demo_link}, oder schreib mir an %{mail_link} und ich zeige dir die Anwendung gerne per Bildschirmteilung. Das Handbuch findest du in der Demo.
   header:
     about: Über
     demo: Demo
+    faq: FAQ
     features: Funktionen
     pricing: Preis
   logo_alt: "CSA Admin Logo"
@@ -71,6 +103,10 @@ de:
     opencode: Quellcode verfügbar, keine Herstellerabhängigkeit
     description: Die Kosten wachsen mit deiner Solawi. Kleine Solawis zahlen wenig, grosse sind bei 2'400 CHF/EUR/Jahr gedeckelt.
     description_bold: Kein Aufpreis, keine Einrichtungskosten, alles ist inklusive.
+    examples_title: Ein paar Beispiele
+    invoiced: Über CSA Admin fakturiert
+    yearly_fee: Jahreskosten
+    max: max
   screenshots:
     dashboard: Dashboard in der Verwaltung
     member: Mitgliedsseite in der Verwaltung
@@ -79,6 +115,6 @@ de:
     description: Quelloffene Webanwendung zur effizienten Verwaltung deiner Solawi (Solidarische Landwirtschaft). Entdecke die Demo, oder lass uns sprechen.
     title: "CSA Admin - Effizientere Verwaltung deiner Solawi"
     path: /solawi/
-  subtitle: Seit 2014 nutzen %{orgs_link} CSA Admin, um ihre täglichen Aufgaben zu erleichtern und die jährliche Verteilung von über <span class='font-semibold'>%{baskets_count} Anteilen</span> zu verwalten. Mach mit!
-  subtitle_orgs_link: <span class="whitespace-nowrap">zahlreiche Organisationen</span>
+  subtitle: Seit 2014 nutzen %{orgs_link} in der Schweiz, Deutschland und den Niederlanden CSA Admin und verteilen jährlich über <span class='font-semibold'>%{baskets_count} Anteile</span>. Mach mit!
+  subtitle_orgs_link: <span class="whitespace-nowrap">%{orgs_count} Organisationen</span>
   title: Effizientere <span class="whitespace-nowrap">%{org_name}-Verwaltung.</span>

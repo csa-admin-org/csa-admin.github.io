@@ -19,6 +19,26 @@
         <li class="pricing-check"><span><%= t("pricing.opencode") %></span></li>
       </ul>
     </div>
+    <p class="mt-12 text-center text-xl font-semibold text-gray-800"><%= t("pricing.examples_title") %></p>
+    <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-3">
+      <% [
+        { invoiced: 50_000, fee: 500 },
+        { invoiced: 150_000, fee: 1_500 },
+        { invoiced: 240_000, fee: 2_400, or_more: true, cap: true }
+      ].each do |row| %>
+        <div class="rounded-xl bg-green-50 px-4 py-4 text-center">
+          <p class="!mt-0 text-xs text-gray-500"><%= t("pricing.invoiced") %></p>
+          <p class="!mt-1 text-xl font-semibold tabular-nums text-gray-800">
+            <%= format_number(row[:invoiced]) %><% if row[:or_more] %><span class="align-middle text-base font-semibold text-gray-400">+</span><% end %><span class="ml-1 text-sm font-semibold text-gray-400">CHF/EUR</span>
+          </p>
+          <div class="mx-auto my-3 h-px w-8 bg-green-200"></div>
+          <p class="!mt-0 text-xs text-gray-500"><%= t("pricing.yearly_fee") %></p>
+          <p class="!mt-1 text-3xl font-semibold tabular-nums text-logo-green">
+            <% if row[:cap] %><span class="text-sm font-semibold"><%= t("pricing.max") %></span> <% end %><%= format_number(row[:fee]) %><span class="ml-1 text-sm font-semibold text-gray-400">CHF/EUR</span>
+          </p>
+        </div>
+      <% end %>
+    </div>
     <p class="mt-10 text-center text-pretty text-lg text-gray-600"><%= t("pricing.description") %></p>
     <p class="mt-1.5 text-center text-pretty text-lg text-gray-600 font-semibold"><%= t("pricing.description_bold") %></p>
   </div>
